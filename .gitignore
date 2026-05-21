@@ -1,0 +1,6 @@
+node_modules/
+.env
+**/.env
+*.egg-info/
+__pycache__/
+*.pyc
