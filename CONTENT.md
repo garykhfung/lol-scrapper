@@ -8,8 +8,9 @@ A Neo4j graph database storing professional League of Legends player career data
 |------|---------|
 | `lck_scraper.py` | Scrapes lol.fandom.com → Neo4j |
 | `lck_views.py` | Interactive CLI viewer |
-| `migrate_roles.py` | Legacy role normalization (bot→adc, etc.) |
 | `reset_db.py` | Delete all data for clean re-scrape |
+| `dump_data.py` | Export Neo4j → static JSON for GitHub Pages |
+| `index.html` | Static frontend (served by GitHub Pages) |
 
 ### `lck_scraper.py` - Data Collector
 Scrapes player data from lol.fandom.com via MediaWiki API and stores it in Neo4j.
@@ -56,14 +57,6 @@ python lck_views.py team Gen.G
 python lck_views.py rename T1
 python lck_views.py LCK year 2019
 python lck_views.py LPL player Faker
-```
-
-### `migrate_roles.py` - Role Migration
-Normalizes roles to standard values: bot→adc, jng→jungle, sup→support, m→mid, t→top.
-
-**Run:**
-```
-python migrate_roles.py
 ```
 
 ## Database Schema
@@ -140,14 +133,6 @@ manager, general manager, owner, caster, host, streamer, content creator, substi
 scraping each team's fandom page for "Team has renamed" or "Roster has joined a new
 organization" links (e.g. Suning → Weibo Gaming, SK Telecom T1 → T1, CLG → NRG).
 
-### `migrate_status.py` - Status Backfill
-One-time migration to set `Player.status` ("Active"/"Retired") on all existing players based on their `PLAYED_FOR` relationships.
-
-**Run:**
-```
-python migrate_status.py
-```
-
 ### `reset_db.py` - Database Reset
 Deletes all data from Neo4j. Use this before a clean re-scrape to a fresh database.
 
@@ -179,6 +164,19 @@ NEO4J_USERNAME=neo4j
 NEO4J_PASSWORD=your_password
 NEO4J_DATABASE=player
 ```
+
+## Removed Files
+
+The following one-time use scripts have been removed to keep the repo clean:
+
+| File | Reason |
+|------|--------|
+| `migrate_roles.py` | Normalized legacy roles (bot→adc, jng→jungle). Already applied to DB. |
+| `migrate_schema.py` | Migrated Team nodes to per-year schema. Already applied to DB. |
+| `migrate_status.py` | Backfilled Player.status (Active/Retired). Already applied to DB. |
+| `recover_missing.py` | Re-scraped players whose PLAYED_FOR edges were lost in a schema change. One-time fix. |
+
+All future scrapes use the current schema directly — these migrations are not needed again.
 
 ## Static Site (GitHub Pages)
 
