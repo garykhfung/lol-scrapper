@@ -180,6 +180,57 @@ NEO4J_PASSWORD=your_password
 NEO4J_DATABASE=player
 ```
 
+## Static Site (GitHub Pages)
+
+The repo includes a fully static version of the web frontend that requires **no backend server** and **no database credentials**. All data is pre-exported from Neo4j into JSON files.
+
+### Files
+
+| File | Purpose |
+|------|---------|
+| `index.html` | Static frontend (served by GitHub Pages) |
+| `data/` | Pre-exported JSON files (committed to repo) |
+| `dump_data.py` | Exports Neo4j data → `data/` (run locally, no cloud needed) |
+
+### How it works
+
+```
+Browser ──> index.html (GitHub Pages)
+             ├── data/index.json          ← dropdowns, stats, chain maps
+             ├── data/players.json        ← player profiles
+             ├── data/careers.json        ← all PLAYED_FOR edges
+             ├── data/team_meta.json      ← team region/year ranges
+             ├── data/team_rosters.json   ← pre-computed team rosters
+             ├── data/renames.json        ← rebrand relationships
+             ├── data/rename_chains.json  ← pre-computed rename lineages
+             └── data/subteams.json       ← sub-team relationships
+```
+
+No credentials, no database connection, no backend. Everything is pre-computed from Neo4j into static JSON files.
+
+### Setup GitHub Pages
+
+1. Go to repo → **Settings → Pages → Source: Deploy from a branch**
+2. Branch: `main`, Folder: `/` (root)
+3. Save
+
+Your site will be live at `https://garykhfung.github.io/lol-scrapper/`.
+
+### Refresh data workflow
+
+```
+python dump_data.py    # export latest from Neo4j → data/
+git add -A
+git commit -m "Update data"
+git push               # GitHub Pages auto-deploys
+```
+
+### Notes
+
+- The original Flask backend (`frontend/`) is untouched — run locally with `python3 frontend/app.py`
+- `dump_data.py` does not require credentials in the repo (uses your local `.env` file)
+- No credentials are ever pushed to GitHub
+
 ## Dependencies
 
 ```
