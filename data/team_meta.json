@@ -1,0 +1,8732 @@
+{
+  "100 Thieves": {
+    "region": "LCS",
+    "start_year": 2017,
+    "end_year": 2026
+  },
+  "100 Thieves Academy": {
+    "region": "LCS CL",
+    "start_year": 2017,
+    "end_year": 2023
+  },
+  "100 Thieves Challengers": {
+    "region": "LCS CL",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "100 Thieves Next": {
+    "region": "LCS",
+    "start_year": 2020,
+    "end_year": 2022
+  },
+  "15ggplz": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "29Gaming": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "2Days": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "3BL Esports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "3DMAX": {
+    "region": "Unknown",
+    "start_year": 2011,
+    "end_year": 2012
+  },
+  "3v Team": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2025
+  },
+  "4 Swines &amp; A Bum": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "404 Multigaming - Academy": {
+    "region": "Unknown CL",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "404 Multigaming e.V.": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2026
+  },
+  "42 Gaming": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "4everzenzyg": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "5 Ronin": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "5 Ronin Academy": {
+    "region": "Unknown CL",
+    "start_year": 2020,
+    "end_year": 2022
+  },
+  "6GPA": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "6Sense": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "9z Globant": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "9z Team": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "A One Man Army": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "ACL Esports": {
+    "region": "Unknown CL",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "AD Gaming": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "AGO ROGUE": {
+    "region": "LEC",
+    "start_year": 2020,
+    "end_year": 2022
+  },
+  "AKA HERO": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "ANEW Dawn": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "ANEW Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2021
+  },
+  "AOE Esports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "APK Prince": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "APOLLO GAMING": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "APictureOfAGoose": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "ARCANIX": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "AS Esports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "ASUS ROG Army": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "AXIZ": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "AXIZ Academy": {
+    "region": "Unknown CL",
+    "start_year": 2021,
+    "end_year": 2023
+  },
+  "AZIO eSports": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "AaB Esport": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Abandoned Kittens": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Absolute Legends": {
+    "region": "Unknown",
+    "start_year": 2011,
+    "end_year": 2012
+  },
+  "Absolute Legends NA": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Abstract Gaming": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Abyss Esports": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Abyss Esports Red": {
+    "region": "CBLOL",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "AcFun e-Sports Club": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "AceGaming": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "AceGaming Hearts": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Aces High Esports Club": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Actions Per Minute": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "Adonis Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Aegis (French Team)": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Aequilibritas E-Sports": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2020
+  },
+  "Afreeca Freecs": {
+    "region": "LCK",
+    "start_year": 2016,
+    "end_year": 2021
+  },
+  "Afreeca Freecs Academy": {
+    "region": "LCK CL",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Afreeca Freecs Challengers": {
+    "region": "LCK CL",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Afterglow Esports": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Akave Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Akroma": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "All Knights": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2024
+  },
+  "All or Nothing": {
+    "region": "Unknown",
+    "start_year": 2009,
+    "end_year": 2010
+  },
+  "Alliance": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2015
+  },
+  "Alpha Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Alpha Pack Esports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Alpha Team": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Alpha7 Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Also Known As": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2016
+  },
+  "AlterEgo Gaming": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Always With Honor (Turkish Team)": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Anarchy": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Andes Esports": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Anexis eSports": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "Angry Bats": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Anorthosis Famagusta Esports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Anubis Gaming": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2026
+  },
+  "Anyone&#39;s Legend": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2026
+  },
+  "Anyone&#39;s Legend.Young": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2026
+  },
+  "Anyone's Legend": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "Apex Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Apex Mission Impossible": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Apex Predator": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Apex Pride": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Aporia": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Aqualix Esports.NA": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Arctic Gaming Mexico": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Area of Effect Brady": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Area of Effect Ginger Turmeric": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Area of Effect Soupy Time": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Arepa de Cuyo": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Aris Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Armoured Brothers": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Arsenal": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Assassin Sniper": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "Astral Authority": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "Astralis": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2026
+  },
+  "Atheris Esports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "Atleta Esport": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Atomic México": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Attempting to Reconnect": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Aurelius Esports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Aurora (Belgian Team)": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Austrian Force eSports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Austrian Force willhaben": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "Authority E-sports": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "AvaTrade PixelPenny": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Avant Academy": {
+    "region": "Unknown CL",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Avant Gaming": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2020
+  },
+  "Avant Garde": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Awe Max": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Awe Star": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "Axolotl": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2026
+  },
+  "Axolotl Academy": {
+    "region": "Unknown CL",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Azubu Blaze": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "Azubu Frost": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "Azules Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Azules Esports Academy": {
+    "region": "Unknown CL",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Azure Cats": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "B2U": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "BBA (Korean Team)": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "BBT": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "BCN Squad": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "BISONS ECLUB": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2023
+  },
+  "BK ROG Esports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2025
+  },
+  "BMG (Korean Team)": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "BNK FEARX": {
+    "region": "LCK",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "BNK FEARX Academy": {
+    "region": "LCK CL",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "BNK FEARX Youth": {
+    "region": "LCK CL",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "BOOM Esports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "BPI Academy": {
+    "region": "Unknown CL",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "BPZ": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "BRION": {
+    "region": "LCK",
+    "start_year": 2020,
+    "end_year": 2026
+  },
+  "BRION Academy": {
+    "region": "LCK CL",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "BRUTE": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "BT Excel": {
+    "region": "LEC",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "BWE Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "Babos Gaming": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Baby Paradise": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Bajona Robimy w 15": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Bandits Gaming": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Barrage (British Team)": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Barrage.NA": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Barça eSports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2026
+  },
+  "Bastille Legacy": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Bay State College": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2022
+  },
+  "Beggars": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Berlin International Gaming": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2026
+  },
+  "Berserk e-Sports": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Bethany Lutheran College": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2026
+  },
+  "Beyond Gaming": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Beşiktaş Academy": {
+    "region": "Unknown CL",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Beşiktaş Esports": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2025
+  },
+  "Beşiktaş.Oyun Hizmetleri": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Bifrost": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Bifrost Academy": {
+    "region": "Unknown CL",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Big Gods": {
+    "region": "EMEA",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "Big Gods Jackals": {
+    "region": "EMEA",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Big One Gaming": {
+    "region": "EMEA",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Bigfile Miracle": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "Bilibili Gaming": {
+    "region": "LPL",
+    "start_year": 2018,
+    "end_year": 2026
+  },
+  "Bilibili Gaming Junior": {
+    "region": "LPL",
+    "start_year": 2021,
+    "end_year": 2026
+  },
+  "Black Dog": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Black Lion": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "Black Lion Academy": {
+    "region": "Unknown CL",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Black Star Gaming": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "BlazziosMix": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Bloody Gaming": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Blue Ocean Esports": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Blue Otter": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "BlueWhites": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2026
+  },
+  "Boavista FC": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Boca Juniors Gaming": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Bocoya Esports Club": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Bogged": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Bombers": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "BoostGate Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Born to Kill": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Bossmen Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Boston University": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "Bottled Water": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Boutgamers sexy edition": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "BowQen Blackbucks": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "BraVeLY": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Brave e-Sports": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "BrawL eSports": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "BrawL.NA": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Brazil (North American Team)": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Breath Meta": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Bring It On": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Brion Blade": {
+    "region": "LCK",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "British Tea Time": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Bulldog Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2026
+  },
+  "Burger Flippers": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Burger Flippers (Female Team)": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Burning Core Toyama": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Bursaspor Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Burst The Sky Esports": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2022
+  },
+  "Busan": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Bushido Wildcats": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "C H I N A": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "CASLA Esports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "CCG Esports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "CCG Futures": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "CCG Glorp": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "CGN Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "CILEKLER": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "CITA Kaizen": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "CJ Entus": {
+    "region": "LCK",
+    "start_year": 2014,
+    "end_year": 2016
+  },
+  "CJ Entus Blaze": {
+    "region": "LCK",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "CJ Entus Frost": {
+    "region": "LCK",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "CJ Gaming": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2026
+  },
+  "CLG": {
+    "region": "LCS",
+    "start_year": 2018,
+    "end_year": 2021
+  },
+  "CLG Academy": {
+    "region": "LCS CL",
+    "start_year": 2017,
+    "end_year": 2022
+  },
+  "CLG Black": {
+    "region": "LCS",
+    "start_year": 2012,
+    "end_year": 2017
+  },
+  "CLG Faith": {
+    "region": "LCS",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "CLG Prime": {
+    "region": "LCS",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "CNB e-Sports Club": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2018
+  },
+  "COGnitive Gaming": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "CPLAY": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "CR4ZY": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "CTBC Flying Oyster": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2026
+  },
+  "CTBC Flying Oyster Academy": {
+    "region": "Unknown CL",
+    "start_year": 2022,
+    "end_year": 2026
+  },
+  "CTU Revolt": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Caldya Esport": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Caldya Lab": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Call Gaming": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "Canis Lupus Campestris": {
+    "region": "Unknown",
+    "start_year": 2011,
+    "end_year": 2012
+  },
+  "Case Esports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2024
+  },
+  "Cerberus eSports (North American Team)": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Chaotic Solar": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Charlotte Phoenix": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Cherry Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Chicks Dig Elo": {
+    "region": "LCS",
+    "start_year": 2011,
+    "end_year": 2011
+  },
+  "Chiefs Academy": {
+    "region": "LCO CL",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Chiefs Esports Club": {
+    "region": "LCO",
+    "start_year": 2017,
+    "end_year": 2023
+  },
+  "Chilli Esport": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Chilly Mountain Wolves": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Chungbuk": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2020
+  },
+  "Chungnam": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2021
+  },
+  "Chunnam Techno University": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Chuuper&#39;s Troopers": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Cicadas Gaming": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Cincinnati Fear": {
+    "region": "LCK",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "Citadel Gaming": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Cloud9": {
+    "region": "LCS",
+    "start_year": 2013,
+    "end_year": 2026
+  },
+  "Cloud9 Academy": {
+    "region": "LCS CL",
+    "start_year": 2017,
+    "end_year": 2023
+  },
+  "Cloud9 Amateur": {
+    "region": "LCS",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Cloud9 Challenger": {
+    "region": "LCS CL",
+    "start_year": 2015,
+    "end_year": 2017
+  },
+  "Cloud9 Challengers": {
+    "region": "LCS CL",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Cloud9 Eclipse": {
+    "region": "LCS",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "Cloud9 Tempest": {
+    "region": "LCS",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Clutch Gaming": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2019
+  },
+  "Clutch Gaming Academy": {
+    "region": "Unknown CL",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Clã NKZ": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Coliseo Dragons": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2019
+  },
+  "Comanchero Gaming": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "Connecting Esports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Contingent Esports": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Conviction": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Copenhagen Wolves": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2016
+  },
+  "Copenhagen Wolves Academy": {
+    "region": "Unknown CL",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Corinthians Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Corsair": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Coscu Army": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Counter Logic Gaming": {
+    "region": "LCS",
+    "start_year": 2010,
+    "end_year": 2023
+  },
+  "Counter Logic Gaming Europe": {
+    "region": "LCS",
+    "start_year": 2011,
+    "end_year": 2012
+  },
+  "Coven": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "Cream Real Betis.EU": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Crest Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Crest Gaming Act Academy": {
+    "region": "Unknown CL",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Crew e-Sports Club": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Crossover eSports": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "CrowCrowd": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Crusaders": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Cruzados Esports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Cruzeiro Academy": {
+    "region": "Unknown CL",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Cruzeiro eSports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Crvena zvezda Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2025
+  },
+  "Cryptova": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Curse Academy": {
+    "region": "Unknown CL",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Cursed Flames E-Sports": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Cyber Wolves": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "CyberCore Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Cyberground Gaming": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Cymbal": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "D-City Gaming Stars": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "D1VERSE (Vietnamese Team)": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "DAMWON": {
+    "region": "LCK",
+    "start_year": 2018,
+    "end_year": 2021
+  },
+  "DAMWON Game Academy": {
+    "region": "LCK CL",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "DAMWON Gaming": {
+    "region": "LCK",
+    "start_year": 2017,
+    "end_year": 2021
+  },
+  "DAMWON Gaming Academy": {
+    "region": "LCK CL",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "DAMWON Gaming Challengers": {
+    "region": "LCK CL",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "DELTALAND": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "DELTAeSPORTS": {
+    "region": "Unknown",
+    "start_year": 2011,
+    "end_year": 2026
+  },
+  "DIVIZON": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "DK Challengers": {
+    "region": "LCK CL",
+    "start_year": 2021,
+    "end_year": 2025
+  },
+  "DKB Diamonds": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "DKB XPERION NXT": {
+    "region": "EMEA",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "DMG Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "DMG Esports Norway": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "DN Freecs": {
+    "region": "LCK",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "DN Freecs Challengers": {
+    "region": "LCK CL",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "DN SOOPers": {
+    "region": "LCK",
+    "start_year": 2022,
+    "end_year": 2026
+  },
+  "DN SOOPers Challengers": {
+    "region": "LCK CL",
+    "start_year": 2022,
+    "end_year": 2026
+  },
+  "DOCISK": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "DRX": {
+    "region": "LCK",
+    "start_year": 2019,
+    "end_year": 2026
+  },
+  "DRX Academy": {
+    "region": "LCK CL",
+    "start_year": 2020,
+    "end_year": 2025
+  },
+  "DRX Challengers": {
+    "region": "LCK CL",
+    "start_year": 2021,
+    "end_year": 2026
+  },
+  "DRX Shinhan Bank": {
+    "region": "LCK",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "DS Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "DSYRE": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2024
+  },
+  "DWG KIA": {
+    "region": "LCK",
+    "start_year": 2021,
+    "end_year": 2023
+  },
+  "DWG KIA Academy": {
+    "region": "LCK CL",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "DWG KIA Challengers": {
+    "region": "LCK CL",
+    "start_year": 2021,
+    "end_year": 2023
+  },
+  "Daejeon": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Dark Horse": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Dark Passage": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2026
+  },
+  "Dark Passage Academy": {
+    "region": "Unknown CL",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Dark Passage Tigons": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Dark Phoenix Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "Dark Project": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "Dark Tigers": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2017
+  },
+  "Dark Wolves": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "DarkZero Dragonsteel": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Dash9 Gaming": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2018
+  },
+  "DatZit Gaming Fire": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "Dawn Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Dawn Esports Frost": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Dawn Esports Shock": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Deep Cross Gaming": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2026
+  },
+  "Deer Gaming": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Defy All Odds": {
+    "region": "Unknown",
+    "start_year": 2010,
+    "end_year": 2011
+  },
+  "Delta Fox": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Delta Syndicate": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "DengKaiLi Game Team": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Denial eSports EU": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Des Moines DMG": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Descuydado Esports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Destined For Glory": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Determined Gaming": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "DetonatioN FocusMe": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2026
+  },
+  "DetonatioN FocusMe Academy": {
+    "region": "Unknown CL",
+    "start_year": 2022,
+    "end_year": 2026
+  },
+  "Dewish Team": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Dexter is actually evil": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Diamant Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Different Dimension": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Dignitas": {
+    "region": "LCS",
+    "start_year": 2013,
+    "end_year": 2026
+  },
+  "Dignitas Academy": {
+    "region": "LCS CL",
+    "start_year": 2020,
+    "end_year": 2023
+  },
+  "Dignitas Challengers": {
+    "region": "LCS CL",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Dimegio Club": {
+    "region": "Unknown",
+    "start_year": 2010,
+    "end_year": 2016
+  },
+  "Dire Wolves": {
+    "region": "LCO",
+    "start_year": 2014,
+    "end_year": 2024
+  },
+  "Direct Rising eSports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Dirt Nap Gaming": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "Disguised": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "Diversion Gaming": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Divine Vendetta": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Dominus Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Dorado Gaming": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Doxa Gaming": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Dplus Kia": {
+    "region": "LCK",
+    "start_year": 2021,
+    "end_year": 2026
+  },
+  "Dplus Kia Challengers": {
+    "region": "LCK CL",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "Dplus Kia Youth": {
+    "region": "LCK CL",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "Dragon Army": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "DragonBorns": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "DragonX": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "DragonX Academy": {
+    "region": "Unknown CL",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Dragons Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Dragonsteel": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "Dragoon&#39;s Goons": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Dream Catcher Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Dream Team": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Dream in 24": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Ducks on Fire": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "DueDrengene": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "Durham College": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Dusty": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Dynamo Eclot": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2025
+  },
+  "Dynasty Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "E WIE EINFACH E-SPORTS": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "E-Flix eSports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "E-RIVALS.DATART": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "E-corp Gaming": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "E-corp Gentle": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "E-nsane Gaming": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "ECV eSports": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "EDG Academy": {
+    "region": "LPL CL",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "EDward Esports": {
+    "region": "LPL",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "EDward Gaming": {
+    "region": "LPL",
+    "start_year": 2014,
+    "end_year": 2026
+  },
+  "EDward Gaming Future": {
+    "region": "LPL",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "EDward Gaming Youth Team": {
+    "region": "LPL CL",
+    "start_year": 2018,
+    "end_year": 2026
+  },
+  "EFS": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "EGN Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "EGZ Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2021
+  },
+  "EKO Esports": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "ELROY Gaming": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "ENEMI3S": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "EPIC-DUDES": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2025
+  },
+  "ERN ROAR": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "ES Sharks": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "ETM": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "EURONICS Gaming": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2017
+  },
+  "EVOS Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "EYES ON U": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "EYES ON U Europe": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "Earth Revolution Gaming": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Echo Fox": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2019
+  },
+  "Echo Fox Academy": {
+    "region": "Unknown CL",
+    "start_year": 2017,
+    "end_year": 2019
+  },
+  "Eclipse Gaming (Latin American Team)": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2025
+  },
+  "Ei Nerd Esports": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Eintracht Frankfurt": {
+    "region": "EMEA",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "Eintracht Spandau": {
+    "region": "EMEA",
+    "start_year": 2021,
+    "end_year": 2026
+  },
+  "Electronik Generation Mindset": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Element Mystic": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Elementalist 51": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Elementaries Esport Club": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Elements": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "EloHell": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Elomingle": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Elysium Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Ember": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "Emprox": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Enclave": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Enemy": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2015
+  },
+  "Energy Pacemaker.Carries": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Energy Pacemaker.The One": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "Enigma Esports": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2026
+  },
+  "Entropiq": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2025
+  },
+  "Epik Gamer": {
+    "region": "Unknown",
+    "start_year": 2010,
+    "end_year": 2013
+  },
+  "Epsilon Esports": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Equinox Core": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Erasion Gaming": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Escalate Legion Gaming": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Esport Empire": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Esprit Shōnen": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Estral Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2026
+  },
+  "Et cetera": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Eternal Fire": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Eternity Gaming": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Ethereal Enigmas": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Europe Saviors Club": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Ever8 Winners": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Evil Geniuses": {
+    "region": "LCS",
+    "start_year": 2013,
+    "end_year": 2023
+  },
+  "Evil Geniuses Academy": {
+    "region": "LCS CL",
+    "start_year": 2020,
+    "end_year": 2023
+  },
+  "Evil Geniuses Challengers": {
+    "region": "LCS CL",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Evil Geniuses Prodigies": {
+    "region": "LCS",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Evil Geniuses.EU": {
+    "region": "LCS",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Evil Geniuses.NA": {
+    "region": "LCS",
+    "start_year": 2014,
+    "end_year": 2023
+  },
+  "Excel": {
+    "region": "LEC",
+    "start_year": 2020,
+    "end_year": 2023
+  },
+  "Excel Esports": {
+    "region": "LEC",
+    "start_year": 2018,
+    "end_year": 2023
+  },
+  "Excel UK": {
+    "region": "LEC",
+    "start_year": 2018,
+    "end_year": 2020
+  },
+  "Exertus Esports": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "F16 Esports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "F3 Visuals": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "FAS (Korean Team)": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "FC Schalke 04 Esports": {
+    "region": "EMEA",
+    "start_year": 2016,
+    "end_year": 2021
+  },
+  "FC Schalke 04 Evolution": {
+    "region": "EMEA",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "FEN1X eSports": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "FENNEL": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2026
+  },
+  "FKE Vikings": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "FLY5": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "FMF eSports Club": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "FN Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "FREEDOM (Brazilian Team)": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "FURIA": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "FURIA Youth": {
+    "region": "Unknown CL",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "FURY": {
+    "region": "LCO",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "FURY Global": {
+    "region": "LCO",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "FUSION (Latin American Team)": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "FUT Esports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "FXOpen e-Sports": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Fact Revolution": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Falkol": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "Far East Eagle": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "Farenvehn": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Fast8": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Fatal Ambition": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "FeaR": {
+    "region": "LCK",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Fear": {
+    "region": "LCK",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "FearX": {
+    "region": "LCK",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "FearX Youth": {
+    "region": "LCK CL",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "Feint Gaming": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Fenerbahçe Esports": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2022
+  },
+  "Final Five": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Flamengo Academy": {
+    "region": "Unknown CL",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Flamengo Esports": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2023
+  },
+  "Flamengo Los Grandes": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Flamengo MDL": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Flayn eSports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Flayn eSports CZSK Edition": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Flexqueued": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Fluxo W7M": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "FlyQuest": {
+    "region": "LCS",
+    "start_year": 2017,
+    "end_year": 2026
+  },
+  "FlyQuest Academy": {
+    "region": "LCS CL",
+    "start_year": 2017,
+    "end_year": 2023
+  },
+  "FlyQuest Challengers": {
+    "region": "LCS CL",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "Fnatic": {
+    "region": "LEC",
+    "start_year": 2011,
+    "end_year": 2026
+  },
+  "Fnatic Academy": {
+    "region": "LEC CL",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Fnatic Rising": {
+    "region": "LEC",
+    "start_year": 2019,
+    "end_year": 2021
+  },
+  "Fnatic TQ": {
+    "region": "LEC",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Fnatic.Beta": {
+    "region": "LEC",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "Fog Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Follow eSports": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "For The Win Esports": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2025
+  },
+  "Forgotten Angels Hope": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Forsaken (Polish Team)": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2026
+  },
+  "Forsaken Academy": {
+    "region": "Unknown CL",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Fortress Esports": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Fox B": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Fox Gaming": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "Frank Esports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "Frank Fang Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Fraternitas": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Fredit BRION": {
+    "region": "LCK",
+    "start_year": 2020,
+    "end_year": 2023
+  },
+  "Fredit BRION Academy": {
+    "region": "LCK CL",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Fredit BRION Challengers": {
+    "region": "LCK CL",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "French Flair": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "FrostFire (North American Team)": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Fruition Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Fryteczki": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "Fuego": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Fukuoka SoftBank HAWKS gaming": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2026
+  },
+  "Fukuoka SoftBank HAWKS gaming Academy": {
+    "region": "Unknown CL",
+    "start_year": 2021,
+    "end_year": 2023
+  },
+  "Full Louis": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2016
+  },
+  "Full Sense": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Full Spectrum": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "FunPlus Phoenix": {
+    "region": "LPL",
+    "start_year": 2017,
+    "end_year": 2025
+  },
+  "FunPlus Phoenix Blaze": {
+    "region": "LPL",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Furious Five": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Furious Gaming": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2021
+  },
+  "Furious Gaming Academy": {
+    "region": "Unknown CL",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Furious Gaming Argentina": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Furious Gaming Red": {
+    "region": "CBLOL",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "Future Perfect Blue": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Future Perfect WLGaming": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "G-Pride": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "G-Rex": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2020
+  },
+  "G2 Arctic": {
+    "region": "LEC",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "G2 Esports": {
+    "region": "LEC",
+    "start_year": 2015,
+    "end_year": 2026
+  },
+  "G2 Hel": {
+    "region": "LEC",
+    "start_year": 2022,
+    "end_year": 2026
+  },
+  "G2 Heretics": {
+    "region": "LEC",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "G2 NORD": {
+    "region": "LEC",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "G2 Vodafone": {
+    "region": "LEC",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "G3V E-sports": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "GAM Esports": {
+    "region": "PCS",
+    "start_year": 2018,
+    "end_year": 2026
+  },
+  "GC Busan (2020 Korean Team)": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "GC Busan Ascension": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "GC Busan Rising Star": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "GC Busan SANDBOX": {
+    "region": "LCK",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "GE Tigers": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "GF-Gaming": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "GG Esports Academy": {
+    "region": "Unknown CL",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "GGEsports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "GIANTX": {
+    "region": "LEC",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "GIANTX PRIDE": {
+    "region": "LEC",
+    "start_year": 2023,
+    "end_year": 2025
+  },
+  "GIANTX iTero": {
+    "region": "LEC",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "GIGABYTE Marines": {
+    "region": "PCS",
+    "start_year": 2016,
+    "end_year": 2018
+  },
+  "GJ Shadow": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "GMBLERS Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "GMedia Luxury": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "GSI Gaming": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "GTZ Esports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "Galactic Gamers": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "Galakticos": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2024
+  },
+  "Galakticos Academy": {
+    "region": "Unknown CL",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Galatasaray Academy": {
+    "region": "Unknown CL",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Galatasaray Esports": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2021
+  },
+  "Galaxy Gaming": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Galaxy Gaming (American Team)": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Galions": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Gama Dream": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Gamania Bears": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Gambit Gaming": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Game Coach Academy": {
+    "region": "Unknown CL",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "GameTV": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "GameWard": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2025
+  },
+  "GamerLegion": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Gamermag": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Gamers2": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "GamersOrigin": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2021
+  },
+  "GamersOrigin Academy": {
+    "region": "Unknown CL",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Gamespace Mediterranean College Esports": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2026
+  },
+  "Gaming Gaming": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Gaming Hive": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Gamtee": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Gamtee Fenghui": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "GashBears": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "GeekSide Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Geekay Esports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2025
+  },
+  "Gen.G": {
+    "region": "LCK",
+    "start_year": 2018,
+    "end_year": 2026
+  },
+  "Gen.G Academy": {
+    "region": "LCK CL",
+    "start_year": 2019,
+    "end_year": 2023
+  },
+  "Gen.G Challengers": {
+    "region": "LCK CL",
+    "start_year": 2021,
+    "end_year": 2023
+  },
+  "Gen.G Global Academy": {
+    "region": "LCK CL",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "Gen.G Scholars": {
+    "region": "LCK Rookies",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "GenZ Gaming (2025 Vietnamese Team)": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Genius Esports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Gentle Hearts Gaming": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "Gentle Mates": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2025
+  },
+  "Geração Estrutura": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Giants (Spanish Team)": {
+    "region": "EMEA",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "Giants Gaming": {
+    "region": "EMEA",
+    "start_year": 2016,
+    "end_year": 2018
+  },
+  "Giants Gaming Spain": {
+    "region": "EMEA",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Giants Only The Brave": {
+    "region": "EMEA",
+    "start_year": 2016,
+    "end_year": 2018
+  },
+  "Giants Underdoges": {
+    "region": "EMEA",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "Ginger Turmeric": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Glitch Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Glitch Quantum Violet": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Globant Emerald": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "GnG Amazigh": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "GnG Esports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "Gochugaru": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Gold Coin United": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Gold Gaming LA": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Golden Guardians": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2023
+  },
+  "Golden Guardians Academy": {
+    "region": "Unknown CL",
+    "start_year": 2018,
+    "end_year": 2023
+  },
+  "Golden Guardians Challengers": {
+    "region": "Unknown CL",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Golden Lions": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Grand Canyon University": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Gravitas": {
+    "region": "LCO",
+    "start_year": 2018,
+    "end_year": 2020
+  },
+  "Gravity (North American Team)": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Greek Operation Forces": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "Greek Regenesis": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2018
+  },
+  "Gremio": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Griffin": {
+    "region": "LCK",
+    "start_year": 2017,
+    "end_year": 2020
+  },
+  "Griffin (Korean Team)": {
+    "region": "LCK",
+    "start_year": 2017,
+    "end_year": 2020
+  },
+  "Ground Zero Gaming": {
+    "region": "LCO",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "Grow uP eSports": {
+    "region": "LPL",
+    "start_year": 2017,
+    "end_year": 2025
+  },
+  "Grypciocraft Esports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Guasones": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Gwangju": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2022
+  },
+  "Gwenchana": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Gyeonggi": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2022
+  },
+  "Gyeongnam": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "H2k-Gaming": {
+    "region": "EMEA",
+    "start_year": 2012,
+    "end_year": 2018
+  },
+  "HANJIN BRION": {
+    "region": "LCK",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "HCL Gaming": {
+    "region": "VCS CL",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "HELL PIGS": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "HLE Challengers": {
+    "region": "LCK CL",
+    "start_year": 2021,
+    "end_year": 2023
+  },
+  "HMBLE": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "HOODSTOMPGRAVESGG": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "HST": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "HUYA Tigers": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "HWA Gaming": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "Hafnet eSports": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "HanGong Clan": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Hands": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Hannibal Knights": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Hanoi Rookies Esports": {
+    "region": "Unknown Rookies",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Hanoi Team Demons": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Hanwha Life": {
+    "region": "LCK",
+    "start_year": 2020,
+    "end_year": 2026
+  },
+  "Hanwha Life Esports": {
+    "region": "LCK",
+    "start_year": 2018,
+    "end_year": 2026
+  },
+  "Hanwha Life Esports Academy": {
+    "region": "LCK CL",
+    "start_year": 2020,
+    "end_year": 2026
+  },
+  "Hanwha Life Esports Challengers": {
+    "region": "LCK CL",
+    "start_year": 2021,
+    "end_year": 2026
+  },
+  "Harmony": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2023
+  },
+  "Harrisburg University": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2026
+  },
+  "Haters Make Us Famous": {
+    "region": "Unknown",
+    "start_year": 2010,
+    "end_year": 2011
+  },
+  "Havan Liberty Academy": {
+    "region": "Unknown CL",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "Havan Liberty Gaming": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2020
+  },
+  "Hawks": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "HawkshotGG": {
+    "region": "Unknown",
+    "start_year": 2010,
+    "end_year": 2010
+  },
+  "Headhunters": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Hegemonia Esport": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Heritage": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Heroes of the Universe E-Sports Brazil": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "Hive Athens Academy": {
+    "region": "Unknown CL",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Hive Athens EC": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Hong Kong Attitude": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2021
+  },
+  "Hong Kong Attitude Mage": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "Hong Kong Attitude Priest": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "Hoon Good Day": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Hoon&#39;s Doggos Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Huma": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "Humber College": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Hungkuang Falcon": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2024
+  },
+  "Hungry (Korean Team)": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Hurricane of Feathers": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Hyper (Korean Team)": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Hyper Vortex Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "I Gaming Star": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "I May": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "IN Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "INFINITY": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2025
+  },
+  "INT Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "INTZ": {
+    "region": "CBLOL",
+    "start_year": 2016,
+    "end_year": 2026
+  },
+  "INTZ Academy": {
+    "region": "CBLOL CL",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "INTZ Red": {
+    "region": "CBLOL",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "INTZ.Genesis": {
+    "region": "CBLOL",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "ION Global Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "IWantCookie": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Ici Japon Corp. Esport": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Icon Esports (Mexican Team)": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Ilha da Macacada Gaming": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "Ilha das Lendas": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "Illuminar Gaming": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Illés Akadémia Spirit": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "ImPerium Vancuverii": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Immortals": {
+    "region": "LCS",
+    "start_year": 2015,
+    "end_year": 2024
+  },
+  "Immortals Academy": {
+    "region": "LCS CL",
+    "start_year": 2019,
+    "end_year": 2023
+  },
+  "Immortals Area of Effect": {
+    "region": "LCS",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Immortals Challengers": {
+    "region": "LCS CL",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Impunity": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "InFamouS Esport": {
+    "region": "LLA",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Inaequalis": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Inaequalis Cor": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Incheon": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Incredible Miracle": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2016
+  },
+  "Incredible Miracle 1": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Incredible Miracle 2": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "Infamous Gaming": {
+    "region": "LLA",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "Infinity Esports Costa Rica": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Initial Esports": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Innotio": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Inside Games": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2025
+  },
+  "Inside Games Academy": {
+    "region": "Unknown CL",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Inside Games Challengers": {
+    "region": "Unknown CL",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "Inspire eSports": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Instinct Esports": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Instinct Gaming": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2021
+  },
+  "Intel New Indians": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Intellectual Playground": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "International Love": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Intrepid Fox Gaming": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Intuition": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Invictus Gaming": {
+    "region": "LPL",
+    "start_year": 2012,
+    "end_year": 2026
+  },
+  "Invictus Gaming Young": {
+    "region": "LPL",
+    "start_year": 2020,
+    "end_year": 2024
+  },
+  "Invisible Jewel Gaming": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Invisible Sharks Gaming": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "Invulnerables Esports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "Invulnerables Esports Academy": {
+    "region": "Unknown CL",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Ionikos Nikaias Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Istanbul Wildcats": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2022
+  },
+  "Istanbul Wildcats Academy": {
+    "region": "Unknown CL",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Isurus": {
+    "region": "LLA",
+    "start_year": 2018,
+    "end_year": 2025
+  },
+  "Isurus Academy": {
+    "region": "LLA CL",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "IziDream": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2025
+  },
+  "J Team": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2024
+  },
+  "J Team 2": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2019
+  },
+  "JAYOB e-Sports": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "JD Gaming": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2026
+  },
+  "JDXL": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "JSK Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Jeochigi Gaming": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Jin Air Green Wings": {
+    "region": "LCK",
+    "start_year": 2014,
+    "end_year": 2020
+  },
+  "Jin Air Green Wings Falcons": {
+    "region": "LCK",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "Jin Air Green Wings Stealths": {
+    "region": "LCK",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "Joblife": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Joy Dream": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2024
+  },
+  "Just Toys Havoks": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Just Your Average Joes": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Jörmungang": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "K1ck eSports Club": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "KAOS e-sport": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "KIYF Logitech": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "KIYF eSports Club": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2019
+  },
+  "KOI (Spanish Team)": {
+    "region": "EMEA",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "KOO Tigers": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "KOVA Esports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "KR Players": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "KRÜ Esports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "KSV eSports": {
+    "region": "LCK",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "KT Rolster": {
+    "region": "LCK",
+    "start_year": 2014,
+    "end_year": 2026
+  },
+  "KT Rolster Academy": {
+    "region": "LCK CL",
+    "start_year": 2020,
+    "end_year": 2026
+  },
+  "KT Rolster Arrows": {
+    "region": "LCK",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "KT Rolster B": {
+    "region": "LCK",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "KT Rolster Bullets": {
+    "region": "LCK",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "KT Rolster Challengers": {
+    "region": "LCK CL",
+    "start_year": 2021,
+    "end_year": 2026
+  },
+  "KaBuM! Academy": {
+    "region": "Unknown CL",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "KaBuM! Black": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "KaBuM! Esports": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2019
+  },
+  "KaBuM! IDM Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "KaBuM! Ilha das Lendas": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "KaBuM! Orange": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Kai Cenat": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Kaisa Gaming": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Kameto Corp": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Kanga Esports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "Kanji Esports Wasser": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Kaos Latin Gamers": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2021
+  },
+  "Kaos Latin Gamers Academy": {
+    "region": "Unknown CL",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Karmine Corp": {
+    "region": "EMEA",
+    "start_year": 2020,
+    "end_year": 2026
+  },
+  "Karmine Corp Blue": {
+    "region": "EMEA",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Karolinerna": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2026
+  },
+  "Karolinerna Black": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "Katastrofa Awionetki": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Kaufland Hangry Knights": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Kawaii Kiwis": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Keyd Stars": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "Keypulse Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Kiedys Mialem Team": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2014
+  },
+  "King of Future": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Kings of Uganda": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Kingslayers X": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Kingzone DragonX": {
+    "region": "LCK",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "Kiwoom DRX": {
+    "region": "LCK",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Kiwoom DRX Challengers": {
+    "region": "LCK CL",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Klanik Esport": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "KlikTech": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "KnockOut Esports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Konix eSport": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Kowloon Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Kwangdong Freecs": {
+    "region": "LCK",
+    "start_year": 2021,
+    "end_year": 2024
+  },
+  "Kwangdong Freecs Academy": {
+    "region": "LCK CL",
+    "start_year": 2021,
+    "end_year": 2023
+  },
+  "Kwangdong Freecs Challengers": {
+    "region": "LCK CL",
+    "start_year": 2022,
+    "end_year": 2024
+  },
+  "Kx.Happy": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "Könige der Meere": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "LD50 Gaming": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "LDLC OL": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2023
+  },
+  "LDN UTD": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "LG Hunters": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "LGD Gaming": {
+    "region": "LPL",
+    "start_year": 2012,
+    "end_year": 2026
+  },
+  "LGD Gaming Young Team": {
+    "region": "LPL",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "LHS": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "LHS Gaming": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "LMQ": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "LNG": {
+    "region": "LPL",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "LNG (Korean Team)": {
+    "region": "LPL",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "LNG Academy": {
+    "region": "LPL CL",
+    "start_year": 2019,
+    "end_year": 2025
+  },
+  "LNG Esports": {
+    "region": "LPL",
+    "start_year": 2019,
+    "end_year": 2026
+  },
+  "LOTUS (Brazilian Team)": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "LOUD": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2026
+  },
+  "LYON (2024 American Team)": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "LYON Academy": {
+    "region": "Unknown CL",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Lachende Gerdas": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Laranja Mecânica": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Last Kings": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Laughing Coffins": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Lechuga Gaming": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Legacy Esports": {
+    "region": "LCO",
+    "start_year": 2017,
+    "end_year": 2020
+  },
+  "Legacy Genesis": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2019
+  },
+  "Lemondogs": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Lemondogs Argentina": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Lenovo Legion Honvéd": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "Leviatan": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2026
+  },
+  "Leões Porto Salvo Esports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2025
+  },
+  "Liberty": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2024
+  },
+  "Liberty Academy": {
+    "region": "Unknown CL",
+    "start_year": 2021,
+    "end_year": 2024
+  },
+  "Liiv SANDBOX": {
+    "region": "LCK",
+    "start_year": 2020,
+    "end_year": 2023
+  },
+  "Liiv SANDBOX Academy": {
+    "region": "LCK CL",
+    "start_year": 2020,
+    "end_year": 2023
+  },
+  "Liiv SANDBOX Challengers": {
+    "region": "LCK CL",
+    "start_year": 2020,
+    "end_year": 2022
+  },
+  "Liiv SANDBOX Youth": {
+    "region": "LCK CL",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "Lille Esport": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "LinG": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "LinGan e-Sports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Lionscreed": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "LoL Academia": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "LoL Champions Korea": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "LoL Pro League": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2026
+  },
+  "LoLLeague": {
+    "region": "Unknown",
+    "start_year": 2011,
+    "end_year": 2011
+  },
+  "Lodis by Illuminar": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Login Esports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "Logitech G Snipers": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Longzhu Gaming": {
+    "region": "LCK",
+    "start_year": 2016,
+    "end_year": 2018
+  },
+  "Looking 4 Org": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Los Grandes": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Los Grandes Academy": {
+    "region": "Unknown CL",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "Los Mapaches": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Los Ratones": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Lotus (North American Team)": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Lotus Esports (2019 North American Team)": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Low Pressur3 Gaming": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Low Priority": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "LowLandLions.White": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Lowkey Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Lucid (Korean Team)": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Lucky Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Luminosity Gaming": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2026
+  },
+  "Lunary": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Lundqvist Lightside": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Lupus Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Luxury Esports": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Lynx (Uruguayan Team)": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Lyon Gaming (2013 Latin American Team)": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "LØS": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "LØS Academy": {
+    "region": "Unknown CL",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "LØS Trainee": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "MAD Gaming": {
+    "region": "LEC",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "MAD Lions": {
+    "region": "LEC",
+    "start_year": 2017,
+    "end_year": 2022
+  },
+  "MAD Lions Academy": {
+    "region": "LEC CL",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "MAD Lions E.C.": {
+    "region": "LEC",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "MAD Team": {
+    "region": "LEC",
+    "start_year": 2017,
+    "end_year": 2019
+  },
+  "MAMMOTH": {
+    "region": "LCO",
+    "start_year": 2018,
+    "end_year": 2020
+  },
+  "MAX (Chinese Team)": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2024
+  },
+  "MD E-sports Club": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "METANOIA": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "MF Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "MGN Box Esports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2024
+  },
+  "MGN Vikings Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "MLGB E-SPORTS CLUB": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "MNM Gaming": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "MOUZ": {
+    "region": "EMEA",
+    "start_year": 2021,
+    "end_year": 2024
+  },
+  "MOUZ NXT": {
+    "region": "EMEA",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "MVK Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "MVP": {
+    "region": "LCK",
+    "start_year": 2015,
+    "end_year": 2018
+  },
+  "MVP Blue": {
+    "region": "LCK",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "MVP Ozone": {
+    "region": "LCK",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "MVP White": {
+    "region": "LCK",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "Machi Esports": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Macko Academy": {
+    "region": "Unknown CL",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Macro Maniacs": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Maestro V Esports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Magistra": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Magnetic": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Majestic Lions": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "Malvinas Gaming": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2026
+  },
+  "Mammoth Academy": {
+    "region": "LCO CL",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Manguste eSports": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Mantic0re": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Marvelous Gamers Brotherhood": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "Maryville University": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2026
+  },
+  "Maverix": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Maycam Evolve": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Maze (Brazilian Team)": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Meat Playground": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "Melty eSport Club": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Memo (Korean Team)": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Mercenaries": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Meta Abusers": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Meta Gaming": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "Metafun": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "MiG Blaze": {
+    "region": "Unknown",
+    "start_year": 2011,
+    "end_year": 2012
+  },
+  "MiG Blitz": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "MiG Frost": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "MiaoJing": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Mighty Eagle": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Mighty Eagles": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "Milk Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Milk Esports Brazil": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Milk Esports Whole Milk": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Millenium": {
+    "region": "Unknown",
+    "start_year": 2011,
+    "end_year": 2018
+  },
+  "Miners": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Miners Academy": {
+    "region": "Unknown CL",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "MiraGe Gaming": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Mirage Alliance": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "Mirage Elyandra": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Mirage Sport Électronique": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Misa Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Misfits Academy": {
+    "region": "Unknown CL",
+    "start_year": 2017,
+    "end_year": 2019
+  },
+  "Misfits Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2022
+  },
+  "Misfits Premier": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2022
+  },
+  "Mkers": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Monomaniac Ferus": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Monomaniac eSports": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "Moscow Meteors": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Moss Seven Club": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Movistar KOI": {
+    "region": "EMEA",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Movistar R7": {
+    "region": "LLA",
+    "start_year": 2022,
+    "end_year": 2024
+  },
+  "Movistar Riders": {
+    "region": "EMEA",
+    "start_year": 2018,
+    "end_year": 2021
+  },
+  "Munster Rugby Gaming": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Mysterious Monkeys": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Mysterious Monkeys.ESLM": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Myth Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Młodzi Esports": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "NASR eSports": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2019
+  },
+  "NASR eSports B": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "NASR eSports Turkey": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2024
+  },
+  "NASR eSports Turkey Academy": {
+    "region": "Unknown CL",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "NCG Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "NKT": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "NONAME (Turkish Team)": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "NORD Esports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2025
+  },
+  "NORTHS FURY": {
+    "region": "LCO",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "NRAX Esports U17": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "NRG": {
+    "region": "LCS",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "NRG Esports": {
+    "region": "LCS",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "NS Esports Academy": {
+    "region": "LCK CL",
+    "start_year": 2022,
+    "end_year": 2026
+  },
+  "NTMR": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "NXT": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "NaJin Black Sword": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "NaJin Shield": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "NaJin Sword": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "NaJin White Shield": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "NaJin e-mFire": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Narwhals": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Nate9527": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "Natus Vincere": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Near Airport": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "NecroRaisers": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Neon Vibes": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Neon Vibes Female": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Nerv": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Netshoes Miners": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Netshoes Miners Academy": {
+    "region": "Unknown CL",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Neurons": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Never Give Up (Vietnamese Team)": {
+    "region": "LPL",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "NeverBack Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "New Dawn eSports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "New Generation": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "New Power Esports": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "New Supremacy Gaming": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "New World Eclipse": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Newbee": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2017
+  },
+  "Newbee Young": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Nex Impetus": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Next Level Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "NextGeneration Esports": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Nexus Gaming": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Ngựa Hí Esports": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Nice Gaming": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Nigma Galaxy Male": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2025
+  },
+  "Ninjas in Pyjamas": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2018
+  },
+  "Ninjas in Pyjamas.CN": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "No Org": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "No Tenemos Nada": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "NoFancy": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "Noah&#39;s Ark": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Noble Esports": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2020
+  },
+  "Noble Truth": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "Nobles Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Nocturns Gaming": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Nongshim Esports Academy": {
+    "region": "LCK CL",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "Nongshim RedForce": {
+    "region": "LCK",
+    "start_year": 2020,
+    "end_year": 2026
+  },
+  "Nongshim RedForce Academy": {
+    "region": "LCK CL",
+    "start_year": 2020,
+    "end_year": 2026
+  },
+  "Nongshim RedForce Challengers": {
+    "region": "LCK CL",
+    "start_year": 2021,
+    "end_year": 2023
+  },
+  "Not Academy Team": {
+    "region": "Unknown CL",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Nova Esports (Taiwanese Team)": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Nova eSports (North American Team)": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Novus Tempus": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Now or Never": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Nox Omen": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Nuit Blanche": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Number One": {
+    "region": "Unknown",
+    "start_year": 2011,
+    "end_year": 2011
+  },
+  "OG Esports": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2019
+  },
+  "OKSavingsBank BRION": {
+    "region": "LCK",
+    "start_year": 2023,
+    "end_year": 2025
+  },
+  "OKSavingsBank BRION Academy": {
+    "region": "LCK CL",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "OKSavingsBank BRION Challengers": {
+    "region": "LCK CL",
+    "start_year": 2023,
+    "end_year": 2025
+  },
+  "OP innogy eSport": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "ORDER": {
+    "region": "LCO",
+    "start_year": 2017,
+    "end_year": 2022
+  },
+  "OZ Gaming": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Obsidian Dread": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Odyssey Gaming": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Odyssey Gaming (Greek Team)": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Oh My God": {
+    "region": "LPL",
+    "start_year": 2012,
+    "end_year": 2026
+  },
+  "Oh My God 2": {
+    "region": "LPL",
+    "start_year": 2014,
+    "end_year": 2026
+  },
+  "Okilling e-Sports Club": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Old Hunters": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Olympe eSports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Olympus Gaming": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Once Upon A Team": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "One More Esports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "OnlyGame": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "OpTic Gaming": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2019
+  },
+  "OpTic Gaming Academy": {
+    "region": "Unknown CL",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "Operation Kino e-Sports": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Orbit Gaming": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Ordinance Gaming": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Ordo Equitum": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Orgless": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Origen": {
+    "region": "EMEA",
+    "start_year": 2014,
+    "end_year": 2020
+  },
+  "Origen ESP": {
+    "region": "EMEA",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Osh-Tekk Warriors": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "Otter Side": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Outplayed": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "OverMinds": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "OverPower Esports": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Owl E-sports": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "Ownerd e-Sports": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Oyun Hizmetleri": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "P11 Esports": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "PAM eSports": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "PCS Predator": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "PEACE (Oceanic Team)": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2023
+  },
+  "PENTA 1860": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "PENTAGRAM": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "PL Gaming": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "PRIMATE": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "PSG Talon": {
+    "region": "PCS",
+    "start_year": 2020,
+    "end_year": 2025
+  },
+  "PSG Talon Academy": {
+    "region": "PCS CL",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "PSW Ares": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "PaPaKanKanPaPa": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "PainGaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Pampas": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Panathinaikos AC eSports": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Panthers Esports Club": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Papara SuperMassive": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2025
+  },
+  "Paris Saint-Germain eSports": {
+    "region": "PCS",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Pars eSports": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Partizan Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Partizan Sangal": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Pathos": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Peace Angels": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Peach Cats": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Peak Performers (North American Team)": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Pendragon Esports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Penguins": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Pentagon Maze": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Pentagon Rejects": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Pentanet.GG": {
+    "region": "LCO",
+    "start_year": 2020,
+    "end_year": 2023
+  },
+  "Pepehands": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Percent Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Phoenix Esports (Turkish Team)": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "Phoenix Reborn": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "Phoenix1": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Pick Me Galio": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Pixel Esports Club": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2020
+  },
+  "Planetkey Dynamics": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "Play With Soul": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Playing Ducks": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "PocketFlowers": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Polar Ace": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "Polar Ace Academy": {
+    "region": "Unknown CL",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Polaris Gaming": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Pompa Team": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Pookie Bears": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Positive Energy": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2015
+  },
+  "Power Team Sports": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Predators Esports": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "PrideFC": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Prime Clan": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Prime Optimus": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "ProGaming Esports": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2019
+  },
+  "Prodigy Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Project Conquerors": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2026
+  },
+  "Project Sinners": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Project11": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Pulse Esports": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "Pulse Star": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "Purdue University Northwest": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "Pyramid IV Esport": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Pyrsos Esports": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "PÊEK Gaming": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2025
+  },
+  "QG Reapers": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "QLASH Egypt": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Qiao Gu Reapers": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "Qing Jiu E-sport Club": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "Quantic Gaming": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "Quvic E-Sports": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "Quảng Ninh Gốc": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "R3volt": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "R7": {
+    "region": "LLA",
+    "start_year": 2020,
+    "end_year": 2024
+  },
+  "RA&#39;AD": {
+    "region": "LPL",
+    "start_year": 2021,
+    "end_year": 2024
+  },
+  "RAMPAGE (Brazilian Team)": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "RED Academy": {
+    "region": "CBLOL CL",
+    "start_year": 2018,
+    "end_year": 2026
+  },
+  "RED Canids": {
+    "region": "CBLOL",
+    "start_year": 2016,
+    "end_year": 2026
+  },
+  "REDPack Esports": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "REJECT": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "REVERSE Gaming": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "REViTAL Gaming": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "RFLX Gaming": {
+    "region": "Unknown",
+    "start_year": 2011,
+    "end_year": 2012
+  },
+  "RIFT Esports": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "RIO (Korean Team)": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "RLX Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "RLX Esports Adria": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "RMD Gaming": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "RNG": {
+    "region": "LPL",
+    "start_year": 2015,
+    "end_year": 2025
+  },
+  "RNL ROAR": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "ROGUE": {
+    "region": "LEC",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "ROSSMANN Centaurs": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "ROX Tigers": {
+    "region": "LCK",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "ROY Esports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "RX Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "RYUMA ESPORTS": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "Radiance": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2021
+  },
+  "Rainbow7": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2022
+  },
+  "Rainbow7 Academy": {
+    "region": "Unknown CL",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Raise Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Raizen E-Sports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Ramboot Club": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2025
+  },
+  "Rampage": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2018
+  },
+  "Rampage Quintet": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Random 5": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Ranking Esports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Rare Atom": {
+    "region": "LPL",
+    "start_year": 2021,
+    "end_year": 2023
+  },
+  "Rare Atom Period": {
+    "region": "LPL",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Rascal Jester": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2022
+  },
+  "Rayunion": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "Raz Dwa Trzy": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Reason Gaming": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Rebels Gaming": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2024
+  },
+  "Rebirth eSports": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2020
+  },
+  "Red": {
+    "region": "CBLOL",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "Red Arrows Team": {
+    "region": "CBLOL",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Red Bulls": {
+    "region": "CBLOL",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "Red Flag": {
+    "region": "CBLOL",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Redemption Arc": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Redemption eSports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Reign (European Team)": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Relentless Gaming": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Reload Ragnarok": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "ReluminateGG": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Renegades: Banditos": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Rensga Academy": {
+    "region": "Unknown CL",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Rensga Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2022
+  },
+  "Repre Gold": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Resolve": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Resolve Academy": {
+    "region": "Unknown CL",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Resolve NA": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Respawned Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Resurgence": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "RevenGa Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Rex Regalis": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Rich Gang (Norwegian Team)": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2025
+  },
+  "Riddle Esports": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2022
+  },
+  "Riot Games Inc.": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2026
+  },
+  "Rise Gaming": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "Rising Divinity": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Rising Gaming": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Rising Star Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "RisingStars Gaming": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "River Plate Gaming": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2023
+  },
+  "Roar (Chinese Team)": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Robert Morris University Illinois": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2017
+  },
+  "Rockhead": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Rogue": {
+    "region": "LEC",
+    "start_year": 2019,
+    "end_year": 2025
+  },
+  "Rogue (European Team)": {
+    "region": "LEC",
+    "start_year": 2018,
+    "end_year": 2025
+  },
+  "Rogue Esports Club": {
+    "region": "LEC",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "Rogue Warriors": {
+    "region": "LEC",
+    "start_year": 2017,
+    "end_year": 2021
+  },
+  "RoughNeX": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "Royal Bandits": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "Royal Club": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2025
+  },
+  "Royal Never Give Up": {
+    "region": "LPL",
+    "start_year": 2015,
+    "end_year": 2025
+  },
+  "Royal Youth": {
+    "region": "Unknown CL",
+    "start_year": 2018,
+    "end_year": 2020
+  },
+  "Royal Youth Academy": {
+    "region": "Unknown CL",
+    "start_year": 2018,
+    "end_year": 2020
+  },
+  "Ruddy Corporation": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Ruddy Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Ruzeh Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "S2G Esports": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "S2V Esports": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "SAMCLAN Esports Club": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "SANDBOX": {
+    "region": "LCK",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "SANDBOX Gaming": {
+    "region": "LCK",
+    "start_year": 2018,
+    "end_year": 2020
+  },
+  "SANDBOX Gaming Academy": {
+    "region": "LCK CL",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "SBENU Sonicboom": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "SBTC Esports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "SCARZ": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2017
+  },
+  "SDM Tigres": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "SGA (Korean Team)": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2023
+  },
+  "SHEINOO": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "SK Gaming": {
+    "region": "LEC",
+    "start_year": 2010,
+    "end_year": 2026
+  },
+  "SK Gaming Avarosa": {
+    "region": "LEC",
+    "start_year": 2021,
+    "end_year": 2026
+  },
+  "SK Gaming Prime": {
+    "region": "LEC",
+    "start_year": 2014,
+    "end_year": 2024
+  },
+  "SK Telecom T1": {
+    "region": "LCK",
+    "start_year": 2014,
+    "end_year": 2019
+  },
+  "SK Telecom T1 1": {
+    "region": "LCK",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "SK Telecom T1 2": {
+    "region": "LCK",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "SK Telecom T1 K": {
+    "region": "LCK",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "SK Telecom T1 S": {
+    "region": "LCK",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "SN CyberCore Esports": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "SNOOZE Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "SPIKE Syndicate": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "SUPA HOT CREW": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "Sahara Warriors": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Saigon Buffalo": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Saigon Dino": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Saigon Warriors": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Saint Louis University": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2023
+  },
+  "Samadder Gaming": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "Sample Text": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "Samsung Blue": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "Samsung Galaxy": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2017
+  },
+  "Samsung White": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "Saprissa Esports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2023
+  },
+  "Savage (Latin American Team)": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Scal Esports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Sejong": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Sekai Gaming": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Sengoku Gaming": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2024
+  },
+  "Sengoku Gaming Legends": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "Sentinels": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Seoul": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2022
+  },
+  "Seoul Neon": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Seven Dark": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Seven Dark Academy": {
+    "region": "Unknown CL",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Shadow Academy": {
+    "region": "Unknown CL",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "Shadow Battlica": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Shadow Cool": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Shadow Corp": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2023
+  },
+  "Shadow Cream": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Shadow Dawn": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "Shadow Deeplol": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Shadow Dreamer": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Shadow EK": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Shadow ELG": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Shadow IBJ": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "Shadow LCPMM": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Shadow New": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Shadow SF": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Shadow fOu": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "She Said She Was Level 18": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "Sheng Jie Gaming": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Shifters": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Shopify Rebellion": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "Sicar Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Silent Storm Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Silver Crows": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Simplicity Esports": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Simplicity Gaming": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2022
+  },
+  "Sin Gaming": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Single Target Healing": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Sinners Never Sleep": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "SinoDragon Gaming": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "Sirens A Team": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2026
+  },
+  "Six Karma": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2024
+  },
+  "Sk Gaming": {
+    "region": "LEC",
+    "start_year": 2011,
+    "end_year": 2011
+  },
+  "Skillcamp": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "SkyRed": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "Slash Lions": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2024
+  },
+  "SleepyGoose": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Snake Esports": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2019
+  },
+  "SolaFide Esports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Solary": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2026
+  },
+  "Son of Conus": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Space Rabbit e-Sports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Space eSports": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Spartans EU": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Spear Gaming": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Spirit Quartz Gaming": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Splyce": {
+    "region": "EMEA",
+    "start_year": 2015,
+    "end_year": 2019
+  },
+  "Sponge Gaming": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Sprutnoobs Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Srdce nehasnou": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "St. Cloud State University": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Star Horn Royal Club": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "StarTale": {
+    "region": "Unknown",
+    "start_year": 2011,
+    "end_year": 2012
+  },
+  "Starboys Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Stardust (Korean Team)": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Stars eSports Club": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "State of MinD Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Stellae Gaming": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Steve Bakes Cookies": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "Storm (North American Team)": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Straw Hat Crew": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Striking Vipers Champions": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Suning": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2021
+  },
+  "Suning-S": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2021
+  },
+  "Super Panda Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "SuperEsports": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "SuperHype Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "SuperMassive Academy": {
+    "region": "Unknown CL",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "SuperMassive Blaze Academy": {
+    "region": "Unknown CL",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "SuperMassive Esports": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "Supergent ikRyong": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Supernova": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2026
+  },
+  "Szata Maga": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Szef 6": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Sørby eSport": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "T1": {
+    "region": "LCK",
+    "start_year": 2019,
+    "end_year": 2026
+  },
+  "T1 Academy": {
+    "region": "LCK CL",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "T1 Challengers": {
+    "region": "LCK CL",
+    "start_year": 2020,
+    "end_year": 2023
+  },
+  "T1 Esports Academy": {
+    "region": "LCK CL",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "T1 Esports Academy Rookies": {
+    "region": "LCK Rookies",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "T1 Rookies": {
+    "region": "LCK Rookies",
+    "start_year": 2020,
+    "end_year": 2024
+  },
+  "TALON (Hong Kong Team)": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2025
+  },
+  "TCA eSports": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "TCF (Koran Team)": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "TDX": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "TEAM ORANGE": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "TEAM4NOT.NA": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "TGA.A": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "TK Esports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "TM.Origin": {
+    "region": "Unknown",
+    "start_year": 2011,
+    "end_year": 2011
+  },
+  "TNP Gaming EU": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "TNU Eagle": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "TQ DURPA KASHLQ": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "TSM": {
+    "region": "LCS",
+    "start_year": 2011,
+    "end_year": 2026
+  },
+  "TSM Academy": {
+    "region": "LCS CL",
+    "start_year": 2017,
+    "end_year": 2023
+  },
+  "TSM Challengers": {
+    "region": "LCS CL",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Tainted Minds": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Tainted Minds Blue": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Tan Chi Sa Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Team 58ers": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "Team 8.1": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Team ANG": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "Team AURORA": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2022
+  },
+  "Team AURORA Academy": {
+    "region": "Unknown CL",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Team AZYT": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Team Acer Poland": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Team Afro": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "Team Ambition": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Team Amine": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Team Apex": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Team Ares": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Team Arsenal": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Team Ascent": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Team Aze": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2023
+  },
+  "Team BDS": {
+    "region": "LEC",
+    "start_year": 2021,
+    "end_year": 2025
+  },
+  "Team BDS Academy": {
+    "region": "LEC CL",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "Team BLACK (European Team)": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Team BattleComics": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "Team CC": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Team Clarity": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Team Coachify": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Team Coast": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2016
+  },
+  "Team Curse": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2015
+  },
+  "Team DPD": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "Team Dignitas EU": {
+    "region": "LCS",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Team Dignitas UK": {
+    "region": "LCS",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "Team Du Sud": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2024
+  },
+  "Team Dynamic": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Team Dynamics": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Team Dynamics Academy": {
+    "region": "Unknown CL",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Team ESCA Gaming": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Team Evermeet": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Team Exile Surge": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Team Extreme Supremacy": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Team FeaR": {
+    "region": "LCK",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Team Fighter": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "Team Fish Taco": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2023
+  },
+  "Team Flash.Vietnam": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Team Forge": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2018
+  },
+  "Team Fragster": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Team Frostbite": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Team Fusion": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Team GO": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2024
+  },
+  "Team Gates": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Team Genesis": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Team Genji": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Team Hell Knights": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Team Heretics": {
+    "region": "LEC",
+    "start_year": 2017,
+    "end_year": 2026
+  },
+  "Team Heretics Academy": {
+    "region": "LEC CL",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Team Horizon Reapers": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "Team Hurricane": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "Team Imagine": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Team Impulse": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2016
+  },
+  "Team Infused": {
+    "region": "Unknown",
+    "start_year": 2011,
+    "end_year": 2015
+  },
+  "Team Just Alpha": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Team Kappa Prime": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "Team King": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Team Kuso": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Team Larssen": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Team Legend God": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "Team Legion": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Team Liquid": {
+    "region": "LCS",
+    "start_year": 2015,
+    "end_year": 2026
+  },
+  "Team Liquid Academy": {
+    "region": "LCS CL",
+    "start_year": 2015,
+    "end_year": 2023
+  },
+  "Team Liquid Challengers": {
+    "region": "LCS CL",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "Team LoLPro": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "Team MCES": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Team MCES Academy": {
+    "region": "Unknown CL",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Team MRN": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Team Majesty Black": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Team Mist": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Team Mistral": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Team Moops": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Team Mythic": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "Team NewRoSoft": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Team NomNom": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "Team Normal Stars": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "Team Oplon": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2022
+  },
+  "Team Orión (Spanish Team)": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Team Overclockers UK": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Team PHZ": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Team Pending": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Team Phantasma": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2026
+  },
+  "Team Phoenix (Chinese Team)": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Team Plague": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Team Queso": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2021
+  },
+  "Team ROCCAT": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2018
+  },
+  "Team Refuse": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2026
+  },
+  "Team Refuse Academy": {
+    "region": "Unknown CL",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "Team Regicide": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Team Secret (American Team)": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Team Secret (Vietnamese Team)": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Team Secret (Vietnamese Team) Academy": {
+    "region": "Unknown CL",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Team Secret Whales": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Team Sky": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Team Solo Mebdi": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "Team SoloMid Evo": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Team Sølvkikkert": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Team VEX": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Team Valiant": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Team Vision": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Team Vitality": {
+    "region": "LEC",
+    "start_year": 2015,
+    "end_year": 2026
+  },
+  "Team Vitality Academy": {
+    "region": "LEC CL",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Team Vulcun": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Team Vulture": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Team WE": {
+    "region": "LPL",
+    "start_year": 2011,
+    "end_year": 2026
+  },
+  "Team WE Academy": {
+    "region": "LPL CL",
+    "start_year": 2014,
+    "end_year": 2026
+  },
+  "Team WE Future": {
+    "region": "LPL",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Team WE.i-Rocks": {
+    "region": "LPL",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Team Whales": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2024
+  },
+  "Team Zhonyas Revolution": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Team oNe eSports": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "Team test": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Team-Birth": {
+    "region": "Unknown",
+    "start_year": 2010,
+    "end_year": 2011
+  },
+  "Team-LDLC": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2019
+  },
+  "TeamOrangeGaming": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "TeamOrangeGaming Evolution": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "Tempest": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Tempest Gaming": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Tempo Storm": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "The Brunch Club": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "The Expendables": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "The Fox Sound": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "The G-Lab Penguins": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "The Gentle Team": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "The Gentlemen&#39;s Guild": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "The Kings": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "The Kings Moon": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "The Last Dance (Latin American Team)": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "The Mighty Midgets": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "The New Kings": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "The Ruddy Sack": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "The Spawn Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "The Walking Zed": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "The Warlords": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "ThunderTalk Gaming": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2026
+  },
+  "ThunderTalk Gaming Young": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2026
+  },
+  "ThunderX3 Baskonia": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "Thunderclouds E-Sports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Tier List Esports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Tigers": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "To Be Determined": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "To Infinity and Beyond": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Tony Parker Adéquat Academy": {
+    "region": "Unknown CL",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Top Esports": {
+    "region": "LPL",
+    "start_year": 2018,
+    "end_year": 2026
+  },
+  "Top Esports Challenger": {
+    "region": "LPL CL",
+    "start_year": 2021,
+    "end_year": 2026
+  },
+  "Top Hollow": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Topsports Gaming": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "Tricked Esport": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Trident Esports": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Triple Esports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "Triumphant Song Gaming": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Tropa Raizen": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Tt Dragons": {
+    "region": "LPL",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "Tu Papá Esports": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Twareg Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Twisted Minds": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2025
+  },
+  "TyLoo": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "UB Alma Mater": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "UCAM Esports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "UCAM Esports Club": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "UCAM Penguins": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "UCG e-sports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Ulsan": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2022
+  },
+  "Ultimate": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "Ultra Prime": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2026
+  },
+  "Ultra Prime Academy": {
+    "region": "Unknown CL",
+    "start_year": 2021,
+    "end_year": 2024
+  },
+  "Uncle Ruckus&#39; Revenge": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Undead Gaming": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2025
+  },
+  "UnderDogs": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Unfazed Esport": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Unicorns of Love": {
+    "region": "EMEA",
+    "start_year": 2014,
+    "end_year": 2018
+  },
+  "Unicorns of Love Sexy Edition": {
+    "region": "EMEA",
+    "start_year": 2022,
+    "end_year": 2026
+  },
+  "Unicorns of Love.CIS": {
+    "region": "EMEA",
+    "start_year": 2019,
+    "end_year": 2021
+  },
+  "Universidad Católica Esports": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "University of British Columbia": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "University of California Irvine": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2026
+  },
+  "University of California Los Angeles": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2015
+  },
+  "University of Illinois at Urbana-Champaign": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2026
+  },
+  "University of Mississippi": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "University of St. Thomas": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2025
+  },
+  "Up": {
+    "region": "LPL",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Upper Echelon": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Uwinks": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "V Gaming Adonis": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "V3 Esports": {
+    "region": "LJL",
+    "start_year": 2017,
+    "end_year": 2026
+  },
+  "V3 New Generation": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "V5 87": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2023
+  },
+  "VARREL YOUTH": {
+    "region": "Unknown CL",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "VIRUS (Greek Team)": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "VISU Gaming Ice": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "VSG (Korean Team)": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "VSlash GnG": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "VTG 2": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "VTOPNET": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Vaevictis Syndicate": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Valiance": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Valorous": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "Varcast Wolves": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Varona Esports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Vasco E-Sports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "VeLocitY (Japanese Team)": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Vega Squadron": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Velocity eSports": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Vengeance eSports": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Veni Vidi Vici (Spanish Team)": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Veni Vidi Vicí": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Venomcrest Cobras": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Venomcrest Esports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "Venomcrest NO": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Ventus Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Verdant": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "ViM eSports": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "ViV Esport": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Vici Gaming": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2019
+  },
+  "Vici Gaming Potential": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Vici Potential Gaming": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Vici Star Gaming": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "Victorious Ace": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Victorious Demons": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Victorious Gaming": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2019
+  },
+  "Victory Five": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2022
+  },
+  "Vietnam (National Team)": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "Vikingekrig Academy": {
+    "region": "Unknown CL",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Vikingekrig Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2021
+  },
+  "Vikings Esports (2023 Vietnamese Team)": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "Vin (Korean Team)": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Vipers": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "Vireo.Pro": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
+  "Virtual Esports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Visual Perception": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Vitality.Bee": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2026
+  },
+  "Vivo Keyd": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
+  "Vivo Keyd Stars": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "Vodafone Giants.Spain": {
+    "region": "EMEA",
+    "start_year": 2018,
+    "end_year": 2022
+  },
+  "Void Blue": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Void Gaming": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2020
+  },
+  "Void Walkers": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Volticons": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Vortex (North American Team)": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "WANG DYNASTY": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "WANG TOWN": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "WAP Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
+  "WASTED TALENTS": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "WAVE Esports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "WE": {
+    "region": "LPL",
+    "start_year": 2018,
+    "end_year": 2026
+  },
+  "WLGaming Esports": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2026
+  },
+  "WORLD CHAMPIONS ESPORTS CLUB": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "WR Builds Flame Horizon": {
+    "region": "LJL",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "WYDream": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "WaY (Korean Team)": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Wan Yoo": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "WanZhen Esports Club": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "War Legend": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "WarKidZ E-Sports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Warthox Esport": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Washed Gaming": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Wayi Spider": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "WeSports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2026
+  },
+  "Weber State University": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2026
+  },
+  "Webidoo Gaming": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "Weibo Gaming": {
+    "region": "LPL",
+    "start_year": 2021,
+    "end_year": 2026
+  },
+  "Weibo Gaming Youth Team": {
+    "region": "LPL CL",
+    "start_year": 2021,
+    "end_year": 2026
+  },
+  "West Point Esports Philippines": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Western Wolves": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "White Dragons": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "WiLD MultiGaming": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2019
+  },
+  "Wild Panthers Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Wild Wolves": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Wildcard Aces": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Wildcard Gaming": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2023
+  },
+  "Wildcard Gaming Black": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Wildcard Gaming Developmental": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Wildcard Gaming Red": {
+    "region": "CBLOL",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Wind and Rain": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Wind and Rain Balkan": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "Wind and Rain Germany": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Wind and Rain NA": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "Winners": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Winterfox": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Winthrop University": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2026
+  },
+  "Witchcraft": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Wolf Club Esports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Wonder Stag e-Sports": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2020
+  },
+  "X7 Esports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "XDG Gaming": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "XL": {
+    "region": "LEC",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "XStream eSports": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "XTEN Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2022
+  },
+  "XTEN Mexico": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "XV eSports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Xenics Blast": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Xenics Storm": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2014
+  },
+  "XinSoul": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "Xoldiers": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "YoWant": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Young Glory": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2017
+  },
+  "Young Miracles": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2019
+  },
+  "YouthCrew Esports": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Yumeea": {
+    "region": "Unknown",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "Z10 ESHARK": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "ZETA": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2024
+  },
+  "ZTR Gaming": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2016
+  },
+  "Zagreb 360 Gaming": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Zen Esports": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
+  "Zenigma": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Zenith Esports": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2020
+  },
+  "Zenith of Origin": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "Zenshi Gaming": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Zerance": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "Zero Tenacity": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2024
+  },
+  "ZeroZone Gaming": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Zerolag Esports": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2026
+  },
+  "Zeroxx": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "Zeta Gaming": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "Zeta Team": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Zeu5 Esports": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "Zoos Gaming": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Zwan Gaming Mexico": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "aL": {
+    "region": "LPL",
+    "start_year": 2011,
+    "end_year": 2011
+  },
+  "aNc Legends": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "aNc Outplayed": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2024
+  },
+  "ad hoc gaming": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "affNity": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "against All authority": {
+    "region": "Unknown",
+    "start_year": 2010,
+    "end_year": 2012
+  },
+  "ahq Fighter": {
+    "region": "PCS",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "ahq e-Sports Club Korea": {
+    "region": "PCS",
+    "start_year": 2013,
+    "end_year": 2013
+  },
+  "ahq eSports Club": {
+    "region": "PCS",
+    "start_year": 2012,
+    "end_year": 2019
+  },
+  "bbq Olivers": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "compLexity Gaming": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "compLexity.Black": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "darkness (North American Team)": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "devils.one x Kiedyś Miałem Team": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "e-Champ Gaming Trainee": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "e.Hub United": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "eEriness": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "eGekko": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2025
+  },
+  "eKoVy": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "eMonkeyz": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2019
+  },
+  "eMonkeyz Storm": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
+  "eStar (Chinese Team)": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "eStar Young": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "eSuba": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2026
+  },
+  "eXtatus": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2018
+  },
+  "eversity": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "exHCL Gaming": {
+    "region": "Unknown CL",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "exeed Poland": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "hyFresh Blade": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "iNAT Gaming": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "inFerno eSports": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "mTw - aL": {
+    "region": "LPL",
+    "start_year": 2011,
+    "end_year": 2011
+  },
+  "mTw North America": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "mousesports": {
+    "region": "EMEA",
+    "start_year": 2012,
+    "end_year": 2021
+  },
+  "myRevenge": {
+    "region": "Unknown",
+    "start_year": 2011,
+    "end_year": 2013
+  },
+  "nDurance Gaming": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2018
+  },
+  "nFear Gaming": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
+  "nerdRage": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "oSk Gaming": {
+    "region": "Unknown",
+    "start_year": 2011,
+    "end_year": 2011
+  },
+  "paiN Gaming": {
+    "region": "CBLOL",
+    "start_year": 2016,
+    "end_year": 2026
+  },
+  "paiN Gaming Academy": {
+    "region": "CBLOL CL",
+    "start_year": 2026,
+    "end_year": 2026
+  },
+  "piratesports": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "piratesports Academy": {
+    "region": "Unknown CL",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "regnum4games": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "team gravy": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "the monkeys": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "unRestricted eSports": {
+    "region": "Unknown",
+    "start_year": 2011,
+    "end_year": 2011
+  },
+  "vVv Gaming": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "vVv Gaming White": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2014
+  },
+  "wSystem e-Sports Club": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "wangting": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
+  "we kill stuff": {
+    "region": "LPL",
+    "start_year": 2011,
+    "end_year": 2011
+  },
+  "xD (European Team)": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "Östersunds FK Esports": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
+  "Świdrujące Tygrysy": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
+  },
+  "怎么样": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "남구로 게이밍": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "대나무 헬리콥터": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "데려가 주세요": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "라스트두부즈": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2013
+  },
+  "메롱시티": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "묵직한한방": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "박치기공룡": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "빈집다시털이": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "빈집털이": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "서폿원맨팀": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
+  },
+  "아니 바텀아": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "아마추야호": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "정글 격리해제": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "정글은 격리중": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "집게리아": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "코로롱이 싫어요": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  }
+}

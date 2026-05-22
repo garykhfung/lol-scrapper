@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LCK Career DB</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+  <style>
+    .view-section { display: none; }
+    .view-section.active { display: block; }
+    .nav-btn.active { background-color: #1e293b; color: white; }
+    .table-wrap { overflow-x: auto; }
+    .table-wrap table { min-width: 600px; }
+    .pill { display: inline-block; padding: 0.125rem 0.5rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 500; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+  <div class="flex h-screen">
+    <!-- Sidebar -->
+    <aside class="w-56 shrink-0 bg-slate-900 text-slate-300 flex flex-col">
+      <div class="px-4 py-5 border-b border-slate-700">
+        <h1 class="text-lg font-bold text-white tracking-tight">LCK Career DB</h1>
+        <p class="text-xs text-slate-500 mt-0.5">League of Legends</p>
+      </div>
+      <nav class="flex-1 overflow-y-auto py-3 space-y-0.5 px-2">
+        <button class="nav-btn w-full text-left px-3 py-2 rounded text-sm font-medium hover:bg-slate-800 transition-colors active" data-view="stats">Overview</button>
+        <button class="nav-btn w-full text-left px-3 py-2 rounded text-sm font-medium hover:bg-slate-800 transition-colors" data-view="season">Season View</button>
+        <button class="nav-btn w-full text-left px-3 py-2 rounded text-sm font-medium hover:bg-slate-800 transition-colors" data-view="player">Player View</button>
+        <button class="nav-btn w-full text-left px-3 py-2 rounded text-sm font-medium hover:bg-slate-800 transition-colors" data-view="team">Team View</button>
+        <button class="nav-btn w-full text-left px-3 py-2 rounded text-sm font-medium hover:bg-slate-800 transition-colors" data-view="rename">Rename Chain</button>
+        <button class="nav-btn w-full text-left px-3 py-2 rounded text-sm font-medium hover:bg-slate-800 transition-colors" data-view="subteams">Sub-teams</button>
+      </nav>
+      <div class="px-4 py-3 border-t border-slate-700 text-xs text-slate-600">
+        Static export &middot; <span id="data-date"></span>
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <main class="flex-1 overflow-y-auto p-6">
+      <!-- Overview -->
+      <section id="view-stats" class="view-section active">
+        <h2 class="text-2xl font-bold mb-4">Database Overview</h2>
+        <div id="stats-cards" class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6"></div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div class="bg-white rounded-xl shadow-sm border p-4">
+            <h3 class="font-semibold text-sm text-slate-500 uppercase tracking-wide mb-3">Players by Role</h3>
+            <div class="relative" style="height:300px"><canvas id="stats-role-chart"></canvas></div>
+          </div>
+          <div class="bg-white rounded-xl shadow-sm border p-4">
+            <h3 class="font-semibold text-sm text-slate-500 uppercase tracking-wide mb-3">Teams by Region</h3>
+            <div class="relative" style="height:300px"><canvas id="stats-region-chart"></canvas></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Season View -->
+      <section id="view-season" class="view-section">
+        <h2 class="text-2xl font-bold mb-4">Season View</h2>
+        <p class="text-sm text-slate-500 mb-4">Browse rosters by competitive season. <strong>Era 1</strong> (2011–2013): named seasons. <strong>Era 2</strong> (2014–2024): Spring + Summer splits. <strong>Era 3</strong> (2025+): three-split format &rarr; First Stand &middot; MSI &middot; Worlds.</p>
+        <div class="flex flex-wrap gap-3 mb-4 items-end">
+          <div>
+            <label class="block text-xs font-medium text-slate-500 mb-1">Season</label>
+            <select id="season-select" class="border rounded-lg px-3 py-2 text-sm bg-white shadow-sm min-w-[100px]"></select>
+          </div>
+          <div>
+            <label class="block text-xs font-medium text-slate-500 mb-1">Region (optional)</label>
+            <select id="season-region" class="border rounded-lg px-3 py-2 text-sm bg-white shadow-sm min-w-[120px]">
+              <option value="">All Regions</option>
+            </select>
+          </div>
+          <button id="season-go" class="bg-slate-800 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-slate-700 transition-colors">Go</button>
+        </div>
+        <div id="season-results"></div>
+      </section>
+
+      <!-- Player View -->
+      <section id="view-player" class="view-section">
+        <h2 class="text-2xl font-bold mb-4">Player View</h2>
+        <div class="flex flex-wrap gap-3 mb-4 items-end">
+          <div>
+            <label class="block text-xs font-medium text-slate-500 mb-1">Region</label>
+            <select id="player-region" class="border rounded-lg px-3 py-2 text-sm bg-white shadow-sm min-w-[180px]">
+              <option value="">All Regions</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-medium text-slate-500 mb-1">Role</label>
+            <select id="player-role" class="border rounded-lg px-3 py-2 text-sm bg-white shadow-sm min-w-[120px]">
+              <option value="">All Roles</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-medium text-slate-500 mb-1">Player</label>
+            <select id="player-select" class="border rounded-lg px-3 py-2 text-sm bg-white shadow-sm min-w-[200px]"></select>
+          </div>
+          <button id="player-go" class="bg-slate-800 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-slate-700 transition-colors">Go</button>
+        </div>
+        <div id="player-results"></div>
+      </section>
+
+      <!-- Team View -->
+      <section id="view-team" class="view-section">
+        <h2 class="text-2xl font-bold mb-4">Team View</h2>
+        <div class="flex flex-wrap gap-3 mb-4 items-end">
+          <div>
+            <label class="block text-xs font-medium text-slate-500 mb-1">Region</label>
+            <select id="team-region" class="border rounded-lg px-3 py-2 text-sm bg-white shadow-sm min-w-[180px]">
+              <option value="">Select a region...</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-medium text-slate-500 mb-1">Team</label>
+            <select id="team-select" class="border rounded-lg px-3 py-2 text-sm bg-white shadow-sm min-w-[200px]" disabled>
+              <option value="">Select region first...</option>
+            </select>
+          </div>
+          <button id="team-go" class="bg-slate-800 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-slate-700 transition-colors" disabled>Go</button>
+        </div>
+        <div id="team-results"></div>
+      </section>
+
+      <!-- Rename Chain -->
+      <section id="view-rename" class="view-section">
+        <h2 class="text-2xl font-bold mb-4">Rename Chain</h2>
+        <div class="flex flex-wrap gap-3 mb-4 items-end">
+          <div>
+            <label class="block text-xs font-medium text-slate-500 mb-1">Team</label>
+            <select id="rename-select" class="border rounded-lg px-3 py-2 text-sm bg-white shadow-sm min-w-[200px]"></select>
+          </div>
+          <button id="rename-go" class="bg-slate-800 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-slate-700 transition-colors">Go</button>
+        </div>
+        <div id="rename-results"></div>
+      </section>
+
+      <!-- Sub-teams -->
+      <section id="view-subteams" class="view-section">
+        <h2 class="text-2xl font-bold mb-4">Sub-teams</h2>
+        <div class="flex flex-wrap gap-3 mb-4 items-end">
+          <div>
+            <label class="block text-xs font-medium text-slate-500 mb-1">Team</label>
+            <select id="subteams-select" class="border rounded-lg px-3 py-2 text-sm bg-white shadow-sm min-w-[200px]"></select>
+          </div>
+          <button id="subteams-go" class="bg-slate-800 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-slate-700 transition-colors">Go</button>
+        </div>
+        <div id="subteams-results"></div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    // ── State ──
+    const DATA = {};
+    let careers = null;
+    let teamRosters = null;
+    let roleChartInstance = null;
+    let regionChartInstance = null;
+    const CURRENT_YEAR = new Date().getFullYear();
+    const MN = {1:'Jan',2:'Feb',3:'Mar',4:'Apr',5:'May',6:'Jun',7:'Jul',8:'Aug',9:'Sep',10:'Oct',11:'Nov',12:'Dec'};
+
+    // ── Navigation ──
+    document.querySelectorAll('.nav-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        document.querySelectorAll('.view-section').forEach(s => s.classList.remove('active'));
+        document.getElementById('view-' + btn.dataset.view).classList.add('active');
+      });
+    });
+
+    // ── Data loading ──
+    async function loadJSON(url) {
+      const r = await fetch(url);
+      if (!r.ok) throw new Error(`Failed to load ${url}`);
+      return r.json();
+    }
+
+    function fmtDate(year, month) {
+      if (!year) return 'Present';
+      return month ? (MN[month] + ' ' + year) : String(year);
+    }
+
+    function table(headers, rows, keyFn) {
+      if (!rows || rows.length === 0) return '<p class="text-slate-500 text-sm">No data.</p>';
+      let h = headers.map(h => `<th class="text-left px-3 py-2 text-xs font-semibold text-slate-500 uppercase tracking-wider bg-slate-50 border-b">${h}</th>`).join('');
+      let b = rows.map(r => {
+        const vals = keyFn(r);
+        return '<tr class="hover:bg-slate-50">' + vals.map(v => `<td class="px-3 py-2 text-sm border-b">${v}</td>`).join('') + '</tr>';
+      }).join('');
+      return `<div class="table-wrap"><table class="w-full text-sm">${h ? '<thead>' + h + '</thead>' : ''}<tbody>${b}</tbody></table></div>`;
+    }
+
+    // ── Init ──
+    async function init() {
+      try {
+        DATA.index = await loadJSON('data/index.json');
+        document.getElementById('data-date').textContent = new Date().toLocaleDateString();
+
+        // Populate season select
+        const seasonSel = document.getElementById('season-select');
+        DATA.index.seasons.forEach(s => {
+          const opt = document.createElement('option');
+          opt.value = s.year;
+          opt.textContent = s.year === 0 ? s.name : `${s.name} (${s.period})`;
+          if (s.year === 0) opt.selected = true;
+          seasonSel.appendChild(opt);
+        });
+
+        // Populate region selects
+        ['season-region', 'player-region', 'team-region'].forEach(id => {
+          const sel = document.getElementById(id);
+          DATA.index.regions.forEach(r => {
+            const opt = document.createElement('option');
+            opt.value = r;
+            opt.textContent = r;
+            if (r === 'LCK' && id !== 'season-region') opt.selected = true;
+            sel.appendChild(opt);
+          });
+        });
+
+        // Populate role select
+        const roleSel = document.getElementById('player-role');
+        DATA.index.roles.forEach(r => {
+          const opt = document.createElement('option');
+          opt.value = r;
+          opt.textContent = r;
+          roleSel.appendChild(opt);
+        });
+
+        // Populate rename-teams
+        const renameSel = document.getElementById('rename-select');
+        DATA.index.rename_teams.forEach(t => {
+          const opt = document.createElement('option');
+          opt.value = t;
+          opt.textContent = t;
+          renameSel.appendChild(opt);
+        });
+
+        // Populate subteam-teams
+        const subSel = document.getElementById('subteams-select');
+        DATA.index.subteam_teams.forEach(t => {
+          const opt = document.createElement('option');
+          opt.value = t;
+          opt.textContent = t;
+          subSel.appendChild(opt);
+        });
+
+        // Stats
+        loadStats();
+
+        // Player view - init with LCK, then load players
+        document.getElementById('player-region').value = 'LCK';
+        await loadPlayerSelect();
+
+        // Team view - init
+        document.getElementById('team-region').value = 'LCK';
+        loadTeamSelect();
+      } catch (e) {
+        console.error('Init error:', e);
+      }
+    }
+
+    // ── Overview ──
+    function loadStats() {
+      const d = DATA.index.stats;
+      document.getElementById('stats-cards').innerHTML = `
+        <div class="bg-white rounded-xl shadow-sm border p-5">
+          <p class="text-3xl font-bold text-slate-800">${d.player_count}</p>
+          <p class="text-sm text-slate-500 mt-1">Players</p>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm border p-5">
+          <p class="text-3xl font-bold text-slate-800">${d.team_count}</p>
+          <p class="text-sm text-slate-500 mt-1">Teams</p>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm border p-5">
+          <p class="text-3xl font-bold text-slate-800">${d.career_count}</p>
+          <p class="text-sm text-slate-500 mt-1">Career Records</p>
+        </div>`;
+
+      const colors = ['#3b82f6','#ef4444','#22c55e','#f59e0b','#8b5cf6','#ec4899','#14b8a6','#f97316','#6366f1','#84cc16','#06b6d4','#a855f7'];
+
+      if (roleChartInstance) roleChartInstance.destroy();
+      roleChartInstance = new Chart(document.getElementById('stats-role-chart'), {
+        type: 'bar',
+        data: {
+          labels: d.role_distribution.map(r => r.role),
+          datasets: [{
+            label: 'Players',
+            data: d.role_distribution.map(r => r.cnt),
+            backgroundColor: colors.slice(0, d.role_distribution.length),
+            borderRadius: 4,
+          }]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: { y: { beginAtZero: true, ticks: { stepSize: 1 } }, x: { ticks: { maxRotation: 45 } } }
+        }
+      });
+
+      if (regionChartInstance) regionChartInstance.destroy();
+      regionChartInstance = new Chart(document.getElementById('stats-region-chart'), {
+        type: 'doughnut',
+        data: {
+          labels: d.region_distribution.filter(r => r.region).map(r => r.region),
+          datasets: [{
+            data: d.region_distribution.filter(r => r.region).map(r => r.cnt),
+            backgroundColor: colors.slice(0, d.region_distribution.filter(r => r.region).length),
+          }]
+        },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } } }
+      });
+    }
+
+    // ── Season View ──
+    document.getElementById('season-go').addEventListener('click', async () => {
+      const season = parseInt(document.getElementById('season-select').value);
+      const region = document.getElementById('season-region').value;
+      if (isNaN(season)) return;
+
+      if (!careers) careers = await loadJSON('data/careers.json');
+
+      const year = season === 0 ? CURRENT_YEAR : season;
+      const si = DATA.index.seasons.find(s => s.year === season);
+      const el = document.getElementById('season-results');
+
+      // Filter careers by year and region
+      let rows = careers.filter(c => c.year === year);
+      if (region) rows = rows.filter(c => c.region === region);
+      if (!rows.length) {
+        el.innerHTML = '<p class="text-slate-500 text-sm">No data for this season.</p>';
+        return;
+      }
+
+      // Tenure map: min/max year per (player, team)
+      const tenure = {};
+      for (const c of careers) {
+        if (region && c.region !== region) continue;
+        const key = c.player + '|' + c.team;
+        if (!tenure[key]) tenure[key] = { joined: c.year, left: c.year };
+        else {
+          if (c.year < tenure[key].joined) tenure[key].joined = c.year;
+          if (c.year > tenure[key].left) tenure[key].left = c.year;
+        }
+      }
+
+      // Group teams by chain root
+      const teamToRoot = DATA.index.team_to_root || {};
+      const chainDisplay = DATA.index.chain_display || {};
+      const groups = {};
+      for (const c of rows) {
+        const root = teamToRoot[c.team] || c.team;
+        const key = root + '|' + c.team;
+        if (!groups[key]) {
+          groups[key] = { display: chainDisplay[root] || c.team, players: [] };
+        }
+        const t = tenure[c.player + '|' + c.team] || { joined: year, left: year };
+        groups[key].players.push({
+          player: c.player,
+          role: c.role || '-',
+          status: null,
+          joined_year: t.joined,
+          joined_month: t.joined === year ? c.start_month : null,
+          left_year: t.left,
+          left_month: t.left === year ? c.end_month : null,
+          duration: t.left >= CURRENT_YEAR ? 'Present' : (t.left - t.joined + 1) + ' yr(s)',
+        });
+      }
+
+      for (const g of Object.values(groups)) {
+        g.players.sort((a, b) => (a.joined_year - b.joined_year) || (a.joined_month || 0) - (b.joined_month || 0) || (a.role || '').localeCompare(b.role || ''));
+      }
+
+      let html = `<div class="bg-slate-100 rounded-lg px-4 py-3 mb-4 text-sm text-slate-700">`;
+      html += `<span class="font-bold text-base">${si.name}</span> — ${si.period}`;
+      if (si.splits && si.splits.length > 0) {
+        html += `<div class="mt-2 flex flex-wrap gap-2">`;
+        si.splits.forEach(sp => {
+          html += `<span class="inline-block bg-white rounded-full px-2.5 py-0.5 text-xs font-medium text-slate-600 border">${sp}</span>`;
+        });
+        html += `</div>`;
+      }
+      html += `</div>`;
+      html += `<p class="text-sm text-slate-500 mb-3">${rows.length} player(s) across ${Object.keys(groups).length} team(s)</p>`;
+
+      for (const [team, g] of Object.entries(groups)) {
+        html += `<div class="bg-white rounded-xl shadow-sm border p-4 mb-4">
+          <h4 class="font-semibold text-base mb-2">${g.display} <span class="text-xs text-slate-400 font-normal">(${g.players.length} player(s))</span></h4>`;
+        html += table(
+          ['Player', 'Role', 'Status', 'Joined', 'Left', 'Duration'],
+          g.players,
+          p => [p.player, p.role, p.status || '-', fmtDate(p.joined_year, p.joined_month), fmtDate(p.left_year, p.left_month), p.duration]
+        );
+        html += '</div>';
+      }
+      el.innerHTML = html;
+    });
+
+    // ── Player View ──
+    document.getElementById('player-region').addEventListener('change', loadPlayerSelect);
+    document.getElementById('player-role').addEventListener('change', loadPlayerSelect);
+
+    let allPlayersData = null;
+    async function getPlayersData() {
+      if (!allPlayersData) allPlayersData = await loadJSON('data/players.json');
+      return allPlayersData;
+    }
+
+    async function loadPlayerSelect() {
+      const region = document.getElementById('player-region').value;
+      const role = document.getElementById('player-role').value;
+      const sel = document.getElementById('player-select');
+      sel.innerHTML = '<option value="">Loading...</option>';
+
+      let names = DATA.index.player_names;
+      if (region) {
+        const byRegion = DATA.index.players_by_region[region] || [];
+        names = names.filter(n => byRegion.includes(n));
+      }
+      if (role) {
+        const players = await getPlayersData();
+        const roleNames = new Set(players.filter(p => p.role === role).map(p => p.name));
+        names = names.filter(n => roleNames.has(n));
+      }
+
+      sel.innerHTML = '<option value="">Select a player...</option>';
+      names.sort().forEach(p => {
+        const opt = document.createElement('option');
+        opt.value = p;
+        opt.textContent = p;
+        sel.appendChild(opt);
+      });
+    }
+
+    document.getElementById('player-go').addEventListener('click', async () => {
+      const name = document.getElementById('player-select').value;
+      const region = document.getElementById('player-region').value;
+      if (!name) return;
+
+      if (!careers) careers = await loadJSON('data/careers.json');
+      const playerInfo = DATA.index.player_info || {};
+
+      let rows = careers.filter(c => c.player === name);
+      if (region) rows = rows.filter(c => c.region === region);
+      if (!rows.length) {
+        document.getElementById('player-results').innerHTML = '<p class="text-slate-500 text-sm">Player not found.</p>';
+        return;
+      }
+
+      // Group by team
+      const teams = {};
+      for (const c of rows) {
+        if (!teams[c.team]) {
+          teams[c.team] = { team: c.team, region: c.region, role: c.role || '-', joined_year: c.year, left_year: c.year, joined_month: c.start_month, left_month: null };
+        }
+        const t = teams[c.team];
+        if (c.year < t.joined_year) { t.joined_year = c.year; t.joined_month = c.start_month; }
+        if (c.year > t.left_year) { t.left_year = c.year; t.left_month = c.end_month; }
+      }
+
+      let careersList = Object.values(teams);
+      careersList.forEach(c => {
+        c.duration = c.left_year >= CURRENT_YEAR ? 'Present' : (c.left_year - c.joined_year + 1) + ' yr(s)';
+      });
+      careersList.sort((a, b) => (a.joined_year - b.joined_year) || (a.joined_month || 0) - (b.joined_month || 0) || (a.role || '').localeCompare(b.role || ''));
+
+      const el = document.getElementById('player-results');
+      let html = '';
+
+      // Fetch player info from players.json
+      if (!DATA.players) DATA.players = await loadJSON('data/players.json');
+      const pi = DATA.players.find(p => p.name === name);
+      if (pi) {
+        html += `<div class="bg-white rounded-xl shadow-sm border p-4 mb-4 flex flex-wrap gap-x-6 gap-y-1 text-sm">
+          <span><strong>Role:</strong> ${pi.role || '-'}</span>
+          <span><strong>Nationality:</strong> ${pi.nationality || '-'}</span>
+          <span><strong>Birth:</strong> ${pi.birth_date || '-'}</span>
+          <span><strong>Status:</strong> <span class="pill ${pi.status === 'Active' ? 'bg-green-100 text-green-700' : 'bg-slate-100 text-slate-600'}">${pi.status || 'Unknown'}</span></span>
+        </div>`;
+      }
+
+      html += table(
+        ['Team', 'Role', 'Joined', 'Left', 'Duration'],
+        careersList,
+        r => [`${r.team} ${r.region ? '(' + r.region + ')' : ''}`, r.role, fmtDate(r.joined_year, r.joined_month), fmtDate(r.left_year, r.left_month), r.duration]
+      );
+      el.innerHTML = html;
+    });
+
+    // ── Team View ──
+    document.getElementById('team-region').addEventListener('change', loadTeamSelect);
+
+    async function loadTeamSelect() {
+      const region = document.getElementById('team-region').value;
+      const sel = document.getElementById('team-select');
+      const go = document.getElementById('team-go');
+      sel.innerHTML = '<option value="">Loading...</option>';
+      sel.disabled = true;
+      go.disabled = true;
+
+      if (!DATA.teamMeta) DATA.teamMeta = await loadJSON('data/team_meta.json');
+
+      let names = DATA.index.team_names;
+      if (region) {
+        names = names.filter(n => DATA.teamMeta[n]?.region === region);
+      }
+
+      sel.innerHTML = '<option value="">Select a team...</option>';
+      names.sort().forEach(t => {
+        const opt = document.createElement('option');
+        opt.value = t;
+        opt.textContent = t;
+        sel.appendChild(opt);
+      });
+      sel.disabled = false;
+    }
+
+    document.getElementById('team-select').addEventListener('change', () => {
+      document.getElementById('team-go').disabled = !document.getElementById('team-select').value;
+    });
+
+    document.getElementById('team-go').addEventListener('click', async () => {
+      const name = document.getElementById('team-select').value;
+      const region = document.getElementById('team-region').value;
+      if (!name) return;
+
+      if (!teamRosters) teamRosters = await loadJSON('data/team_rosters.json');
+      if (!DATA.teamMeta) DATA.teamMeta = await loadJSON('data/team_meta.json');
+
+      const el = document.getElementById('team-results');
+      const meta = DATA.teamMeta[name];
+      if (!meta) {
+        el.innerHTML = '<p class="text-slate-500 text-sm">Team not found.</p>';
+        return;
+      }
+
+      const rosterMap = {};
+      for (const [tn, players] of teamRosters) {
+        rosterMap[tn] = players;
+      }
+
+      // Get rename lineage
+      let chainData = null;
+      if (!DATA.renameChains) DATA.renameChains = await loadJSON('data/rename_chains.json');
+      const lineage = DATA.renameChains[name] || null;
+
+      // Collect all team names in the rebrand chain
+      let allNames = [name];
+      if (lineage) {
+        allNames = lineage.map(n => n[0]);
+      }
+
+      let html = '';
+      html += `<div class="bg-white rounded-xl shadow-sm border p-4 mb-4 flex flex-wrap gap-x-6 gap-y-1 text-sm">
+        <span><strong>Region:</strong> ${meta.region || 'Unknown'}</span>
+        <span><strong>Active:</strong> ${meta.start_year || '?'}${meta.end_year === undefined && meta.start_year ? '-present' : meta.end_year ? '-' + meta.end_year : ''}</span>
+      </div>`;
+
+      if (lineage && lineage.length > 1) {
+        html += `<div class="bg-white rounded-xl shadow-sm border p-4 mb-4 text-sm">
+          <strong class="text-xs text-slate-500 uppercase tracking-wide">Rebrand lineage</strong>
+          <div class="mt-2 flex flex-wrap items-center gap-1 text-sm font-medium">`;
+        lineage.forEach(([n, y], i) => {
+          if (i > 0) html += '<span class="text-slate-300 mx-1">→</span>';
+          html += `<span class="${n === name ? 'text-blue-600 underline' : ''}">${n}${y ? ' (' + y + ')' : ''}</span>`;
+        });
+        html += `</div></div>`;
+      }
+
+      const seenPlayers = new Set();
+      let hasData = false;
+
+      for (const tn of allNames) {
+        if (!rosterMap[tn] || !rosterMap[tn].length) continue;
+        hasData = true;
+        rosterMap[tn].forEach(p => seenPlayers.add(p.player));
+      }
+
+      if (!hasData) {
+        el.innerHTML = '<p class="text-slate-500 text-sm">No roster data found for this team.</p>';
+        return;
+      }
+
+      html += `<p class="text-sm text-slate-500 mb-3">${seenPlayers.size} player(s) total</p>`;
+
+      for (const tn of allNames) {
+        if (!rosterMap[tn] || !rosterMap[tn].length) continue;
+        html += `<div class="bg-white rounded-xl shadow-sm border p-4 mb-4">
+          <h4 class="font-semibold text-base mb-2">${tn} <span class="text-xs text-slate-400 font-normal">(${rosterMap[tn].length} rows)</span></h4>`;
+        html += table(
+          ['Player', 'Role', 'Status', 'Tenure'],
+          rosterMap[tn],
+          p => [p.player, p.role || '-', p.status || '-', p.duration || '-']
+        );
+        html += '</div>';
+      }
+      el.innerHTML = html;
+    });
+
+    // ── Rename Chain ──
+    document.getElementById('rename-go').addEventListener('click', async () => {
+      const name = document.getElementById('rename-select').value;
+      if (!name) return;
+
+      if (!DATA.renameChains) DATA.renameChains = await loadJSON('data/rename_chains.json');
+      const lineage = DATA.renameChains[name];
+      const el = document.getElementById('rename-results');
+
+      if (!lineage || lineage.length <= 1) {
+        el.innerHTML = '<p class="text-slate-500 text-sm">No rename history found.</p>';
+        return;
+      }
+
+      let html = `<div class="bg-white rounded-xl shadow-sm border p-5">
+        <div class="flex flex-wrap items-center gap-2 text-base">`;
+      lineage.forEach(([n, y], i) => {
+        if (i > 0) html += '<span class="text-slate-300 text-lg">→</span>';
+        html += `<span class="inline-flex items-center gap-1.5 ${n === name ? 'font-bold text-blue-600' : ''}">${n}${y ? '<span class="text-xs text-slate-400 font-normal">(' + y + ')</span>' : ''}</span>`;
+      });
+      html += `</div>
+        <p class="text-xs text-slate-400 mt-3">${lineage.length} name(s) in chain</p>
+      </div>`;
+      el.innerHTML = html;
+    });
+
+    // ── Sub-teams ──
+    document.getElementById('subteams-go').addEventListener('click', async () => {
+      const name = document.getElementById('subteams-select').value;
+      if (!name) return;
+
+      if (!DATA.subteams) DATA.subteams = await loadJSON('data/subteams.json');
+      const subs = DATA.subteams.filter(s => s.parent === name);
+      const el = document.getElementById('subteams-results');
+
+      if (!subs.length) {
+        el.innerHTML = '<p class="text-slate-500 text-sm">No sub-teams found.</p>';
+        return;
+      }
+
+      let html = `<div class="bg-white rounded-xl shadow-sm border p-5">
+        <p class="text-sm text-slate-500 mb-3">Parent: <strong>${name}</strong></p>
+        <ul class="space-y-1">`;
+      subs.forEach(s => {
+        html += `<li class="flex items-center gap-2 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-slate-400 shrink-0"></span>${s.subteam}</li>`;
+      });
+      html += `</ul>
+        <p class="text-xs text-slate-400 mt-3">${subs.length} sub-team(s) total</p>
+      </div>`;
+      el.innerHTML = html;
+    });
+
+    // ── Start ──
+    init();
+  </script>
+</body>
+</html>
