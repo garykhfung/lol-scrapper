@@ -225,7 +225,7 @@ git push               # GitHub Pages auto-deploys
 
 ### Notes
 
-- The original Flask backend (`frontend/`) is untouched — run locally with `python3 frontend/app.py`
+- Only the static version exists (`index.html` + `data/` JSON files) — no backend server required
 - `dump_data.py` does not require credentials in the repo (uses your local `.env` file)
 - No credentials are ever pushed to GitHub
 

@@ -1,6 +1,6 @@
 # lol-scrapper
 
-A **League of Legends esports player career database** — scrapes professional player data from the [Leaguepedia](https://lol.fandom.com) wiki, stores it in a **Neo4j** graph database, and provides **three interfaces** to explore the data.
+A **League of Legends esports player career database** — scrapes professional player data from the [Leaguepedia](https://lol.fandom.com) wiki, stores it in a **Neo4j** graph database, and provides a **static site** to explore the data.
 
 ![Static site preview](https://img.shields.io/badge/LoL-ESports-blue)
 
@@ -12,12 +12,11 @@ A **League of Legends esports player career database** — scrapes professional 
 - **Tracks** 30+ roles including players, coaches, management, broadcast talent, and content creators
 - **Covers** 2011–2026 with month-level tenure precision
 
-## Three Interfaces
+## Two Interfaces
 
 | Interface | How to use |
 |-----------|-----------|
 | **CLI** | `python lck_views.py` — interactive REPL or single-shot commands (`season 14`, `player Faker`, `team T1`) |
-| **Live web** | `python frontend/app.py` — FastAPI server with REST API + browser UI at `http://localhost:8000` |
 | **Static site** | Open `index.html` in a browser — pure JS, no server needed. Uses pre-exported JSON files in `data/` |
 
 ## Quick Start
@@ -48,7 +47,7 @@ NEO4J_PASSWORD=your_password
 python lck_scraper.py
 ```
 
-This will fetch ~1,600+ players and build the full graph (~8,600 career records). The scraper is async and handles rate limiting automatically.
+This will fetch ~1,600+ players and build the full graph (~8,700 career records). The scraper is async and handles rate limiting automatically.
 
 ### 4. Explore
 
@@ -62,9 +61,6 @@ python lck_views.py team T1
 python lck_views.py season 14
 python lck_views.py stats
 
-# Web server
-python frontend/app.py
-
 # Static export
 python dump_data.py
 ```
@@ -74,14 +70,12 @@ python dump_data.py
 ```
 ├── lck_scraper.py          # Async scraper: fetches & stores player data
 ├── lck_views.py            # CLI viewer with interactive and command modes
-├── dump_data.py            # Exports Neo4j → static JSON for GitHub Pages
+├── dump_data.py            # Exports Neo4j → static JSON for the site
 ├── reset_db.py             # Wipes the Neo4j database
+├── batch_rescrape.py       # Re-scrape current LCK/LPL rosters
+├── rescrape_player.py      # Re-scrape a single player's page
+├── fix_players.py          # Player data utilities
 ├── index.html              # Static frontend (Chart.js + Tailwind CSS)
-├── frontend/
-│   ├── app.py              # FastAPI backend + REST API
-│   ├── requirements.txt    # FastAPI, Uvicorn, Neo4j driver
-│   └── templates/
-│       └── index.html      # Jinja2 template for live web UI
 ├── data/                   # Pre-exported static JSON files
 │   ├── index.json          # Master index with stats & lookups
 │   ├── players.json        # All player profiles
@@ -126,4 +120,5 @@ The `index.html` + `data/` directory is fully static. Push to a `gh-pages` branc
 MIT
 
 ## Link
+
 [Click Here](https://garykhfung.github.io/lol-scrapper/)

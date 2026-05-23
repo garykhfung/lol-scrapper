@@ -1,6 +1,11 @@
 {
+  "100 Academy": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2019
+  },
   "100 Thieves": {
-    "region": "LCS",
+    "region": "Unknown",
     "start_year": 2017,
     "end_year": 2026
   },
@@ -20,6 +25,11 @@
     "end_year": 2022
   },
   "15ggplz": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "1top": {
     "region": "Unknown",
     "start_year": 2021,
     "end_year": 2021
@@ -116,8 +126,18 @@
   },
   "AD Gaming": {
     "region": "Unknown",
-    "start_year": 2015,
+    "start_year": 2014,
     "end_year": 2015
+  },
+  "AF Academy": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "AF Challengers": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
   },
   "AGO ROGUE": {
     "region": "LEC",
@@ -128,6 +148,11 @@
     "region": "Unknown",
     "start_year": 2025,
     "end_year": 2025
+  },
+  "AL.Young": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2026
   },
   "ANEW Dawn": {
     "region": "Unknown",
@@ -147,7 +172,7 @@
   "APK Prince": {
     "region": "Unknown",
     "start_year": 2016,
-    "end_year": 2017
+    "end_year": 2018
   },
   "APOLLO GAMING": {
     "region": "Unknown",
@@ -284,6 +309,11 @@
     "start_year": 2017,
     "end_year": 2017
   },
+  "AgFox": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
+  },
   "Akave Esports": {
     "region": "Unknown",
     "start_year": 2024,
@@ -293,6 +323,11 @@
     "region": "Unknown",
     "start_year": 2023,
     "end_year": 2024
+  },
+  "All Combo": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
   },
   "All Knights": {
     "region": "Unknown",
@@ -385,8 +420,8 @@
     "end_year": 2026
   },
   "Anyone's Legend": {
-    "region": "Unknown",
-    "start_year": 2023,
+    "region": "LPL",
+    "start_year": 2021,
     "end_year": 2026
   },
   "Apex Gaming": {
@@ -489,6 +524,11 @@
     "start_year": 2022,
     "end_year": 2022
   },
+  "Att. to Reconnect": {
+    "region": "Unknown",
+    "start_year": 2017,
+    "end_year": 2017
+  },
   "Attempting to Reconnect": {
     "region": "Unknown",
     "start_year": 2017,
@@ -540,12 +580,12 @@
     "end_year": 2017
   },
   "Awe Max": {
-    "region": "Unknown",
+    "region": "LPL",
     "start_year": 2015,
     "end_year": 2015
   },
   "Awe Star": {
-    "region": "Unknown",
+    "region": "LPL",
     "start_year": 2018,
     "end_year": 2019
   },
@@ -590,7 +630,7 @@
     "end_year": 2026
   },
   "BBA (Korean Team)": {
-    "region": "Unknown",
+    "region": "LCK",
     "start_year": 2021,
     "end_year": 2021
   },
@@ -614,8 +654,13 @@
     "start_year": 2023,
     "end_year": 2025
   },
-  "BMG (Korean Team)": {
+  "BLG Junior": {
     "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2026
+  },
+  "BMG (Korean Team)": {
+    "region": "LCK",
     "start_year": 2020,
     "end_year": 2020
   },
@@ -630,7 +675,7 @@
     "end_year": 2025
   },
   "BNK FEARX Youth": {
-    "region": "LCK CL",
+    "region": "LCK Rookie",
     "start_year": 2023,
     "end_year": 2026
   },
@@ -655,9 +700,19 @@
     "end_year": 2026
   },
   "BRION Academy": {
-    "region": "LCK CL",
+    "region": "LCK",
     "start_year": 2023,
     "end_year": 2023
+  },
+  "BRO Academy": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
+  },
+  "BRO Challengers": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
   },
   "BRUTE": {
     "region": "Unknown",
@@ -670,7 +725,7 @@
     "end_year": 2021
   },
   "BWE Esports": {
-    "region": "Unknown",
+    "region": "LPL",
     "start_year": 2024,
     "end_year": 2025
   },
@@ -693,6 +748,11 @@
     "region": "Unknown",
     "start_year": 2023,
     "end_year": 2023
+  },
+  "Barrage": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
   },
   "Barrage (British Team)": {
     "region": "Unknown",
@@ -780,7 +840,7 @@
     "end_year": 2017
   },
   "Big One Gaming": {
-    "region": "EMEA",
+    "region": "Unknown",
     "start_year": 2018,
     "end_year": 2018
   },
@@ -942,7 +1002,7 @@
   "Brion Blade": {
     "region": "LCK",
     "start_year": 2018,
-    "end_year": 2019
+    "end_year": 2020
   },
   "British Tea Time": {
     "region": "Unknown",
@@ -981,7 +1041,7 @@
   },
   "Busan": {
     "region": "Unknown",
-    "start_year": 2021,
+    "start_year": 2015,
     "end_year": 2022
   },
   "Bushido Wildcats": {
@@ -1014,6 +1074,11 @@
     "start_year": 2024,
     "end_year": 2024
   },
+  "CFO Academy": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2024
+  },
   "CGN Esports": {
     "region": "Unknown",
     "start_year": 2025,
@@ -1030,17 +1095,17 @@
     "end_year": 2026
   },
   "CJ Entus": {
-    "region": "LCK",
+    "region": "Unknown",
     "start_year": 2014,
     "end_year": 2016
   },
   "CJ Entus Blaze": {
-    "region": "LCK",
+    "region": "Unknown",
     "start_year": 2013,
     "end_year": 2014
   },
   "CJ Entus Frost": {
-    "region": "LCK",
+    "region": "Unknown",
     "start_year": 2013,
     "end_year": 2014
   },
@@ -1063,6 +1128,11 @@
     "region": "LCS",
     "start_year": 2012,
     "end_year": 2017
+  },
+  "CLG Europe": {
+    "region": "LEC",
+    "start_year": 2011,
+    "end_year": 2012
   },
   "CLG Faith": {
     "region": "LCS",
@@ -1188,6 +1258,11 @@
     "region": "Unknown",
     "start_year": 2019,
     "end_year": 2021
+  },
+  "Chunnam Tech U.": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
   },
   "Chunnam Techno University": {
     "region": "Unknown",
@@ -1430,8 +1505,8 @@
     "end_year": 2025
   },
   "DAMWON": {
-    "region": "LCK",
-    "start_year": 2018,
+    "region": "Unknown",
+    "start_year": 2017,
     "end_year": 2021
   },
   "DAMWON Game Academy": {
@@ -1473,6 +1548,11 @@
     "region": "LCK CL",
     "start_year": 2021,
     "end_year": 2025
+  },
+  "DK Youth": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2024
   },
   "DKB Diamonds": {
     "region": "Unknown",
@@ -1525,8 +1605,8 @@
     "end_year": 2026
   },
   "DRX Academy": {
-    "region": "LCK CL",
-    "start_year": 2020,
+    "region": "LCK",
+    "start_year": 2019,
     "end_year": 2025
   },
   "DRX Challengers": {
@@ -1550,12 +1630,12 @@
     "end_year": 2024
   },
   "DWG KIA": {
-    "region": "LCK",
-    "start_year": 2021,
+    "region": "Unknown",
+    "start_year": 2017,
     "end_year": 2023
   },
   "DWG KIA Academy": {
-    "region": "LCK CL",
+    "region": "Unknown",
     "start_year": 2022,
     "end_year": 2023
   },
@@ -1694,6 +1774,11 @@
     "start_year": 2014,
     "end_year": 2014
   },
+  "DetonatioN FM": {
+    "region": "Unknown",
+    "start_year": 2025,
+    "end_year": 2026
+  },
   "DetonatioN FocusMe": {
     "region": "Unknown",
     "start_year": 2013,
@@ -1820,7 +1905,7 @@
     "end_year": 2020
   },
   "DragonX Academy": {
-    "region": "Unknown CL",
+    "region": "Unknown",
     "start_year": 2019,
     "end_year": 2020
   },
@@ -1874,6 +1959,11 @@
     "start_year": 2021,
     "end_year": 2022
   },
+  "Dynamics Academy": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
   "Dynamo Eclot": {
     "region": "Unknown",
     "start_year": 2021,
@@ -1923,6 +2013,16 @@
     "region": "LPL CL",
     "start_year": 2017,
     "end_year": 2017
+  },
+  "EDG Future": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
+  "EDG Youth Team": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2026
   },
   "EDward Esports": {
     "region": "LPL",
@@ -1974,6 +2074,11 @@
     "start_year": 2023,
     "end_year": 2023
   },
+  "EP.Carries": {
+    "region": "Unknown",
+    "start_year": 2014,
+    "end_year": 2015
+  },
   "EPIC-DUDES": {
     "region": "Unknown",
     "start_year": 2022,
@@ -1988,6 +2093,11 @@
     "region": "Unknown",
     "start_year": 2018,
     "end_year": 2019
+  },
+  "ESC Ever": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
   },
   "ETM": {
     "region": "Unknown",
@@ -2010,7 +2120,7 @@
     "end_year": 2013
   },
   "EYES ON U Europe": {
-    "region": "Unknown",
+    "region": "LEC",
     "start_year": 2014,
     "end_year": 2014
   },
@@ -2200,7 +2310,7 @@
     "end_year": 2017
   },
   "Evil Geniuses": {
-    "region": "LCS",
+    "region": "Unknown",
     "start_year": 2013,
     "end_year": 2023
   },
@@ -2260,7 +2370,7 @@
     "end_year": 2019
   },
   "FAS (Korean Team)": {
-    "region": "Unknown",
+    "region": "LCK",
     "start_year": 2022,
     "end_year": 2022
   },
@@ -2288,6 +2398,11 @@
     "region": "Unknown",
     "start_year": 2019,
     "end_year": 2019
+  },
+  "FLY Challengers": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
   },
   "FLY5": {
     "region": "Unknown",
@@ -2390,7 +2505,7 @@
     "end_year": 2024
   },
   "FearX Youth": {
-    "region": "LCK CL",
+    "region": "LCK Rookie",
     "start_year": 2023,
     "end_year": 2024
   },
@@ -2398,6 +2513,11 @@
     "region": "Unknown",
     "start_year": 2018,
     "end_year": 2018
+  },
+  "Fenerbahçe": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2022
   },
   "Fenerbahçe Esports": {
     "region": "Unknown",
@@ -2450,7 +2570,7 @@
     "end_year": 2026
   },
   "FlyQuest": {
-    "region": "LCS",
+    "region": "Unknown",
     "start_year": 2017,
     "end_year": 2026
   },
@@ -2480,7 +2600,7 @@
     "end_year": 2021
   },
   "Fnatic TQ": {
-    "region": "LEC",
+    "region": "Unknown",
     "start_year": 2021,
     "end_year": 2022
   },
@@ -2555,12 +2675,12 @@
     "end_year": 2023
   },
   "Fredit BRION Academy": {
-    "region": "LCK CL",
+    "region": "LCK",
     "start_year": 2021,
     "end_year": 2022
   },
   "Fredit BRION Challengers": {
-    "region": "LCK CL",
+    "region": "LCK",
     "start_year": 2021,
     "end_year": 2021
   },
@@ -2613,6 +2733,11 @@
     "region": "Unknown",
     "start_year": 2020,
     "end_year": 2020
+  },
+  "FunPlus Blaze": {
+    "region": "LPL",
+    "start_year": 2023,
+    "end_year": 2023
   },
   "FunPlus Phoenix": {
     "region": "LPL",
@@ -2709,8 +2834,13 @@
     "start_year": 2018,
     "end_year": 2026
   },
-  "GC Busan (2020 Korean Team)": {
+  "GC Busan": {
     "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "GC Busan (2020 Korean Team)": {
+    "region": "LCK",
     "start_year": 2020,
     "end_year": 2020
   },
@@ -2734,6 +2864,11 @@
     "start_year": 2015,
     "end_year": 2015
   },
+  "GEN Challengers": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2023
+  },
   "GF-Gaming": {
     "region": "Unknown",
     "start_year": 2013,
@@ -2750,7 +2885,7 @@
     "end_year": 2022
   },
   "GIANTX": {
-    "region": "LEC",
+    "region": "Unknown",
     "start_year": 2023,
     "end_year": 2026
   },
@@ -2765,7 +2900,7 @@
     "end_year": 2026
   },
   "GIGABYTE Marines": {
-    "region": "PCS",
+    "region": "Unknown",
     "start_year": 2016,
     "end_year": 2018
   },
@@ -2935,7 +3070,7 @@
     "end_year": 2026
   },
   "Gen.G Academy": {
-    "region": "LCK CL",
+    "region": "Unknown",
     "start_year": 2019,
     "end_year": 2023
   },
@@ -2945,13 +3080,13 @@
     "end_year": 2023
   },
   "Gen.G Global Academy": {
-    "region": "LCK CL",
-    "start_year": 2023,
+    "region": "Unknown",
+    "start_year": 2021,
     "end_year": 2026
   },
   "Gen.G Scholars": {
-    "region": "LCK Rookies",
-    "start_year": 2023,
+    "region": "Unknown",
+    "start_year": 2021,
     "end_year": 2026
   },
   "GenZ Gaming (2025 Vietnamese Team)": {
@@ -3100,7 +3235,7 @@
     "end_year": 2019
   },
   "Griffin": {
-    "region": "LCK",
+    "region": "Unknown",
     "start_year": 2017,
     "end_year": 2020
   },
@@ -3169,8 +3304,18 @@
     "start_year": 2024,
     "end_year": 2025
   },
+  "HK Attitude": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
+  "HLE Academy": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
   "HLE Challengers": {
-    "region": "LCK CL",
+    "region": "Unknown",
     "start_year": 2021,
     "end_year": 2023
   },
@@ -3231,7 +3376,7 @@
   },
   "Hanwha Life": {
     "region": "LCK",
-    "start_year": 2020,
+    "start_year": 2018,
     "end_year": 2026
   },
   "Hanwha Life Esports": {
@@ -3240,7 +3385,7 @@
     "end_year": 2026
   },
   "Hanwha Life Esports Academy": {
-    "region": "LCK CL",
+    "region": "LCK Rookie",
     "start_year": 2020,
     "end_year": 2026
   },
@@ -3355,7 +3500,7 @@
     "end_year": 2024
   },
   "Hungry (Korean Team)": {
-    "region": "Unknown",
+    "region": "LCK",
     "start_year": 2015,
     "end_year": 2015
   },
@@ -3364,8 +3509,18 @@
     "start_year": 2025,
     "end_year": 2025
   },
-  "Hyper (Korean Team)": {
+  "HuyaTV": {
     "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
+  "Hyper": {
+    "region": "Unknown",
+    "start_year": 2015,
+    "end_year": 2015
+  },
+  "Hyper (Korean Team)": {
+    "region": "LCK",
     "start_year": 2015,
     "end_year": 2015
   },
@@ -3383,6 +3538,11 @@
     "region": "Unknown",
     "start_year": 2016,
     "end_year": 2016
+  },
+  "IMT Academy": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
   },
   "IN Gaming": {
     "region": "Unknown",
@@ -3507,7 +3667,7 @@
   "Incheon": {
     "region": "Unknown",
     "start_year": 2020,
-    "end_year": 2020
+    "end_year": 2021
   },
   "Incredible Miracle": {
     "region": "Unknown",
@@ -3654,6 +3814,11 @@
     "start_year": 2020,
     "end_year": 2020
   },
+  "Isurus Estral": {
+    "region": "Unknown",
+    "start_year": 2024,
+    "end_year": 2025
+  },
   "IziDream": {
     "region": "Unknown",
     "start_year": 2021,
@@ -3675,7 +3840,7 @@
     "end_year": 2016
   },
   "JD Gaming": {
-    "region": "Unknown",
+    "region": "LPL",
     "start_year": 2017,
     "end_year": 2026
   },
@@ -3694,6 +3859,21 @@
     "start_year": 2020,
     "end_year": 2020
   },
+  "Jeonnam": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Ji Jie Hao": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "Jin Air Falcons": {
+    "region": "LCO",
+    "start_year": 2014,
+    "end_year": 2014
+  },
   "Jin Air Green Wings": {
     "region": "LCK",
     "start_year": 2014,
@@ -3706,6 +3886,11 @@
   },
   "Jin Air Green Wings Stealths": {
     "region": "LCK",
+    "start_year": 2013,
+    "end_year": 2014
+  },
+  "Jin Air Stealths": {
+    "region": "Unknown",
     "start_year": 2013,
     "end_year": 2014
   },
@@ -3744,6 +3929,16 @@
     "start_year": 2024,
     "end_year": 2024
   },
+  "KDF Academy": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "KDF Challengers": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2024
+  },
   "KIYF Logitech": {
     "region": "Unknown",
     "start_year": 2017,
@@ -3780,9 +3975,19 @@
     "end_year": 2022
   },
   "KSV eSports": {
-    "region": "LCK",
+    "region": "Unknown",
     "start_year": 2017,
     "end_year": 2018
+  },
+  "KT Academy": {
+    "region": "LCK",
+    "start_year": 2017,
+    "end_year": 2022
+  },
+  "KT Challengers": {
+    "region": "LCK",
+    "start_year": 2021,
+    "end_year": 2026
   },
   "KT Rolster": {
     "region": "LCK",
@@ -3806,7 +4011,7 @@
   },
   "KT Rolster Bullets": {
     "region": "LCK",
-    "start_year": 2013,
+    "start_year": 2012,
     "end_year": 2014
   },
   "KT Rolster Challengers": {
@@ -3945,7 +4150,7 @@
     "end_year": 2021
   },
   "Kingzone DragonX": {
-    "region": "LCK",
+    "region": "Unknown",
     "start_year": 2018,
     "end_year": 2019
   },
@@ -3986,7 +4191,7 @@
   },
   "Kwangdong Freecs": {
     "region": "LCK",
-    "start_year": 2021,
+    "start_year": 2017,
     "end_year": 2024
   },
   "Kwangdong Freecs Academy": {
@@ -4039,6 +4244,11 @@
     "start_year": 2023,
     "end_year": 2026
   },
+  "LGD Young Team": {
+    "region": "LPL",
+    "start_year": 2023,
+    "end_year": 2023
+  },
   "LHS": {
     "region": "Unknown",
     "start_year": 2023,
@@ -4083,6 +4293,21 @@
     "region": "Unknown",
     "start_year": 2021,
     "end_year": 2026
+  },
+  "LSB Challengers": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2022
+  },
+  "LSB Youth": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "LUCID (Korean Team)": {
+    "region": "LCK",
+    "start_year": 2021,
+    "end_year": 2021
   },
   "LYON (2024 American Team)": {
     "region": "Unknown",
@@ -4210,7 +4435,7 @@
     "end_year": 2018
   },
   "LoL Champions Korea": {
-    "region": "Unknown",
+    "region": "LCK",
     "start_year": 2016,
     "end_year": 2017
   },
@@ -4240,7 +4465,7 @@
     "end_year": 2015
   },
   "Longzhu Gaming": {
-    "region": "LCK",
+    "region": "Unknown",
     "start_year": 2016,
     "end_year": 2018
   },
@@ -4300,7 +4525,7 @@
     "end_year": 2020
   },
   "Lucid (Korean Team)": {
-    "region": "Unknown",
+    "region": "LCK",
     "start_year": 2021,
     "end_year": 2021
   },
@@ -4450,17 +4675,17 @@
     "end_year": 2018
   },
   "MVP Blue": {
-    "region": "LCK",
+    "region": "Unknown",
     "start_year": 2013,
     "end_year": 2013
   },
   "MVP Ozone": {
-    "region": "LCK",
-    "start_year": 2013,
+    "region": "Unknown",
+    "start_year": 2012,
     "end_year": 2013
   },
   "MVP White": {
-    "region": "LCK",
+    "region": "Unknown",
     "start_year": 2012,
     "end_year": 2013
   },
@@ -4555,7 +4780,7 @@
     "end_year": 2016
   },
   "Memo (Korean Team)": {
-    "region": "Unknown",
+    "region": "LCK",
     "start_year": 2023,
     "end_year": 2023
   },
@@ -4602,7 +4827,7 @@
   "Mighty Eagle": {
     "region": "Unknown",
     "start_year": 2018,
-    "end_year": 2018
+    "end_year": 2019
   },
   "Mighty Eagles": {
     "region": "Unknown",
@@ -4705,12 +4930,12 @@
     "end_year": 2017
   },
   "Movistar KOI": {
-    "region": "EMEA",
+    "region": "Unknown",
     "start_year": 2024,
     "end_year": 2026
   },
   "Movistar R7": {
-    "region": "LLA",
+    "region": "Unknown",
     "start_year": 2022,
     "end_year": 2024
   },
@@ -4743,6 +4968,16 @@
     "region": "Unknown",
     "start_year": 2018,
     "end_year": 2018
+  },
+  "NASR Academy": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "NASR Turkey": {
+    "region": "TCL",
+    "start_year": 2021,
+    "end_year": 2024
   },
   "NASR eSports": {
     "region": "Unknown",
@@ -4804,9 +5039,19 @@
     "start_year": 2015,
     "end_year": 2016
   },
+  "NS Challengers": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2023
+  },
   "NS Esports Academy": {
-    "region": "LCK CL",
+    "region": "Unknown",
     "start_year": 2022,
+    "end_year": 2026
+  },
+  "NS RedForce": {
+    "region": "LCK",
+    "start_year": 2020,
     "end_year": 2026
   },
   "NTMR": {
@@ -4821,7 +5066,7 @@
   },
   "NaJin Black Sword": {
     "region": "Unknown",
-    "start_year": 2013,
+    "start_year": 2012,
     "end_year": 2014
   },
   "NaJin Shield": {
@@ -4980,12 +5225,12 @@
     "end_year": 2025
   },
   "Ninjas in Pyjamas": {
-    "region": "Unknown",
+    "region": "LPL",
     "start_year": 2013,
-    "end_year": 2018
+    "end_year": 2026
   },
   "Ninjas in Pyjamas.CN": {
-    "region": "Unknown",
+    "region": "LPL",
     "start_year": 2023,
     "end_year": 2026
   },
@@ -5009,6 +5254,11 @@
     "start_year": 2012,
     "end_year": 2012
   },
+  "Noah's Ark": {
+    "region": "Unknown",
+    "start_year": 2011,
+    "end_year": 2012
+  },
   "Noble Esports": {
     "region": "Unknown",
     "start_year": 2015,
@@ -5028,6 +5278,11 @@
     "region": "Unknown",
     "start_year": 2019,
     "end_year": 2019
+  },
+  "Nongshim Academy": {
+    "region": "LCK",
+    "start_year": 2020,
+    "end_year": 2022
   },
   "Nongshim Esports Academy": {
     "region": "LCK CL",
@@ -5094,18 +5349,28 @@
     "start_year": 2017,
     "end_year": 2019
   },
+  "OK BRION": {
+    "region": "LCK",
+    "start_year": 2022,
+    "end_year": 2025
+  },
+  "OK BRION Challengers": {
+    "region": "LCK",
+    "start_year": 2023,
+    "end_year": 2025
+  },
   "OKSavingsBank BRION": {
     "region": "LCK",
     "start_year": 2023,
     "end_year": 2025
   },
   "OKSavingsBank BRION Academy": {
-    "region": "LCK CL",
+    "region": "LCK",
     "start_year": 2023,
     "end_year": 2024
   },
   "OKSavingsBank BRION Challengers": {
-    "region": "LCK CL",
+    "region": "LCK",
     "start_year": 2023,
     "end_year": 2025
   },
@@ -5138,6 +5403,11 @@
     "region": "Unknown",
     "start_year": 2023,
     "end_year": 2023
+  },
+  "Oh My Dream": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2021
   },
   "Oh My God": {
     "region": "LPL",
@@ -5183,6 +5453,11 @@
     "region": "Unknown",
     "start_year": 2018,
     "end_year": 2018
+  },
+  "OpTic Academy": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
   },
   "OpTic Gaming": {
     "region": "Unknown",
@@ -5353,6 +5628,11 @@
     "region": "Unknown",
     "start_year": 2022,
     "end_year": 2025
+  },
+  "Paris Saint-Germain": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2017
   },
   "Paris Saint-Germain eSports": {
     "region": "PCS",
@@ -5550,7 +5830,7 @@
     "end_year": 2023
   },
   "Project11": {
-    "region": "Unknown",
+    "region": "LCK",
     "start_year": 2021,
     "end_year": 2021
   },
@@ -5594,10 +5874,20 @@
     "start_year": 2019,
     "end_year": 2019
   },
+  "QWER.GG": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
   "Qiao Gu Reapers": {
     "region": "Unknown",
     "start_year": 2015,
     "end_year": 2016
+  },
+  "Qing Jiu Club": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
   },
   "Qing Jiu E-sport Club": {
     "region": "Unknown",
@@ -5628,6 +5918,11 @@
     "region": "LLA",
     "start_year": 2020,
     "end_year": 2024
+  },
+  "RA Period": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
   },
   "RA&#39;AD": {
     "region": "LPL",
@@ -5680,7 +5975,7 @@
     "end_year": 2019
   },
   "RIO (Korean Team)": {
-    "region": "Unknown",
+    "region": "LCK",
     "start_year": 2022,
     "end_year": 2022
   },
@@ -5720,8 +6015,8 @@
     "end_year": 2026
   },
   "ROX Tigers": {
-    "region": "LCK",
-    "start_year": 2016,
+    "region": "Unknown",
+    "start_year": 2014,
     "end_year": 2017
   },
   "ROY Esports": {
@@ -5792,7 +6087,7 @@
   "Rare Atom": {
     "region": "LPL",
     "start_year": 2021,
-    "end_year": 2023
+    "end_year": 2024
   },
   "Rare Atom Period": {
     "region": "LPL",
@@ -5995,8 +6290,8 @@
     "end_year": 2020
   },
   "Rogue": {
-    "region": "LEC",
-    "start_year": 2019,
+    "region": "Unknown",
+    "start_year": 2018,
     "end_year": 2025
   },
   "Rogue (European Team)": {
@@ -6004,13 +6299,18 @@
     "start_year": 2018,
     "end_year": 2025
   },
+  "Rogue EC": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2019
+  },
   "Rogue Esports Club": {
     "region": "LEC",
     "start_year": 2018,
     "end_year": 2019
   },
   "Rogue Warriors": {
-    "region": "LEC",
+    "region": "Unknown",
     "start_year": 2017,
     "end_year": 2021
   },
@@ -6089,6 +6389,11 @@
     "start_year": 2019,
     "end_year": 2020
   },
+  "SBENU Korea": {
+    "region": "LCK",
+    "start_year": 2016,
+    "end_year": 2016
+  },
   "SBENU Sonicboom": {
     "region": "Unknown",
     "start_year": 2015,
@@ -6109,8 +6414,13 @@
     "start_year": 2025,
     "end_year": 2026
   },
-  "SGA (Korean Team)": {
+  "SDX Gaming": {
     "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
+  },
+  "SGA (Korean Team)": {
+    "region": "LCK",
     "start_year": 2021,
     "end_year": 2023
   },
@@ -6120,7 +6430,7 @@
     "end_year": 2018
   },
   "SK Gaming": {
-    "region": "LEC",
+    "region": "Unknown",
     "start_year": 2010,
     "end_year": 2026
   },
@@ -6130,7 +6440,7 @@
     "end_year": 2026
   },
   "SK Gaming Prime": {
-    "region": "LEC",
+    "region": "Unknown",
     "start_year": 2014,
     "end_year": 2024
   },
@@ -6244,6 +6554,11 @@
     "start_year": 2022,
     "end_year": 2022
   },
+  "Schalke 04": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2019
+  },
   "Sejong": {
     "region": "Unknown",
     "start_year": 2021,
@@ -6290,7 +6605,7 @@
     "end_year": 2026
   },
   "Shadow Academy": {
-    "region": "Unknown CL",
+    "region": "Unknown",
     "start_year": 2022,
     "end_year": 2023
   },
@@ -6424,6 +6739,11 @@
     "start_year": 2013,
     "end_year": 2013
   },
+  "SinoDragon": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
   "SinoDragon Gaming": {
     "region": "Unknown",
     "start_year": 2018,
@@ -6468,6 +6788,11 @@
     "region": "Unknown",
     "start_year": 2014,
     "end_year": 2019
+  },
+  "SoftBank HAWKS": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
   },
   "SolaFide Esports": {
     "region": "Unknown",
@@ -6549,8 +6874,13 @@
     "start_year": 2019,
     "end_year": 2019
   },
-  "Stardust (Korean Team)": {
+  "Stardust": {
     "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "Stardust (Korean Team)": {
+    "region": "LCK",
     "start_year": 2016,
     "end_year": 2016
   },
@@ -6614,6 +6944,11 @@
     "start_year": 2016,
     "end_year": 2016
   },
+  "SuperMassive": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
   "SuperMassive Academy": {
     "region": "Unknown CL",
     "start_year": 2020,
@@ -6660,8 +6995,8 @@
     "end_year": 2026
   },
   "T1 Academy": {
-    "region": "LCK CL",
-    "start_year": 2020,
+    "region": "LCK",
+    "start_year": 2019,
     "end_year": 2020
   },
   "T1 Challengers": {
@@ -6669,8 +7004,13 @@
     "start_year": 2020,
     "end_year": 2023
   },
+  "T1 E.A. Rookies": {
+    "region": "LCK",
+    "start_year": 2023,
+    "end_year": 2024
+  },
   "T1 Esports Academy": {
-    "region": "LCK CL",
+    "region": "LCK",
     "start_year": 2023,
     "end_year": 2026
   },
@@ -6680,8 +7020,8 @@
     "end_year": 2026
   },
   "T1 Rookies": {
-    "region": "LCK Rookies",
-    "start_year": 2020,
+    "region": "LCK",
+    "start_year": 2019,
     "end_year": 2024
   },
   "TALON (Hong Kong Team)": {
@@ -6714,6 +7054,11 @@
     "start_year": 2012,
     "end_year": 2012
   },
+  "TES Challenger": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2026
+  },
   "TGA.A": {
     "region": "Unknown",
     "start_year": 2022,
@@ -6721,6 +7066,21 @@
   },
   "TK Esports": {
     "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "TL Academy": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "TL Challengers": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
+  "TLC (Korean Team)": {
+    "region": "LCK",
     "start_year": 2021,
     "end_year": 2021
   },
@@ -6744,6 +7104,11 @@
     "start_year": 2026,
     "end_year": 2026
   },
+  "TS Gaming": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2020
+  },
   "TSM": {
     "region": "LCS",
     "start_year": 2011,
@@ -6758,6 +7123,16 @@
     "region": "LCS CL",
     "start_year": 2023,
     "end_year": 2023
+  },
+  "TT Gaming": {
+    "region": "LPL",
+    "start_year": 2020,
+    "end_year": 2026
+  },
+  "TT Young": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2025
   },
   "Tainted Minds": {
     "region": "Unknown",
@@ -6855,7 +7230,7 @@
     "end_year": 2025
   },
   "Team BDS Academy": {
-    "region": "LEC CL",
+    "region": "Unknown",
     "start_year": 2022,
     "end_year": 2023
   },
@@ -6865,9 +7240,14 @@
     "end_year": 2012
   },
   "Team BattleComics": {
-    "region": "Unknown",
-    "start_year": 2017,
+    "region": "LEC",
+    "start_year": 2016,
     "end_year": 2018
+  },
+  "Team Bliss": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
   },
   "Team CC": {
     "region": "Unknown",
@@ -6963,6 +7343,11 @@
     "region": "Unknown",
     "start_year": 2020,
     "end_year": 2023
+  },
+  "Team Flash": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2021
   },
   "Team Flash.Vietnam": {
     "region": "Unknown",
@@ -7188,6 +7573,11 @@
     "region": "Unknown",
     "start_year": 2020,
     "end_year": 2026
+  },
+  "Team Phoenix": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
   },
   "Team Phoenix (Chinese Team)": {
     "region": "Unknown",
@@ -7450,12 +7840,12 @@
     "end_year": 2016
   },
   "ThunderTalk Gaming": {
-    "region": "Unknown",
+    "region": "LPL",
     "start_year": 2020,
     "end_year": 2026
   },
   "ThunderTalk Gaming Young": {
-    "region": "Unknown",
+    "region": "LPL",
     "start_year": 2021,
     "end_year": 2026
   },
@@ -7488,6 +7878,11 @@
     "region": "Unknown",
     "start_year": 2015,
     "end_year": 2015
+  },
+  "TongFu": {
+    "region": "Unknown",
+    "start_year": 2012,
+    "end_year": 2012
   },
   "Tony Parker Adéquat Academy": {
     "region": "Unknown CL",
@@ -7589,6 +7984,16 @@
     "start_year": 2019,
     "end_year": 2019
   },
+  "UOL Sexy Edition": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2023
+  },
+  "UP Academy": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
   "Ulsan": {
     "region": "Unknown",
     "start_year": 2019,
@@ -7614,6 +8019,11 @@
     "start_year": 2013,
     "end_year": 2013
   },
+  "Uncle Ruckus' Revenge": {
+    "region": "Unknown",
+    "start_year": 2013,
+    "end_year": 2013
+  },
   "Undead Gaming": {
     "region": "Unknown",
     "start_year": 2018,
@@ -7630,7 +8040,7 @@
     "end_year": 2020
   },
   "Unicorns of Love": {
-    "region": "EMEA",
+    "region": "Unknown",
     "start_year": 2014,
     "end_year": 2018
   },
@@ -7679,6 +8089,11 @@
     "start_year": 2021,
     "end_year": 2025
   },
+  "Unlimited Potential": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2019
+  },
   "Up": {
     "region": "LPL",
     "start_year": 2025,
@@ -7719,6 +8134,11 @@
     "start_year": 2026,
     "end_year": 2026
   },
+  "VG Potential": {
+    "region": "Unknown",
+    "start_year": 2019,
+    "end_year": 2021
+  },
   "VIRUS (Greek Team)": {
     "region": "Unknown",
     "start_year": 2018,
@@ -7730,7 +8150,7 @@
     "end_year": 2022
   },
   "VSG (Korean Team)": {
-    "region": "Unknown",
+    "region": "LCK",
     "start_year": 2019,
     "end_year": 2019
   },
@@ -7847,7 +8267,7 @@
   "Vici Gaming": {
     "region": "Unknown",
     "start_year": 2012,
-    "end_year": 2019
+    "end_year": 2021
   },
   "Vici Gaming Potential": {
     "region": "Unknown",
@@ -7884,6 +8304,11 @@
     "start_year": 2019,
     "end_year": 2022
   },
+  "Vietnam": {
+    "region": "VCS",
+    "start_year": 2023,
+    "end_year": 2023
+  },
   "Vietnam (National Team)": {
     "region": "Unknown",
     "start_year": 2023,
@@ -7899,13 +8324,18 @@
     "start_year": 2019,
     "end_year": 2021
   },
+  "Vikings Esports": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2024
+  },
   "Vikings Esports (2023 Vietnamese Team)": {
     "region": "Unknown",
     "start_year": 2023,
     "end_year": 2024
   },
   "Vin (Korean Team)": {
-    "region": "Unknown",
+    "region": "LCK",
     "start_year": 2021,
     "end_year": 2021
   },
@@ -7999,10 +8429,20 @@
     "start_year": 2021,
     "end_year": 2022
   },
+  "WBG Youth Team": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2026
+  },
   "WE": {
     "region": "LPL",
     "start_year": 2018,
     "end_year": 2026
+  },
+  "WE Academy": {
+    "region": "LPL",
+    "start_year": 2014,
+    "end_year": 2025
   },
   "WLGaming Esports": {
     "region": "Unknown",
@@ -8024,8 +8464,18 @@
     "start_year": 2016,
     "end_year": 2016
   },
-  "WaY (Korean Team)": {
+  "WZ Esports Club": {
     "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "WaY": {
+    "region": "Unknown",
+    "start_year": 2016,
+    "end_year": 2016
+  },
+  "WaY (Korean Team)": {
+    "region": "LCK",
     "start_year": 2016,
     "end_year": 2016
   },
@@ -8124,6 +8574,11 @@
     "start_year": 2022,
     "end_year": 2022
   },
+  "Wildcard Black": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
+  },
   "Wildcard Gaming": {
     "region": "Unknown",
     "start_year": 2017,
@@ -8141,6 +8596,11 @@
   },
   "Wildcard Gaming Red": {
     "region": "CBLOL",
+    "start_year": 2021,
+    "end_year": 2021
+  },
+  "Wildcard Red": {
+    "region": "Unknown",
     "start_year": 2021,
     "end_year": 2021
   },
@@ -8166,7 +8626,7 @@
   },
   "Winners": {
     "region": "Unknown",
-    "start_year": 2024,
+    "start_year": 2019,
     "end_year": 2024
   },
   "Winterfox": {
@@ -8262,7 +8722,12 @@
   "Young Miracles": {
     "region": "Unknown",
     "start_year": 2016,
-    "end_year": 2019
+    "end_year": 2023
+  },
+  "Young Ninjas": {
+    "region": "Unknown",
+    "start_year": 2023,
+    "end_year": 2023
   },
   "YouthCrew Esports": {
     "region": "Unknown",
@@ -8474,6 +8939,11 @@
     "start_year": 2017,
     "end_year": 2017
   },
+  "eStar": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2020
+  },
   "eStar (Chinese Team)": {
     "region": "Unknown",
     "start_year": 2020,
@@ -8511,8 +8981,13 @@
   },
   "hyFresh Blade": {
     "region": "Unknown",
-    "start_year": 2020,
+    "start_year": 2019,
     "end_year": 2020
+  },
+  "iG Young": {
+    "region": "Unknown",
+    "start_year": 2020,
+    "end_year": 2024
   },
   "iNAT Gaming": {
     "region": "Unknown",
@@ -8525,7 +9000,7 @@
     "end_year": 2015
   },
   "mTw - aL": {
-    "region": "LPL",
+    "region": "Unknown",
     "start_year": 2011,
     "end_year": 2011
   },
@@ -8634,6 +9109,11 @@
     "start_year": 2018,
     "end_year": 2018
   },
+  "ÇİLEKLER": {
+    "region": "Unknown",
+    "start_year": 2018,
+    "end_year": 2018
+  },
   "Östersunds FK Esports": {
     "region": "Unknown",
     "start_year": 2019,
@@ -8648,6 +9128,11 @@
     "region": "Unknown",
     "start_year": 2023,
     "end_year": 2023
+  },
+  "구디단게이밍": {
+    "region": "Unknown",
+    "start_year": 2021,
+    "end_year": 2021
   },
   "남구로 게이밍": {
     "region": "Unknown",
@@ -8708,6 +9193,11 @@
     "region": "Unknown",
     "start_year": 2021,
     "end_year": 2021
+  },
+  "전기통닭구이": {
+    "region": "Unknown",
+    "start_year": 2022,
+    "end_year": 2022
   },
   "정글 격리해제": {
     "region": "Unknown",
