@@ -23272,8 +23272,8 @@
         "duration": "Nov 2025 - Present"
       },
       {
-        "player": "Kanavi",
-        "role": "jungle",
+        "player": "Gumayusi",
+        "role": "adc",
         "start_year": 2025,
         "end_year": 2026,
         "start_month": 11,
@@ -23281,13 +23281,13 @@
         "duration": "Nov 2025 - Present"
       },
       {
-        "player": "Gumayusi",
-        "role": "adc",
-        "start_year": 2026,
+        "player": "Kanavi",
+        "role": "jungle",
+        "start_year": 2025,
         "end_year": 2026,
         "start_month": 11,
         "end_month": null,
-        "duration": "Nov 2026 - Present"
+        "duration": "Nov 2025 - Present"
       },
       {
         "player": "Zeka",
@@ -41886,6 +41886,15 @@
         "duration": "Nov 2018 - Nov 2019"
       },
       {
+        "player": "Gumayusi",
+        "role": "adc",
+        "start_year": 2018,
+        "end_year": 2019,
+        "start_month": 12,
+        "end_month": 12,
+        "duration": "Dec 2018 - Dec 2019"
+      },
+      {
         "player": "Ellim",
         "role": "jungle",
         "start_year": 2018,
@@ -42766,6 +42775,15 @@
         "start_month": 8,
         "end_month": 12,
         "duration": "Aug 2017 - Dec 2018"
+      },
+      {
+        "player": "Gumayusi",
+        "role": "adc",
+        "start_year": 2018,
+        "end_year": 2018,
+        "start_month": 8,
+        "end_month": 12,
+        "duration": "Aug 2018 - Dec 2018"
       },
       {
         "player": "Ellim",
@@ -44754,6 +44772,15 @@
   [
     "T1",
     [
+      {
+        "player": "Gumayusi",
+        "role": "adc",
+        "start_year": 2019,
+        "end_year": 2025,
+        "start_month": 12,
+        "end_month": 11,
+        "duration": "Dec 2019 - Nov 2025"
+      },
       {
         "player": "Teddy",
         "role": "adc",

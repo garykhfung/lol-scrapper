@@ -719,6 +719,152 @@ async def _build_rebrand_chains():
     return chain_display, team_to_root
 
 
+# ── Graph Explore ─────────────────────────────────────────────────────────────
+
+@app.get('/api/explore')
+async def get_explore(type: str = Query(), name: str = Query(''), limit: int = Query(30)):
+    """Return center node + direct connections for graph exploration."""
+    nodes = []
+    edges = []
+    seen_ids = set()
+
+    def add_node(nid, label, ntype, **extra):
+        if nid not in seen_ids:
+            seen_ids.add(nid)
+            nodes.append({'id': nid, 'label': label, 'type': ntype, **extra})
+
+    def add_edge(frm, to, label='', **extra):
+        eid = f'{frm}->{to}'
+        edges.append({'id': eid, 'from': frm, 'to': to, 'label': label, **extra})
+
+    if type == 'player':
+        # Player enrichment
+        center = await query(
+            'MATCH (p:Player {name: $name}) '
+            'RETURN p.role AS role, p.nationality AS nationality, p.status AS status',
+            name=name,
+        )
+        penrich = {}
+        if center:
+            penrich = {k: v for k, v in center[0].items() if v}
+        add_node(f'player::{name}', name, 'player', **penrich)
+
+        rows = await query(
+            'MATCH (p:Player {name: $name})-[r:PLAYED_FOR]->(t:Team) '
+            'RETURN t.name AS team, t.region AS region, t.year AS year, '
+            '       head(collect(DISTINCT r.role)) AS role, '
+            '       min(r.start_year) AS stint_start, max(coalesce(r.end_year, r.start_year)) AS stint_end '
+            'ORDER BY stint_start',
+            name=name,
+        )
+        for r in rows:
+            tn = r['team']
+            tenrich = {'region': r['region']} if r.get('region') and r['region'] not in ('Unknown', 'Unknown CL') else {}
+            if r.get('year'):
+                tenrich['year'] = r['year']
+            add_node(f'team::{tn}', tn, 'team', **tenrich)
+            role = r.get('role') or ''
+            start = r.get('stint_start')
+            end = r.get('stint_end')
+            label = role
+            if start and end and start != end:
+                label += f' {start}-{end}'
+            elif start:
+                label += f' {start}'
+            add_edge(f'player::{name}', f'team::{tn}', label.strip(),
+                     role=role, stint_start=start, stint_end=end)
+            region = r.get('region')
+            if region and region not in ('Unknown', 'Unknown CL'):
+                rid = f'region::{region}'
+                add_node(rid, region, 'region')
+                add_edge(f'team::{tn}', rid)
+
+    elif type == 'team':
+        # Team enrichment
+        center = await query(
+            'MATCH (t:Team {name: $name}) '
+            'RETURN t.region AS region, t.year AS year',
+            name=name,
+        )
+        tenrich = {}
+        if center:
+            c = center[0]
+            if c.get('region') and c['region'] not in ('Unknown', 'Unknown CL'):
+                tenrich['region'] = c['region']
+            if c.get('year'):
+                tenrich['year'] = c['year']
+        add_node(f'team::{name}', name, 'team', **tenrich)
+
+        # Players
+        rows = await query(
+            'MATCH (p:Player)-[r:PLAYED_FOR]->(t:Team {name: $name}) '
+            'RETURN p.name AS player, p.role AS prole, p.nationality AS nationality, p.status AS status, '
+            '       head(collect(DISTINCT r.role)) AS srole, '
+            '       min(r.start_year) AS stint_start, max(coalesce(r.end_year, r.start_year)) AS stint_end '
+            'ORDER BY player',
+            name=name,
+        )
+        for r in rows:
+            pn = r['player']
+            penrich = {}
+            if r.get('prole'):
+                penrich['role'] = r['prole']
+            if r.get('nationality'):
+                penrich['nationality'] = r['nationality']
+            if r.get('status'):
+                penrich['status'] = r['status']
+            add_node(f'player::{pn}', pn, 'player', **penrich)
+            role = r.get('srole') or r.get('prole') or ''
+            start = r.get('stint_start')
+            end = r.get('stint_end')
+            label = role
+            if start and end and start != end:
+                label += f' {start}-{end}'
+            elif start:
+                label += f' {start}'
+            add_edge(f'player::{pn}', f'team::{name}', label.strip(),
+                     role=role, stint_start=start, stint_end=end)
+            if len([n for n in nodes if n['id'].startswith('player::')]) >= limit:
+                break
+            if len(seen_players) >= limit:
+                break
+        # Region
+        meta = await query(
+            'MATCH (t:Team {name: $name}) '
+            'RETURN t.region AS region LIMIT 1',
+            name=name,
+        )
+        if meta:
+            region = meta[0].get('region')
+            if region and region not in ('Unknown', 'Unknown CL'):
+                add_node(f'region::{region}', region, 'region')
+                add_edge(f'team::{name}', f'region::{region}')
+        # Rebrand chain
+        lineage, _ = await _get_rebranded_chain(name)
+        if lineage and len(lineage) > 1:
+            for i, (n, yr) in enumerate(lineage):
+                if i == 0:
+                    add_node(f'team::{n}', n, 'team')
+                    if n != name:
+                        add_edge(f'team::{name}', f'team::{n}')
+                else:
+                    add_node(f'team::{n}', n, 'team')
+                    prev = lineage[i - 1][0]
+                    label = f'→ {yr}' if yr else ''
+                    add_edge(f'team::{prev}', f'team::{n}', label)
+        # Sub-teams
+        subs = await query(
+            'MATCH (sub:Team)-[:SUBTEAM_OF]->(parent:Team {name: $name}) '
+            'RETURN sub.name AS subteam ORDER BY sub.name',
+            name=name,
+        )
+        for s in subs:
+            add_node(f'team::{s["subteam"]}', s['subteam'], 'team')
+            add_edge(f'team::{name}', f'team::{s["subteam"]}', 'subteam')
+
+    return {'nodes': nodes, 'edges': edges}
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 if __name__ == '__main__':

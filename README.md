@@ -124,3 +124,6 @@ The `index.html` + `data/` directory is fully static. Push to a `gh-pages` branc
 ## License
 
 MIT
+
+## Link
+[Click Here](https://garykhfung.github.io/lol-scrapper/)

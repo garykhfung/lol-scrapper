@@ -74758,9 +74758,108 @@
     "team": "Hanwha Life Esports",
     "region": "LCK",
     "role": "adc",
+    "year": 2025,
+    "start_month": 11,
+    "end_month": null
+  },
+  {
+    "player": "Gumayusi",
+    "team": "Hanwha Life Esports",
+    "region": "LCK",
+    "role": "adc",
     "year": 2026,
     "start_month": 11,
     "end_month": null
+  },
+  {
+    "player": "Gumayusi",
+    "team": "Seoul",
+    "region": "Unknown",
+    "role": "adc",
+    "year": 2018,
+    "start_month": 8,
+    "end_month": 12
+  },
+  {
+    "player": "Gumayusi",
+    "team": "SK Telecom T1",
+    "region": "LCK",
+    "role": "adc",
+    "year": 2018,
+    "start_month": 12,
+    "end_month": null
+  },
+  {
+    "player": "Gumayusi",
+    "team": "SK Telecom T1",
+    "region": "LCK",
+    "role": "adc",
+    "year": 2019,
+    "start_month": 11,
+    "end_month": 12
+  },
+  {
+    "player": "Gumayusi",
+    "team": "T1",
+    "region": "LCK",
+    "role": "adc",
+    "year": 2019,
+    "start_month": 12,
+    "end_month": null
+  },
+  {
+    "player": "Gumayusi",
+    "team": "T1",
+    "region": "LCK",
+    "role": "adc",
+    "year": 2020,
+    "start_month": null,
+    "end_month": null
+  },
+  {
+    "player": "Gumayusi",
+    "team": "T1",
+    "region": "LCK",
+    "role": "adc",
+    "year": 2021,
+    "start_month": 7,
+    "end_month": null
+  },
+  {
+    "player": "Gumayusi",
+    "team": "T1",
+    "region": "LCK",
+    "role": "adc",
+    "year": 2022,
+    "start_month": null,
+    "end_month": null
+  },
+  {
+    "player": "Gumayusi",
+    "team": "T1",
+    "region": "LCK",
+    "role": "adc",
+    "year": 2023,
+    "start_month": null,
+    "end_month": null
+  },
+  {
+    "player": "Gumayusi",
+    "team": "T1",
+    "region": "LCK",
+    "role": "adc",
+    "year": 2024,
+    "start_month": null,
+    "end_month": null
+  },
+  {
+    "player": "Gumayusi",
+    "team": "T1",
+    "region": "LCK",
+    "role": "adc",
+    "year": 2025,
+    "start_month": null,
+    "end_month": 11
   },
   {
     "player": "Delight",

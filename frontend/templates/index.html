@@ -3,327 +3,616 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LCK Career DB</title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4">
-  </script>
+  <title>LoL Career DB</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vis-network@9.1.6/dist/vis-network.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-network@9.1.6/dist/vis-network.min.css" />
   <style>
-    .view-section {
-      display: none;
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+    * { font-family: 'Inter', system-ui, sans-serif; }
+    .view-section { display: none; }
+    .view-section.active { display: block; animation: fadeIn 0.25s ease-out; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    .nav-btn {
+      position: relative;
+      transition: all 0.2s ease;
     }
-    .view-section.active {
-      display: block;
+    .nav-btn::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 3px;
+      height: 0;
+      background: #fbbf24;
+      border-radius: 0 2px 2px 0;
+      transition: height 0.2s ease;
     }
-    .nav-btn.active {
-      background-color: #1e293b;
-      color: white;
-    }
-    .table-wrap {
-      overflow-x: auto;
-    }
-    .table-wrap table {
-      min-width: 600px;
-    }
-    .pill {
-      display: inline-block;
-      padding: 0.125rem 0.5rem;
-      border-radius: 9999px;
-      font-size: 0.75rem;
-      font-weight: 500;
-    }
+    .nav-btn.active::before { height: 60%; }
+    .nav-btn.active { background: rgba(251, 191, 36, 0.08); color: #fbbf24; }
+    .nav-btn:not(.active):hover { background: rgba(255,255,255,0.05); }
+    .table-wrap { overflow-x: auto; border-radius: 0.5rem; }
+    .table-wrap table { min-width: 600px; }
+    .table-wrap tbody tr { transition: background 0.15s ease; }
+    .table-wrap tbody tr:hover { background: rgba(59, 130, 246, 0.04); }
+    .pill { display: inline-block; padding: 0.125rem 0.5rem; border-radius: 9999px; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.01em; }
+    .card-hover { transition: all 0.2s ease; }
+    .card-hover:hover { transform: translateY(-2px); box-shadow: 0 12px 24px -8px rgba(0,0,0,0.1); }
+    .stat-icon { width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; }
+    .search-input { transition: all 0.2s ease; }
+    .search-input:focus { box-shadow: 0 0 0 3px rgba(251, 191, 36, 0.15); border-color: #fbbf24; }
+    select, button:not(.nav-btn) { transition: all 0.2s ease; }
+    select:focus { box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.12); border-color: #3b82f6; outline: none; }
+    .chain-arrow { color: #fbbf24; font-weight: 700; }
+    .chain-node { transition: all 0.15s ease; }
+    .chain-node:hover { transform: scale(1.05); }
+    .progress-bar { height: 3px; background: linear-gradient(90deg, #fbbf24, #f59e0b); border-radius: 2px; }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    .spinner { width: 18px; height: 18px; border: 2px solid #e2e8f0; border-top-color: #3b82f6; border-radius: 50%; animation: spin 0.6s linear infinite; display: inline-block; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .loading-overlay { display: flex; align-items: center; gap: 0.5rem; padding: 2rem; justify-content: center; color: #64748b; font-size: 0.875rem; }
+    #graph-container { width: 100%; height: 580px; border-radius: 0.75rem; background: #f8fafc; }
+    #graph-container .vis-network:focus { outline: none; }
+    #graph-container .vis-tooltip { font-family: 'Inter', sans-serif; font-size: 0.75rem; padding: 0.5rem 0.75rem; border-radius: 0.5rem; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: none; background: #1e293b; color: #e2e8f0; }
+    .graph-legend { display: flex; flex-wrap: wrap; gap: 1.25rem; }
+    .graph-legend-item { display: flex; align-items: center; gap: 0.375rem; font-size: 0.7rem; color: #64748b; }
   </style>
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans antialiased">
-  <div class="flex h-screen">
-    <!-- Sidebar -->
-    <aside class="w-56 shrink-0 bg-slate-900 text-slate-300 flex flex-col">
-      <div class="px-4 py-5 border-b border-slate-700">
-        <h1 class="text-lg font-bold text-white tracking-tight">LCK Career DB</h1>
-        <p class="text-xs text-slate-500 mt-0.5">League of Legends</p>
+<body class="bg-slate-50 text-slate-800 antialiased">
+  <!-- Top bar -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-30">
+    <div class="flex items-center justify-between px-4 lg:px-6 h-14">
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center text-white font-black text-sm shadow-sm">L</div>
+        <div>
+          <h1 class="text-sm font-bold text-slate-800 leading-tight">LoL Career DB</h1>
+          <p class="text-[10px] text-slate-400 leading-tight">Neo4j Graph Database</p>
+        </div>
       </div>
-      <nav class="flex-1 overflow-y-auto py-3 space-y-0.5 px-2">
-        <button class="nav-btn w-full text-left px-3 py-2 rounded text-sm font-medium hover:bg-slate-800 transition-colors active" data-view="stats">Overview</button>
-        <button class="nav-btn w-full text-left px-3 py-2 rounded text-sm font-medium hover:bg-slate-800 transition-colors" data-view="season">Season View</button>
-        <button class="nav-btn w-full text-left px-3 py-2 rounded text-sm font-medium hover:bg-slate-800 transition-colors" data-view="player">Player View</button>
-        <button class="nav-btn w-full text-left px-3 py-2 rounded text-sm font-medium hover:bg-slate-800 transition-colors" data-view="team">Team View</button>
-        <button class="nav-btn w-full text-left px-3 py-2 rounded text-sm font-medium hover:bg-slate-800 transition-colors" data-view="rename">Rename Chain</button>
-        <button class="nav-btn w-full text-left px-3 py-2 rounded text-sm font-medium hover:bg-slate-800 transition-colors" data-view="subteams">Sub-teams</button>
-      </nav>
-      <div class="px-4 py-3 border-t border-slate-700 text-xs text-slate-600">
-        Neo4j graph database
+      <div class="flex items-center gap-3">
+        <div class="hidden sm:flex items-center gap-1 text-xs text-slate-400">
+          <span class="inline-block w-2 h-2 rounded-full bg-green-400"></span>
+          <span id="data-status">Connected</span>
+        </div>
+        <button id="global-search-btn" class="text-xs text-slate-400 hover:text-slate-600 transition-colors bg-slate-100 hover:bg-slate-200 rounded-lg px-3 py-1.5 flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          Search
+        </button>
       </div>
-    </aside>
+    </div>
+    <!-- Nav tabs -->
+    <nav class="flex px-4 lg:px-6 gap-0.5 overflow-x-auto">
+      <button class="nav-btn px-3.5 py-2.5 text-xs font-medium text-slate-500 active whitespace-nowrap" data-view="stats">Overview</button>
+      <button class="nav-btn px-3.5 py-2.5 text-xs font-medium text-slate-500 whitespace-nowrap" data-view="season">Season</button>
+      <button class="nav-btn px-3.5 py-2.5 text-xs font-medium text-slate-500 whitespace-nowrap" data-view="player">Player</button>
+      <button class="nav-btn px-3.5 py-2.5 text-xs font-medium text-slate-500 whitespace-nowrap" data-view="team">Team</button>
+      <button class="nav-btn px-3.5 py-2.5 text-xs font-medium text-slate-500 whitespace-nowrap" data-view="rename">Rebrands</button>
+      <button class="nav-btn px-3.5 py-2.5 text-xs font-medium text-slate-500 whitespace-nowrap" data-view="subteams">Sub-teams</button>
+      <button class="nav-btn px-3.5 py-2.5 text-xs font-medium text-slate-500 whitespace-nowrap" data-view="explore">Explore</button>
+    </nav>
+  </header>
 
-    <!-- Main -->
-    <main class="flex-1 overflow-y-auto p-6">
-      <!-- Overview -->
-      <section id="view-stats" class="view-section active">
-        <h2 class="text-2xl font-bold mb-4">Database Overview</h2>
-        <div id="stats-cards" class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6"></div>
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <div class="bg-white rounded-xl shadow-sm border p-4">
-            <h3 class="font-semibold text-sm text-slate-500 uppercase tracking-wide mb-3">Players by Role</h3>
-            <div class="relative" style="height:300px"><canvas id="stats-role-chart"></canvas></div>
+  <!-- Main -->
+  <main class="max-w-7xl mx-auto px-4 lg:px-6 py-5">
+    <!-- Overview -->
+    <section id="view-stats" class="view-section active">
+      <div class="flex items-center justify-between mb-5">
+        <h2 class="text-lg font-bold text-slate-800">Database Overview</h2>
+        <span class="text-xs text-slate-400 bg-slate-100 px-2.5 py-1 rounded-full">Live from Neo4j</span>
+      </div>
+      <div id="stats-cards" class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6"></div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5 card-hover">
+          <h3 class="font-semibold text-xs text-slate-400 uppercase tracking-wider mb-4 flex items-center gap-2">
+            <span class="w-1 h-4 rounded bg-blue-500"></span>
+            Players by Role
+          </h3>
+          <div class="relative" style="height:280px"><canvas id="stats-role-chart"></canvas></div>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5 card-hover">
+          <h3 class="font-semibold text-xs text-slate-400 uppercase tracking-wider mb-4 flex items-center gap-2">
+            <span class="w-1 h-4 rounded bg-amber-500"></span>
+            Teams by Region
+          </h3>
+          <div class="relative" style="height:280px"><canvas id="stats-region-chart"></canvas></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Season View -->
+    <section id="view-season" class="view-section">
+      <h2 class="text-lg font-bold text-slate-800 mb-1">Season View</h2>
+      <p class="text-xs text-slate-400 mb-4">Browse rosters by competitive season. <strong class="text-slate-500">Era 1</strong> (2011–2013): named seasons. <strong class="text-slate-500">Era 2</strong> (2014–2024): Spring + Summer. <strong class="text-slate-500">Era 3</strong> (2025+): First Stand · MSI · Worlds.</p>
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-4 mb-5 flex flex-wrap gap-3 items-end">
+        <div>
+          <label class="block text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Season</label>
+          <select id="season-select" class="border border-slate-200 rounded-lg px-3 py-2 text-sm bg-white min-w-[130px]"></select>
+        </div>
+        <div>
+          <label class="block text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Region</label>
+          <select id="season-region" class="border border-slate-200 rounded-lg px-3 py-2 text-sm bg-white min-w-[130px]">
+            <option value="">All Regions</option>
+          </select>
+        </div>
+        <button id="season-go" class="bg-gradient-to-r from-yellow-400 to-amber-500 text-white px-5 py-2 rounded-lg text-sm font-semibold hover:from-yellow-500 hover:to-amber-600 shadow-sm">Go</button>
+      </div>
+      <div id="season-results"></div>
+    </section>
+
+    <!-- Player View -->
+    <section id="view-player" class="view-section">
+      <h2 class="text-lg font-bold text-slate-800 mb-1">Player View</h2>
+      <p class="text-xs text-slate-400 mb-4">Look up any player's complete career timeline across all teams and regions.</p>
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-4 mb-5 flex flex-wrap gap-3 items-end">
+        <div>
+          <label class="block text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Region</label>
+          <select id="player-region" class="border border-slate-200 rounded-lg px-3 py-2 text-sm bg-white min-w-[130px]">
+            <option value="">All Regions</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Role</label>
+          <select id="player-role" class="border border-slate-200 rounded-lg px-3 py-2 text-sm bg-white min-w-[120px]">
+            <option value="">All Roles</option>
+          </select>
+        </div>
+        <div class="flex-1 min-w-[200px]">
+          <label class="block text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Player</label>
+          <select id="player-select" class="border border-slate-200 rounded-lg px-3 py-2 text-sm bg-white w-full"></select>
+        </div>
+        <button id="player-go" class="bg-gradient-to-r from-yellow-400 to-amber-500 text-white px-5 py-2 rounded-lg text-sm font-semibold hover:from-yellow-500 hover:to-amber-600 shadow-sm">Go</button>
+      </div>
+      <div id="player-results"></div>
+    </section>
+
+    <!-- Team View -->
+    <section id="view-team" class="view-section">
+      <h2 class="text-lg font-bold text-slate-800 mb-1">Team View</h2>
+      <p class="text-xs text-slate-400 mb-4">View all players who played for a team, including its rebrand history.</p>
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-4 mb-5 flex flex-wrap gap-3 items-end">
+        <div>
+          <label class="block text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Region</label>
+          <select id="team-region" class="border border-slate-200 rounded-lg px-3 py-2 text-sm bg-white min-w-[130px]">
+            <option value="">All Regions</option>
+          </select>
+        </div>
+        <div class="flex-1 min-w-[200px]">
+          <label class="block text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Team</label>
+          <select id="team-select" class="border border-slate-200 rounded-lg px-3 py-2 text-sm bg-white w-full" disabled>
+            <option value="">Select region first...</option>
+          </select>
+        </div>
+        <button id="team-go" class="bg-gradient-to-r from-yellow-400 to-amber-500 text-white px-5 py-2 rounded-lg text-sm font-semibold hover:from-yellow-500 hover:to-amber-600 shadow-sm disabled:opacity-40 disabled:cursor-not-allowed" disabled>Go</button>
+      </div>
+      <div id="team-results"></div>
+    </section>
+
+    <!-- Rename Chain -->
+    <section id="view-rename" class="view-section">
+      <h2 class="text-lg font-bold text-slate-800 mb-1">Rename Chain</h2>
+      <p class="text-xs text-slate-400 mb-4">Trace a team's lineage through all its rebrands and renames.</p>
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-4 mb-5 flex flex-wrap gap-3 items-end">
+        <div class="flex-1 min-w-[200px]">
+          <label class="block text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Team</label>
+          <select id="rename-select" class="border border-slate-200 rounded-lg px-3 py-2 text-sm bg-white w-full"></select>
+        </div>
+        <button id="rename-go" class="bg-gradient-to-r from-yellow-400 to-amber-500 text-white px-5 py-2 rounded-lg text-sm font-semibold hover:from-yellow-500 hover:to-amber-600 shadow-sm">Go</button>
+      </div>
+      <div id="rename-results"></div>
+    </section>
+
+    <!-- Sub-teams -->
+    <section id="view-subteams" class="view-section">
+      <h2 class="text-lg font-bold text-slate-800 mb-1">Sub-teams</h2>
+      <p class="text-xs text-slate-400 mb-4">Explore academy teams, sister teams, and other sub-organizations.</p>
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-4 mb-5 flex flex-wrap gap-3 items-end">
+        <div class="flex-1 min-w-[200px]">
+          <label class="block text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Team</label>
+          <select id="subteams-select" class="border border-slate-200 rounded-lg px-3 py-2 text-sm bg-white w-full"></select>
+        </div>
+        <button id="subteams-go" class="bg-gradient-to-r from-yellow-400 to-amber-500 text-white px-5 py-2 rounded-lg text-sm font-semibold hover:from-yellow-500 hover:to-amber-600 shadow-sm">Go</button>
+      </div>
+      <div id="subteams-results"></div>
+    </section>
+
+    <!-- Explore -->
+    <section id="view-explore" class="view-section">
+      <h2 class="text-lg font-bold text-slate-800 mb-1">Graph Explore</h2>
+      <p class="text-xs text-slate-400 mb-4">Search for a player or team and explore their connections interactively. Drag to rearrange, zoom to explore.</p>
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-4 mb-4 flex flex-wrap gap-3 items-end">
+        <div class="flex-1 min-w-[220px]">
+          <label class="block text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Search player or team</label>
+          <input id="explore-search" type="text" class="border border-slate-200 rounded-lg px-3 py-2 text-sm w-full search-input" placeholder="Type to search..." autocomplete="off" />
+        </div>
+        <button id="explore-go" class="bg-gradient-to-r from-yellow-400 to-amber-500 text-white px-5 py-2 rounded-lg text-sm font-semibold hover:from-yellow-500 hover:to-amber-600 shadow-sm disabled:opacity-40 disabled:cursor-not-allowed" disabled>Explore</button>
+        <button id="explore-clear" class="text-xs text-slate-400 hover:text-slate-600 bg-slate-100 hover:bg-slate-200 rounded-lg px-3 py-2 transition-colors">Clear</button>
+      </div>
+      <div id="explore-results" class="mb-4"></div>
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden card-hover">
+        <div class="px-5 py-3 border-b border-slate-100 bg-gradient-to-r from-slate-50 to-white flex items-center justify-between flex-wrap gap-2">
+          <div class="flex items-center gap-4 graph-legend">
+            <span class="graph-legend-item"><span class="w-3 h-3 rounded-full bg-blue-500"></span> Player</span>
+            <span class="graph-legend-item"><span class="w-3 h-3 rounded-full bg-amber-500"></span> Team</span>
+            <span class="graph-legend-item"><span class="w-3 h-3 rounded-full bg-emerald-500"></span> Region</span>
           </div>
-          <div class="bg-white rounded-xl shadow-sm border p-4">
-            <h3 class="font-semibold text-sm text-slate-500 uppercase tracking-wide mb-3">Teams by Region</h3>
-            <div class="relative" style="height:300px"><canvas id="stats-region-chart"></canvas></div>
+          <span id="graph-info" class="text-[10px] text-slate-400">Enter a name to begin exploration</span>
+        </div>
+        <div class="flex gap-0 min-h-[400px]">
+          <div id="graph-container" class="flex-1" style="position:relative"></div>
+          <div id="explore-sidecard" class="w-72 shrink-0 border-l border-slate-200 bg-slate-50/80 p-4 hidden flex flex-col gap-3 overflow-y-auto" style="max-height:580px">
+            <div id="sidecard-content"></div>
           </div>
         </div>
-      </section>
+      </div> <!-- end explore-main -->
+    </div> <!-- end section-body -->
+  </section>
+  </main>
 
-      <!-- Season View -->
-      <section id="view-season" class="view-section">
-        <h2 class="text-2xl font-bold mb-4">Season View</h2>
-        <p class="text-sm text-slate-500 mb-4">Browse rosters by competitive season. <strong>Era 1</strong> (2011–2013): named seasons. <strong>Era 2</strong> (2014–2024): Spring + Summer splits. <strong>Era 3</strong> (2025+): three-split format &rarr; First Stand &middot; MSI &middot; Worlds.</p>
-        <div class="flex flex-wrap gap-3 mb-4 items-end">
-          <div>
-            <label class="block text-xs font-medium text-slate-500 mb-1">Season</label>
-            <select id="season-select" class="border rounded-lg px-3 py-2 text-sm bg-white shadow-sm min-w-[100px]"></select>
-          </div>
-          <div>
-            <label class="block text-xs font-medium text-slate-500 mb-1">Region (optional)</label>
-            <select id="season-region" class="border rounded-lg px-3 py-2 text-sm bg-white shadow-sm min-w-[120px]">
-              <option value="">All Regions</option>
-            </select>
-          </div>
-          <button id="season-go" class="bg-slate-800 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-slate-700 transition-colors">Go</button>
-        </div>
-        <div id="season-results"></div>
-      </section>
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 bg-white mt-4">
+    <div class="max-w-7xl mx-auto px-4 lg:px-6 py-3 flex items-center justify-between text-xs text-slate-400">
+      <span>LoL Career DB</span>
+      <span>Data sourced from <a href="https://lol.fandom.com" class="text-blue-500 hover:text-blue-600" target="_blank">lol.fandom.com</a></span>
+    </div>
+  </footer>
 
-      <!-- Player View -->
-      <section id="view-player" class="view-section">
-        <h2 class="text-2xl font-bold mb-4">Player View</h2>
-        <div class="flex flex-wrap gap-3 mb-4 items-end">
-          <div>
-            <label class="block text-xs font-medium text-slate-500 mb-1">Region</label>
-            <select id="player-region" class="border rounded-lg px-3 py-2 text-sm bg-white shadow-sm min-w-[180px]">
-              <option value="">All Regions</option>
-            </select>
-          </div>
-          <div>
-            <label class="block text-xs font-medium text-slate-500 mb-1">Role</label>
-            <select id="player-role" class="border rounded-lg px-3 py-2 text-sm bg-white shadow-sm min-w-[120px]">
-              <option value="">All Roles</option>
-            </select>
-          </div>
-          <div>
-            <label class="block text-xs font-medium text-slate-500 mb-1">Player</label>
-            <select id="player-select" class="border rounded-lg px-3 py-2 text-sm bg-white shadow-sm min-w-[200px]"></select>
-          </div>
-          <button id="player-go" class="bg-slate-800 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-slate-700 transition-colors">Go</button>
-        </div>
-        <div id="player-results"></div>
-      </section>
-
-      <!-- Team View -->
-      <section id="view-team" class="view-section">
-        <h2 class="text-2xl font-bold mb-4">Team View</h2>
-        <div class="flex flex-wrap gap-3 mb-4 items-end">
-          <div>
-            <label class="block text-xs font-medium text-slate-500 mb-1">Region</label>
-            <select id="team-region" class="border rounded-lg px-3 py-2 text-sm bg-white shadow-sm min-w-[180px]">
-              <option value="">Select a region...</option>
-              <option value="LCK" selected>LCK</option>
-            </select>
-          </div>
-          <div>
-            <label class="block text-xs font-medium text-slate-500 mb-1">Team</label>
-            <select id="team-select" class="border rounded-lg px-3 py-2 text-sm bg-white shadow-sm min-w-[200px]" disabled>
-              <option value="">Select region first...</option>
-            </select>
-          </div>
-          <button id="team-go" class="bg-slate-800 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-slate-700 transition-colors" disabled>Go</button>
-        </div>
-        <div id="team-results"></div>
-      </section>
-
-      <!-- Rename Chain -->
-      <section id="view-rename" class="view-section">
-        <h2 class="text-2xl font-bold mb-4">Rename Chain</h2>
-        <div class="flex flex-wrap gap-3 mb-4 items-end">
-          <div>
-            <label class="block text-xs font-medium text-slate-500 mb-1">Team</label>
-            <select id="rename-select" class="border rounded-lg px-3 py-2 text-sm bg-white shadow-sm min-w-[200px]"></select>
-          </div>
-          <button id="rename-go" class="bg-slate-800 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-slate-700 transition-colors">Go</button>
-        </div>
-        <div id="rename-results"></div>
-      </section>
-
-      <!-- Sub-teams -->
-      <section id="view-subteams" class="view-section">
-        <h2 class="text-2xl font-bold mb-4">Sub-teams</h2>
-        <div class="flex flex-wrap gap-3 mb-4 items-end">
-          <div>
-            <label class="block text-xs font-medium text-slate-500 mb-1">Team</label>
-            <select id="subteams-select" class="border rounded-lg px-3 py-2 text-sm bg-white shadow-sm min-w-[200px]"></select>
-          </div>
-          <button id="subteams-go" class="bg-slate-800 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-slate-700 transition-colors">Go</button>
-        </div>
-        <div id="subteams-results"></div>
-      </section>
-    </main>
+  <!-- Global search modal -->
+  <div id="search-modal" class="fixed inset-0 z-50 hidden bg-black/40 backdrop-blur-sm items-start justify-center pt-[15vh]">
+    <div class="bg-white rounded-xl shadow-2xl w-full max-w-lg mx-4 overflow-hidden border border-slate-200">
+      <div class="flex items-center gap-3 px-4 py-3 border-b border-slate-100">
+        <svg class="w-4 h-4 text-slate-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        <input id="global-search-input" type="text" class="w-full text-sm text-slate-700 placeholder:text-slate-400 outline-none border-0 bg-transparent" placeholder="Search players, teams, regions..." autofocus />
+        <kbd class="text-[10px] text-slate-400 bg-slate-100 px-1.5 py-0.5 rounded font-mono">Esc</kbd>
+      </div>
+      <div id="search-results" class="max-h-80 overflow-y-auto"></div>
+      <div id="search-empty" class="hidden px-4 py-6 text-center text-sm text-slate-400">Type to search players or teams...</div>
+      <div id="search-none" class="hidden px-4 py-6 text-center text-sm text-slate-400">No results found.</div>
+    </div>
   </div>
 
   <script>
-    // ── Navigation ──────────────────────────────────────────────────────────
+    // ── Navigation ──
     document.querySelectorAll('.nav-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         document.querySelectorAll('.view-section').forEach(s => s.classList.remove('active'));
         document.getElementById('view-' + btn.dataset.view).classList.add('active');
+        document.querySelector('main').scrollTop = 0;
       });
     });
 
-    // ── State ───────────────────────────────────────────────────────────────
+    // ── State ──
     let roleChartInstance = null;
     let regionChartInstance = null;
+    const CURRENT_YEAR = new Date().getFullYear();
+    const MN = {1:'Jan',2:'Feb',3:'Mar',4:'Apr',5:'May',6:'Jun',7:'Jul',8:'Aug',9:'Sep',10:'Oct',11:'Nov',12:'Dec'};
+    const ROLE_COLORS = {
+      'top': '#3b82f6', 'jungle': '#22c55e', 'mid': '#ef4444', 'adc': '#f59e0b', 'support': '#8b5cf6',
+      'head coach': '#ec4899', 'coach': '#14b8a6', 'substitute': '#f97316', 'manager': '#6366f1'
+    };
+    const REGION_COLORS = ['#3b82f6','#ef4444','#22c55e','#f59e0b','#8b5cf6','#ec4899','#14b8a6','#f97316','#6366f1','#84cc16','#06b6d4','#a855f7'];
 
-    // ── Populate selects ────────────────────────────────────────────────────
-    async function populateSelect(id, url, mapFn = r => r) {
+    function fmtDate(year, month) {
+      if (!year) return 'Present';
+      return month ? (MN[month] + ' ' + year) : String(year);
+    }
+
+    function roleBadge(role) {
+      if (!role || role === '-') return '<span class="text-slate-300">-</span>';
+      const color = ROLE_COLORS[role.toLowerCase()] || '#64748b';
+      return `<span class="pill" style="background:${color}15;color:${color}">${role}</span>`;
+    }
+
+    function statusBadge(status) {
+      if (status === 'Active') return '<span class="pill bg-green-100 text-green-700">Active</span>';
+      if (status === 'Retired') return '<span class="pill bg-slate-100 text-slate-500">Retired</span>';
+      return status ? `<span class="pill bg-slate-100 text-slate-500">${status}</span>` : '<span class="text-slate-300">-</span>';
+    }
+
+    function durBadge(dur) {
+      if (!dur || dur === '-') return '<span class="text-slate-300">-</span>';
+      if (dur === 'Present') return '<span class="pill bg-blue-50 text-blue-600 border border-blue-100">Present</span>';
+      return `<span class="text-xs text-slate-500">${dur}</span>`;
+    }
+
+    function table(columns, rows, cellFn) {
+      if (!rows || rows.length === 0) return '<div class="py-8 text-center text-sm text-slate-400">No data found.</div>';
+      let h = columns.map(c => `<th class="text-left px-4 py-2.5 text-[10px] font-semibold text-slate-400 uppercase tracking-wider bg-slate-50/80 border-b border-slate-100 first:rounded-tl-lg last:rounded-tr-lg">${c}</th>`).join('');
+      let b = rows.map((r, idx) => {
+        const cells = cellFn(r);
+        return `<tr class="${idx % 2 === 0 ? 'bg-white' : 'bg-slate-50/40'} hover:bg-blue-50/30 transition-colors">` +
+          cells.map(c => `<td class="px-4 py-2 text-sm border-b border-slate-100/80">${c}</td>`).join('') +
+          '</tr>';
+      }).join('');
+      return `<div class="table-wrap border border-slate-200 rounded-lg overflow-hidden"><table class="w-full text-sm">${h ? '<thead>' + h + '</thead>' : ''}<tbody>${b}</tbody></table></div>`;
+    }
+
+    function loadingSpinner(msg) {
+      return `<div class="loading-overlay"><span class="spinner"></span> ${msg}</div>`;
+    }
+
+    // ── Global Search ──
+    const searchModal = document.getElementById('search-modal');
+    const searchInput = document.getElementById('global-search-input');
+    const searchResults = document.getElementById('search-results');
+    const searchEmpty = document.getElementById('search-empty');
+    const searchNone = document.getElementById('search-none');
+    let searchCache = null;
+
+    document.getElementById('global-search-btn').addEventListener('click', () => {
+      searchModal.classList.remove('hidden');
+      searchModal.classList.add('flex');
+      setTimeout(() => searchInput.focus(), 100);
+      searchResults.innerHTML = '';
+      searchEmpty.classList.remove('hidden');
+      searchNone.classList.add('hidden');
+    });
+
+    searchModal.addEventListener('click', (e) => {
+      if (e.target === searchModal) {
+        searchModal.classList.add('hidden');
+        searchModal.classList.remove('flex');
+        searchInput.value = '';
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !searchModal.classList.contains('hidden')) {
+        searchModal.classList.add('hidden');
+        searchModal.classList.remove('flex');
+        searchInput.value = '';
+      }
+      if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+        e.preventDefault();
+        searchModal.classList.remove('hidden');
+        searchModal.classList.add('flex');
+        setTimeout(() => searchInput.focus(), 100);
+        searchResults.innerHTML = '';
+        searchEmpty.classList.remove('hidden');
+        searchNone.classList.add('hidden');
+      }
+    });
+
+    searchInput.addEventListener('input', async () => {
+      const q = searchInput.value.trim().toLowerCase();
+      if (!q) {
+        searchResults.innerHTML = '';
+        searchEmpty.classList.remove('hidden');
+        searchNone.classList.add('hidden');
+        return;
+      }
+      searchEmpty.classList.add('hidden');
+      searchNone.classList.add('hidden');
+
+      if (!searchCache) {
+        const [players, teams] = await Promise.all([
+          fetch('/api/players').then(r => r.json()),
+          fetch('/api/teams').then(r => r.json()),
+        ]);
+        searchCache = { players: players.filter(n => n.length < 50), teams };
+      }
+
+      const playerHits = searchCache.players.filter(n => n.toLowerCase().includes(q)).slice(0, 8);
+      const teamHits = searchCache.teams.filter(n => n.toLowerCase().includes(q)).slice(0, 8);
+
+      if (!playerHits.length && !teamHits.length) {
+        searchResults.innerHTML = '';
+        searchNone.classList.remove('hidden');
+        return;
+      }
+
+      let html = '';
+      if (playerHits.length) {
+        html += '<div class="px-4 pt-3 pb-1 text-[10px] font-semibold text-slate-400 uppercase tracking-wider">Players</div>';
+        playerHits.forEach(n => {
+          html += `<button class="search-result-player w-full text-left px-4 py-2 hover:bg-slate-50 flex items-center gap-3 text-sm transition-colors" data-name="${n}">
+            <span class="w-6 h-6 rounded-full bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-xs font-bold text-blue-600">${n[0]}</span>
+            <span class="font-medium">${n}</span>
+          </button>`;
+        });
+      }
+      if (teamHits.length) {
+        html += '<div class="px-4 pt-3 pb-1 text-[10px] font-semibold text-slate-400 uppercase tracking-wider border-t border-slate-100">Teams</div>';
+        teamHits.forEach(n => {
+          html += `<button class="search-result-team w-full text-left px-4 py-2 hover:bg-slate-50 flex items-center gap-3 text-sm transition-colors" data-name="${n}">
+            <span class="w-6 h-6 rounded-full bg-gradient-to-br from-amber-100 to-amber-200 flex items-center justify-center text-xs font-bold text-amber-600">${n[0]}</span>
+            <span class="font-medium">${n}</span>
+          </button>`;
+        });
+      }
+      searchResults.innerHTML = html;
+
+      searchResults.querySelectorAll('.search-result-player').forEach(btn => {
+        btn.addEventListener('click', () => {
+          searchModal.classList.add('hidden');
+          searchModal.classList.remove('flex');
+          searchInput.value = '';
+          document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+          document.querySelector('[data-view="player"]').classList.add('active');
+          document.querySelectorAll('.view-section').forEach(s => s.classList.remove('active'));
+          document.getElementById('view-player').classList.add('active');
+          const sel = document.getElementById('player-select');
+          [...sel.options].forEach(o => { if (o.value === btn.dataset.name) o.selected = true; });
+          document.getElementById('player-go').click();
+        });
+      });
+      searchResults.querySelectorAll('.search-result-team').forEach(btn => {
+        btn.addEventListener('click', () => {
+          searchModal.classList.add('hidden');
+          searchModal.classList.remove('flex');
+          searchInput.value = '';
+          document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+          document.querySelector('[data-view="team"]').classList.add('active');
+          document.querySelectorAll('.view-section').forEach(s => s.classList.remove('active'));
+          document.getElementById('view-team').classList.add('active');
+          const sel = document.getElementById('team-select');
+          [...sel.options].forEach(o => { if (o.value === btn.dataset.name) o.selected = true; });
+          document.getElementById('team-go').disabled = false;
+          document.getElementById('team-go').click();
+        });
+      });
+    });
+
+    // ── Populate selects ──
+    async function populateSelect(id, url, mapFn) {
       const sel = document.getElementById(id);
-      const data = await fetch(url).then(r => r.json());
-      sel.innerHTML = '<option value="">Select...</option>' + data.map(mapFn).join('');
+      try {
+        const data = await fetch(url).then(r => r.json());
+        sel.innerHTML = '<option value="">Select...</option>' + data.map(mapFn).join('');
+      } catch (e) {
+        sel.innerHTML = '<option value="">Error loading</option>';
+      }
     }
 
     async function populateAll() {
-      populateSelect('season-select', '/api/seasons', s => `<option value="${s.year}"${s.year === 0 ? ' selected' : ''}>${s.name} (${s.period})</option>`);
-      populateSelect('season-region', '/api/regions', r => `<option value="${r}"${r === 'LCK' ? ' selected' : ''}>${r}</option>`);
-      populateSelect('team-region', '/api/regions', r => `<option value="${r}"${r === 'LCK' ? ' selected' : ''}>${r}</option>`).then(() => {
-        teamRegionSel.value = 'LCK';
-        teamRegionSel.dispatchEvent(new Event('change'));
-      });
-      populateSelect('rename-select', '/api/rename-teams', t => `<option value="${t}">${t}</option>`);
-      populateSelect('subteams-select', '/api/subteam-teams', t => `<option value="${t}">${t}</option>`);
-      await populateSelect('player-role', '/api/roles', r => `<option value="${r}">${r}</option>`);
-      await populateSelect('player-region', '/api/regions', r => `<option value="${r}"${r === 'LCK' ? ' selected' : ''}>${r}</option>`);
-      playerRegionSel.value = 'LCK';
-      playerRegionSel.dispatchEvent(new Event('change'));
+      try {
+        await Promise.all([
+          populateSelect('season-select', '/api/seasons', s =>
+            `<option value="${s.year}"${s.year === 0 ? ' selected' : ''}>${s.year === 0 ? s.name : s.name + ' (' + s.period + ')'}</option>`
+          ),
+          populateSelect('season-region', '/api/regions', r => `<option value="${r}">${r}</option>`),
+          populateSelect('team-region', '/api/regions', r => `<option value="${r}">${r}</option>`).then(() => {
+            document.getElementById('team-region').value = '';
+            loadTeamSelect();
+          }),
+          populateSelect('rename-select', '/api/rename-teams', t => `<option value="${t}">${t}</option>`),
+          populateSelect('subteams-select', '/api/subteam-teams', t => `<option value="${t}">${t}</option>`),
+          populateSelect('player-role', '/api/roles', r => `<option value="${r}">${r}</option>`),
+        ]);
+        await populateSelect('player-region', '/api/regions', r => `<option value="${r}">${r}</option>`);
+        document.getElementById('player-region').value = 'LCK';
+        loadPlayers();
+      } catch (e) {
+        console.error('Populate error:', e);
+      }
     }
 
-    // ── Table & Date helpers ────────────────────────────────────────────────
-    const monthNames = {1:'Jan',2:'Feb',3:'Mar',4:'Apr',5:'May',6:'Jun',7:'Jul',8:'Aug',9:'Sep',10:'Oct',11:'Nov',12:'Dec'};
-    function fmtDate(year, month) {
-      if (!year) return 'Present';
-      return month ? (monthNames[month] + ' ' + year) : String(year);
-    }
-    function table(headers, rows, keyFn = r => r) {
-      if (!rows || rows.length === 0) return '<p class="text-slate-500 text-sm">No data.</p>';
-      let h = headers.map(h => `<th class="text-left px-3 py-2 text-xs font-semibold text-slate-500 uppercase tracking-wider bg-slate-50 border-b">${h}</th>`).join('');
-      let b = rows.map(r => {
-        const vals = keyFn(r);
-        return '<tr class="hover:bg-slate-50">' + vals.map(v => `<td class="px-3 py-2 text-sm border-b">${v}</td>`).join('') + '</tr>';
-      }).join('');
-      return `<div class="table-wrap"><table class="w-full text-sm">${h ? '<thead>' + h + '</thead>' : ''}<tbody>${b}</tbody></table></div>`;
-    }
-
-    // ── Overview / Stats ────────────────────────────────────────────────────
+    // ── Overview ──
     async function loadStats() {
-      const d = await fetch('/api/stats').then(r => r.json());
-      document.getElementById('stats-cards').innerHTML = `
-        <div class="bg-white rounded-xl shadow-sm border p-5">
-          <p class="text-3xl font-bold text-slate-800">${d.player_count}</p>
-          <p class="text-sm text-slate-500 mt-1">Players</p>
-        </div>
-        <div class="bg-white rounded-xl shadow-sm border p-5">
-          <p class="text-3xl font-bold text-slate-800">${d.team_count}</p>
-          <p class="text-sm text-slate-500 mt-1">Teams</p>
-        </div>
-        <div class="bg-white rounded-xl shadow-sm border p-5">
-          <p class="text-3xl font-bold text-slate-800">${d.career_count}</p>
-          <p class="text-sm text-slate-500 mt-1">Career Records</p>
-        </div>
-      `;
+      try {
+        const d = await fetch('/api/stats').then(r => r.json());
+        const icons = ['👤', '🏢', '📋'];
+        const labels = ['Players', 'Teams', 'Career Records'];
+        const vals = [d.player_count, d.team_count, d.career_count];
+        const colors = ['bg-blue-50 text-blue-600', 'bg-amber-50 text-amber-600', 'bg-emerald-50 text-emerald-600'];
 
-      const colors = ['#3b82f6', '#ef4444', '#22c55e', '#f59e0b', '#8b5cf6', '#ec4899', '#14b8a6', '#f97316', '#6366f1', '#84cc16', '#06b6d4', '#a855f7'];
+        document.getElementById('stats-cards').innerHTML = vals.map((v, i) => `
+          <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5 card-hover">
+            <div class="flex items-center gap-4">
+              <div class="stat-icon ${colors[i]}">${icons[i]}</div>
+              <div>
+                <p class="text-2xl font-bold text-slate-800">${v.toLocaleString()}</p>
+                <p class="text-xs text-slate-400 mt-0.5">${labels[i]}</p>
+              </div>
+            </div>
+            <div class="mt-3 progress-bar" style="width:${Math.min(100, v / Math.max(...vals) * 100)}%"></div>
+          </div>
+        `).join('');
 
-      if (roleChartInstance) roleChartInstance.destroy();
-      roleChartInstance = new Chart(document.getElementById('stats-role-chart'), {
-        type: 'bar',
-        data: {
-          labels: d.role_distribution.map(r => r.role),
-          datasets: [{
-            label: 'Players',
-            data: d.role_distribution.map(r => r.cnt),
-            backgroundColor: colors.slice(0, d.role_distribution.length),
-            borderRadius: 4,
-          }]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          plugins: { legend: { display: false } },
-          scales: {
-            y: { beginAtZero: true, ticks: { stepSize: 1 } },
-            x: { ticks: { maxRotation: 45 } }
+        if (roleChartInstance) roleChartInstance.destroy();
+        roleChartInstance = new Chart(document.getElementById('stats-role-chart'), {
+          type: 'bar',
+          data: {
+            labels: d.role_distribution.map(r => r.role),
+            datasets: [{
+              label: 'Players',
+              data: d.role_distribution.map(r => r.cnt),
+              backgroundColor: d.role_distribution.map(r => ROLE_COLORS[r.role.toLowerCase()] || '#64748b'),
+              borderRadius: 4,
+              borderSkipped: false,
+            }]
+          },
+          options: {
+            responsive: true, maintainAspectRatio: false,
+            plugins: { legend: { display: false }, tooltip: { backgroundColor: '#1e293b', titleFont: { size: 11 }, bodyFont: { size: 12 }, cornerRadius: 8, padding: 10 } },
+            scales: { y: { beginAtZero: true, ticks: { stepSize: 1, font: { size: 10 } }, grid: { color: '#f1f5f9' } }, x: { ticks: { maxRotation: 40, font: { size: 9 } }, grid: { display: false } } }
           }
-        }
-      });
+        });
 
-      if (regionChartInstance) regionChartInstance.destroy();
-      regionChartInstance = new Chart(document.getElementById('stats-region-chart'), {
-        type: 'doughnut',
-        data: {
-          labels: d.region_distribution.filter(r => r.region).map(r => r.region),
-          datasets: [{
-            data: d.region_distribution.filter(r => r.region).map(r => r.cnt),
-            backgroundColor: colors.slice(0, d.region_distribution.filter(r => r.region).length),
-          }]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          plugins: { legend: { position: 'bottom' } }
-        }
-      });
+        if (regionChartInstance) regionChartInstance.destroy();
+        regionChartInstance = new Chart(document.getElementById('stats-region-chart'), {
+          type: 'doughnut',
+          data: {
+            labels: d.region_distribution.filter(r => r.region).map(r => r.region),
+            datasets: [{
+              data: d.region_distribution.filter(r => r.region).map(r => r.cnt),
+              backgroundColor: REGION_COLORS.slice(0, d.region_distribution.filter(r => r.region).length),
+              borderWidth: 2,
+              borderColor: '#fff',
+            }]
+          },
+          options: {
+            responsive: true, maintainAspectRatio: false,
+            plugins: {
+              legend: { position: 'bottom', labels: { padding: 12, usePointStyle: true, pointStyle: 'circle', font: { size: 10 } } },
+              tooltip: { backgroundColor: '#1e293b', titleFont: { size: 11 }, bodyFont: { size: 12 }, cornerRadius: 8, padding: 10 }
+            },
+            cutout: '65%',
+          }
+        });
+      } catch (e) {
+        console.error('Stats error:', e);
+      }
     }
 
-    // ── Season View ────────────────────────────────────────────────────────
+    // ── Season View ──
     document.getElementById('season-go').addEventListener('click', async () => {
       const season = document.getElementById('season-select').value;
       const region = document.getElementById('season-region').value;
       if (!season) return;
-      const year = parseInt(season);
-      const d = await fetch(`/api/season?season=${year}&region=${region || ''}`).then(r => r.json());
       const el = document.getElementById('season-results');
-      if (!d.teams || Object.keys(d.teams).length === 0) {
-        el.innerHTML = '<p class="text-slate-500 text-sm">No data for this season.</p>';
-        return;
+      el.innerHTML = loadingSpinner('Loading season data...');
+
+      try {
+        const year = parseInt(season);
+        const d = await fetch(`/api/season?season=${year}&region=${region || ''}`).then(r => r.json());
+        if (!d.teams || Object.keys(d.teams).length === 0) {
+          el.innerHTML = '<div class="py-10 text-center text-sm text-slate-400">No data for this season.</div>';
+          return;
+        }
+        const si = d.season;
+        let html = `<div class="bg-gradient-to-r from-slate-50 to-white rounded-xl border border-slate-200 px-5 py-4 mb-4 shadow-sm">
+          <div class="flex items-center justify-between flex-wrap gap-2">
+            <div>
+              <span class="font-bold text-base text-slate-800">${si.name}</span>
+              <span class="text-sm text-slate-400 ml-2">${si.period}</span>
+            </div>
+            <span class="text-xs text-slate-400 bg-white px-2.5 py-1 rounded-full border border-slate-200">${d.total_players} players · ${Object.keys(d.teams).length} teams</span>
+          </div>
+          ${si.splits && si.splits.length > 0 ? `<div class="mt-2 flex flex-wrap gap-1.5">${si.splits.map(sp => `<span class="inline-block bg-white rounded-full px-2.5 py-0.5 text-[10px] font-medium text-slate-500 border border-slate-200">${sp}</span>`).join('')}</div>` : ''}
+        </div>`;
+
+        const sortedTeams = Object.entries(d.teams).sort((a, b) => b[1].length - a[1].length);
+        for (const [teamName, players] of sortedTeams) {
+          html += `<div class="bg-white rounded-xl shadow-sm border border-slate-200 mb-4 overflow-hidden card-hover">
+            <div class="px-5 py-3 border-b border-slate-100 bg-gradient-to-r from-slate-50 to-white flex items-center justify-between">
+              <h4 class="font-semibold text-sm text-slate-700">${teamName}</h4>
+              <span class="text-[10px] text-slate-400 bg-slate-100 px-2 py-0.5 rounded-full">${players.length} ${players.length === 1 ? 'player' : 'players'}</span>
+            </div>
+            <div class="p-0">`;
+          html += table(
+            ['Player', 'Role', 'Status', 'Joined', 'Left', 'Duration'],
+            players,
+            p => [p.player, roleBadge(p.role || '-'), p.status || '-', fmtDate(p.joined_year, p.joined_month), fmtDate(p.left_year, p.left_month), durBadge(p.duration || '-')]
+          );
+          html += '</div></div>';
+        }
+        el.innerHTML = html;
+      } catch (e) {
+        el.innerHTML = '<div class="py-10 text-center text-sm text-red-400">Error loading season data.</div>';
       }
-      const si = d.season;
-      let html = `<div class="bg-slate-100 rounded-lg px-4 py-3 mb-4 text-sm text-slate-700">`;
-      html += `<span class="font-bold text-base">${si.name}</span> — ${si.period}`;
-      if (si.splits && si.splits.length > 0) {
-        html += `<div class="mt-2 flex flex-wrap gap-2">`;
-        si.splits.forEach(sp => {
-          html += `<span class="inline-block bg-white rounded-full px-2.5 py-0.5 text-xs font-medium text-slate-600 border">${sp}</span>`;
-        });
-        html += `</div>`;
-      }
-      html += `</div>`;
-      html += `<p class="text-sm text-slate-500 mb-3">${d.total_players} player(s) across ${Object.keys(d.teams).length} team(s)</p>`;
-      for (const [team, players] of Object.entries(d.teams)) {
-        html += `<div class="bg-white rounded-xl shadow-sm border p-4 mb-4">
-          <h4 class="font-semibold text-base mb-2">${team} <span class="text-xs text-slate-400 font-normal">(${players.length} player(s))</span></h4>`;
-        html += table(
-          ['Player', 'Role', 'Status', 'Joined', 'Left', 'Duration'],
-          players,
-          p => [p.player, p.role || '-', p.status || '-', fmtDate(p.joined_year, p.joined_month), fmtDate(p.left_year, p.left_month), p.duration || '-']
-        );
-        html += '</div>';
-      }
-      el.innerHTML = html;
     });
 
-    // ── Player View ─────────────────────────────────────────────────────────
+    // ── Player View ──
     const playerRegionSel = document.getElementById('player-region');
     const playerRoleSel = document.getElementById('player-role');
     const playerSel = document.getElementById('player-select');
-    const playerGo = document.getElementById('player-go');
 
     async function loadPlayers() {
       const region = playerRegionSel.value;
@@ -331,7 +620,7 @@
       playerSel.innerHTML = '<option value="">Loading...</option>';
       try {
         const url = `/api/players?region=${encodeURIComponent(region)}&role=${encodeURIComponent(role)}`;
-        const data = await fetch(url).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
+        const data = await fetch(url).then(r => r.json());
         playerSel.innerHTML = '<option value="">Select a player...</option>' + data.map(p => `<option value="${p}">${p}</option>`).join('');
       } catch (e) {
         playerSel.innerHTML = '<option value="">Error loading players</option>';
@@ -340,43 +629,63 @@
 
     playerRegionSel.addEventListener('change', loadPlayers);
     playerRoleSel.addEventListener('change', loadPlayers);
-    // Initial load
-    playerRegionSel.dispatchEvent(new Event('change'));
 
     document.getElementById('player-go').addEventListener('click', async () => {
       const name = playerSel.value;
       const region = playerRegionSel.value;
       if (!name) return;
-      const d = await fetch(`/api/player?name=${encodeURIComponent(name)}&region=${region || ''}`).then(r => r.json());
       const el = document.getElementById('player-results');
-      if (!d.career || d.career.length === 0) {
-        el.innerHTML = '<p class="text-slate-500 text-sm">Player not found.</p>';
-        return;
+      el.innerHTML = loadingSpinner('Loading player data...');
+
+      try {
+        const d = await fetch(`/api/player?name=${encodeURIComponent(name)}&region=${region || ''}`).then(r => r.json());
+        if (!d.career || d.career.length === 0) {
+          el.innerHTML = '<div class="py-10 text-center text-sm text-slate-400">Player not found.</div>';
+          return;
+        }
+
+        let html = '';
+        if (d.info) {
+          const i = d.info;
+          html += `<div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5 mb-4 card-hover">
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 rounded-full bg-gradient-to-br from-yellow-100 to-amber-200 flex items-center justify-center text-lg font-bold text-amber-700 shadow-sm">${name[0]}</div>
+              <div>
+                <h3 class="font-bold text-lg text-slate-800">${name}</h3>
+                <div class="flex flex-wrap gap-x-4 gap-y-1 text-xs text-slate-500 mt-0.5">
+                  <span>Role: ${roleBadge(i.role || '-')}</span>
+                  <span>Nationality: <strong>${i.nationality || '-'}</strong></span>
+                  <span>Birth: <strong>${i.birth_date || '-'}</strong></span>
+                  <span>Status: ${statusBadge(i.status)}</span>
+                </div>
+              </div>
+            </div>
+            <div class="mt-3 flex flex-wrap gap-1.5 text-[10px] text-slate-400">
+              <span class="bg-slate-50 px-2 py-0.5 rounded-full border border-slate-200">${d.career.length} team${d.career.length > 1 ? 's' : ''}</span>
+              <span class="bg-slate-50 px-2 py-0.5 rounded-full border border-slate-200">${d.career[0]?.joined_year || '?'} – ${d.career[d.career.length - 1]?.left_year >= CURRENT_YEAR ? 'Present' : d.career[d.career.length - 1]?.left_year || '?'}</span>
+            </div>
+          </div>`;
+        }
+
+        html += table(
+          ['Team', 'Region', 'Role', 'Joined', 'Left', 'Duration'],
+          d.career,
+          r => [r.team, r.region || '-', roleBadge(r.role || '-'), fmtDate(r.joined_year, r.joined_month), fmtDate(r.left_year, r.left_month), durBadge(r.duration || '-')]
+        );
+        el.innerHTML = html;
+      } catch (e) {
+        el.innerHTML = '<div class="py-10 text-center text-sm text-red-400">Error loading player data.</div>';
       }
-      let html = '';
-      if (d.info) {
-        const i = d.info;
-        html += `<div class="bg-white rounded-xl shadow-sm border p-4 mb-4 flex flex-wrap gap-x-6 gap-y-1 text-sm">
-          <span><strong>Role:</strong> ${i.role || '-'}</span>
-          <span><strong>Nationality:</strong> ${i.nationality || '-'}</span>
-          <span><strong>Birth:</strong> ${i.birth_date || '-'}</span>
-          <span><strong>Status:</strong> <span class="pill ${i.status === 'Active' ? 'bg-green-100 text-green-700' : 'bg-slate-100 text-slate-600'}">${i.status || 'Unknown'}</span></span>
-        </div>`;
-      }
-      html += table(
-        ['Team', 'Role', 'Joined', 'Left', 'Duration'],
-        d.career,
-        r => [`${r.team} ${r.region ? '(' + r.region + ')' : ''}`, r.role || '-', fmtDate(r.joined_year, r.joined_month), fmtDate(r.left_year, r.left_month), r.duration || '-']
-      );
-      el.innerHTML = html;
     });
 
-    // ── Team View ───────────────────────────────────────────────────────────
+    // ── Team View ──
     const teamRegionSel = document.getElementById('team-region');
     const teamSel = document.getElementById('team-select');
     const teamGo = document.getElementById('team-go');
 
-    teamRegionSel.addEventListener('change', async () => {
+    teamRegionSel.addEventListener('change', loadTeamSelect);
+
+    async function loadTeamSelect() {
       const region = teamRegionSel.value;
       teamSel.innerHTML = '<option value="">Loading...</option>';
       teamSel.disabled = true;
@@ -385,10 +694,14 @@
         teamSel.innerHTML = '<option value="">Select a region first...</option>';
         return;
       }
-      const data = await fetch(`/api/teams?region=${encodeURIComponent(region)}`).then(r => r.json());
-      teamSel.innerHTML = '<option value="">Select a team...</option>' + data.map(t => `<option value="${t}">${t}</option>`).join('');
-      teamSel.disabled = false;
-    });
+      try {
+        const data = await fetch(`/api/teams?region=${encodeURIComponent(region)}`).then(r => r.json());
+        teamSel.innerHTML = '<option value="">Select a team...</option>' + data.map(t => `<option value="${t}">${t}</option>`).join('');
+        teamSel.disabled = false;
+      } catch (e) {
+        teamSel.innerHTML = '<option value="">Error loading teams</option>';
+      }
+    }
 
     teamSel.addEventListener('change', () => {
       teamGo.disabled = !teamSel.value;
@@ -398,87 +711,414 @@
       const name = teamSel.value;
       const region = teamRegionSel.value;
       if (!name) return;
-      const d = await fetch(`/api/team?name=${encodeURIComponent(name)}&region=${region || ''}`).then(r => r.json());
       const el = document.getElementById('team-results');
-      if (d.error) {
-        el.innerHTML = `<p class="text-slate-500 text-sm">${d.error}</p>`;
-        return;
+      el.innerHTML = loadingSpinner('Loading team data...');
+
+      try {
+        const d = await fetch(`/api/team?name=${encodeURIComponent(name)}&region=${region || ''}`).then(r => r.json());
+        if (d.error) {
+          el.innerHTML = '<div class="py-10 text-center text-sm text-slate-400">' + d.error + '</div>';
+          return;
+        }
+        const m = d.meta;
+        let html = '';
+
+        html += `<div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5 mb-4 card-hover">
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-amber-100 to-amber-200 flex items-center justify-center text-lg font-bold text-amber-700 shadow-sm">${name[0]}</div>
+            <div>
+              <h3 class="font-bold text-lg text-slate-800">${name}</h3>
+              <div class="flex flex-wrap gap-x-4 gap-y-1 text-xs text-slate-500 mt-0.5">
+                <span>Region: <strong>${m.region || 'Unknown'}</strong></span>
+                <span>Active: <strong>${m.start_year || '?'}${m.end_year === null && m.start_year ? '–Present' : m.end_year ? '–' + m.end_year : ''}</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>`;
+
+        if (d.lineage && d.lineage.length > 1) {
+          html += `<div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5 mb-4 card-hover">
+            <div class="text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-3">Rebrand Lineage</div>
+            <div class="flex flex-wrap items-center gap-2">`;
+          d.lineage.forEach(([n, y], i) => {
+            if (i > 0) html += '<span class="chain-arrow text-base">→</span>';
+            const isCurrent = n === name;
+            html += `<span class="chain-node inline-flex items-center gap-1.5 ${isCurrent ? 'bg-yellow-50 text-yellow-800 border border-yellow-200 rounded-lg px-3 py-1.5 font-bold' : 'text-slate-600'} text-sm">${n}${y ? '<span class="text-xs text-slate-400 font-normal">(' + y + ')</span>' : ''}</span>`;
+          });
+          html += `</div>
+            <div class="mt-2 text-xs text-slate-400">${d.lineage.length} name(s) in chain</div>
+          </div>`;
+        }
+
+        html += `<div class="flex items-center gap-2 mb-4">
+          <span class="text-xs text-slate-400 bg-slate-100 px-2.5 py-1 rounded-full border border-slate-200">${d.total_players} player(s) total</span>
+          <span class="text-xs text-slate-400 bg-slate-100 px-2.5 py-1 rounded-full border border-slate-200">${Object.keys(d.by_team).length} name variant(s)</span>
+        </div>`;
+
+        for (const [tn, players] of Object.entries(d.by_team)) {
+          html += `<div class="bg-white rounded-xl shadow-sm border border-slate-200 mb-4 overflow-hidden card-hover">
+            <div class="px-5 py-3 border-b border-slate-100 bg-gradient-to-r from-slate-50 to-white flex items-center justify-between">
+              <h4 class="font-semibold text-sm text-slate-700">${tn}</h4>
+              <span class="text-[10px] text-slate-400 bg-slate-100 px-2 py-0.5 rounded-full">${players.length} entries</span>
+            </div>
+            <div class="p-0">`;
+          html += table(
+            ['Player', 'Role', 'Status', 'Tenure'],
+            players,
+            p => [p.player, roleBadge(p.role || '-'), statusBadge(p.status), durBadge(p.duration || '-')]
+          );
+          html += '</div></div>';
+        }
+        el.innerHTML = html;
+      } catch (e) {
+        el.innerHTML = '<div class="py-10 text-center text-sm text-red-400">Error loading team data.</div>';
       }
-      let html = '';
-      const m = d.meta;
-      html += `<div class="bg-white rounded-xl shadow-sm border p-4 mb-4 flex flex-wrap gap-x-6 gap-y-1 text-sm">
-        <span><strong>Region:</strong> ${m.region || 'Unknown'}</span>
-        <span><strong>Active:</strong> ${m.start_year || '?'}${m.end_year === null && m.start_year ? '-present' : m.end_year ? '-' + m.end_year : ''}</span>
-      </div>`;
-      if (d.lineage && d.lineage.length > 1) {
-        html += `<div class="bg-white rounded-xl shadow-sm border p-4 mb-4 text-sm">
-          <strong class="text-xs text-slate-500 uppercase tracking-wide">Rebrand lineage</strong>
-          <div class="mt-2 flex flex-wrap items-center gap-1 text-sm font-medium">`;
-        d.lineage.forEach(([n, y], i) => {
-          if (i > 0) html += '<span class="text-slate-300 mx-1">→</span>';
-          html += `<span class="${n === name ? 'text-blue-600 underline' : ''}">${n}${y ? ' (' + y + ')' : ''}</span>`;
-        });
-        html += `</div></div>`;
-      }
-      html += `<p class="text-sm text-slate-500 mb-3">${d.total_players} player(s) total</p>`;
-      for (const [tn, players] of Object.entries(d.by_team)) {
-        html += `<div class="bg-white rounded-xl shadow-sm border p-4 mb-4">
-          <h4 class="font-semibold text-base mb-2">${tn} <span class="text-xs text-slate-400 font-normal">(${players.length} rows)</span></h4>`;
-        html += table(
-          ['Player', 'Role', 'Status', 'Tenure'],
-          players,
-          p => [p.player, p.role || '-', p.status || '-', p.duration || '-']
-        );
-        html += '</div>';
-      }
-      el.innerHTML = html;
     });
 
-    // ── Rename Chain ────────────────────────────────────────────────────────
+    // ── Rename Chain ──
     document.getElementById('rename-go').addEventListener('click', async () => {
       const name = document.getElementById('rename-select').value;
       if (!name) return;
-      const d = await fetch(`/api/rename?name=${encodeURIComponent(name)}`).then(r => r.json());
       const el = document.getElementById('rename-results');
-      if (!d.lineage || d.lineage.length <= 1) {
-        el.innerHTML = '<p class="text-slate-500 text-sm">No rename history found.</p>';
-        return;
+      el.innerHTML = loadingSpinner('Loading rename chain...');
+
+      try {
+        const d = await fetch(`/api/rename?name=${encodeURIComponent(name)}`).then(r => r.json());
+        if (!d.lineage || d.lineage.length <= 1) {
+          el.innerHTML = '<div class="py-10 text-center text-sm text-slate-400">No rename history found.</div>';
+          return;
+        }
+
+        let html = `<div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 card-hover">
+          <div class="flex items-center gap-2 text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-4">
+            <span class="w-1 h-4 rounded bg-amber-500"></span>
+            Lineage from ${name}
+          </div>
+          <div class="flex flex-wrap items-center gap-x-2 gap-y-3">`;
+        d.lineage.forEach(([n, y], i) => {
+          if (i > 0) html += '<span class="chain-arrow text-lg">→</span>';
+          const isActive = n === name;
+          html += `<span class="chain-node inline-flex items-center gap-2 ${isActive ? 'bg-gradient-to-r from-yellow-400 to-amber-500 text-white shadow-md rounded-lg px-4 py-2 font-bold' : 'bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-slate-600'} text-sm">${n}${y ? `<span class="text-xs ${isActive ? 'text-yellow-100' : 'text-slate-400'} font-normal">(${y})</span>` : ''}</span>`;
+        });
+        html += `</div>
+          <div class="mt-4 flex items-center gap-3 text-xs text-slate-400">
+            <span class="bg-slate-50 px-2 py-0.5 rounded-full border border-slate-200">${d.lineage.length} name(s)</span>
+            <span>${d.lineage[0][0]} → ${d.lineage[d.lineage.length - 1][0]}</span>
+          </div>
+        </div>`;
+        el.innerHTML = html;
+      } catch (e) {
+        el.innerHTML = '<div class="py-10 text-center text-sm text-red-400">Error loading rename chain.</div>';
       }
-      let html = `<div class="bg-white rounded-xl shadow-sm border p-5">
-        <div class="flex flex-wrap items-center gap-2 text-base">`;
-      d.lineage.forEach(([n, y], i) => {
-        if (i > 0) html += '<span class="text-slate-300 text-lg">→</span>';
-        html += `<span class="inline-flex items-center gap-1.5 ${n === name ? 'font-bold text-blue-600' : ''}">${n}${y ? '<span class="text-xs text-slate-400 font-normal">(' + y + ')</span>' : ''}</span>`;
-      });
-      html += `</div>
-        <p class="text-xs text-slate-400 mt-3">${d.lineage.length} name(s) in chain</p>
-      </div>`;
-      el.innerHTML = html;
     });
 
-    // ── Sub-teams ───────────────────────────────────────────────────────────
+    // ── Sub-teams ──
     document.getElementById('subteams-go').addEventListener('click', async () => {
       const name = document.getElementById('subteams-select').value;
       if (!name) return;
-      const d = await fetch(`/api/subteams?name=${encodeURIComponent(name)}`).then(r => r.json());
       const el = document.getElementById('subteams-results');
-      if (!d.subteams || d.subteams.length === 0) {
-        el.innerHTML = '<p class="text-slate-500 text-sm">No sub-teams found.</p>';
-        return;
+      el.innerHTML = loadingSpinner('Loading sub-teams...');
+
+      try {
+        const d = await fetch(`/api/subteams?name=${encodeURIComponent(name)}`).then(r => r.json());
+        if (!d.subteams || d.subteams.length === 0) {
+          el.innerHTML = '<div class="py-10 text-center text-sm text-slate-400">No sub-teams found.</div>';
+          return;
+        }
+
+        let html = `<div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 card-hover">
+          <div class="flex items-center gap-2 text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-4">
+            <span class="w-1 h-4 rounded bg-amber-500"></span>
+            Sub-teams of ${name}
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">`;
+        d.subteams.forEach(s => {
+          html += `<div class="flex items-center gap-3 bg-slate-50 border border-slate-200 rounded-lg px-4 py-2.5 text-sm hover:bg-slate-100 transition-colors">
+            <span class="w-2 h-2 rounded-full bg-amber-400 shrink-0"></span>
+            <span class="font-medium text-slate-700">${s}</span>
+          </div>`;
+        });
+        html += `</div>
+          <div class="mt-4 text-xs text-slate-400">${d.subteams.length} sub-team(s)</div>
+        </div>`;
+        el.innerHTML = html;
+      } catch (e) {
+        el.innerHTML = '<div class="py-10 text-center text-sm text-red-400">Error loading sub-teams.</div>';
       }
-      let html = `<div class="bg-white rounded-xl shadow-sm border p-5">
-        <p class="text-sm text-slate-500 mb-3">Parent: <strong>${d.parent}</strong></p>
-        <ul class="space-y-1">`;
-      d.subteams.forEach(s => {
-        html += `<li class="flex items-center gap-2 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-slate-400 shrink-0"></span>${s}</li>`;
-      });
-      html += `</ul>
-        <p class="text-xs text-slate-400 mt-3">${d.subteams.length} sub-team(s) total</p>
-      </div>`;
-      el.innerHTML = html;
     });
 
-    // ── Init ────────────────────────────────────────────────────────────────
+    // ── Graph Explore ──
+    let exploreNetwork = null;
+    let exploreNodes = null;
+    let exploreEdges = null;
+    let exploredIds = new Set();
+    let exploreCache = null;
+
+    const EXPLORE_COLORS = {
+      player: { background: '#3b82f6', border: '#2563eb', highlight: { background: '#60a5fa', border: '#3b82f6' } },
+      team: { background: '#f59e0b', border: '#d97706', highlight: { background: '#fbbf24', border: '#f59e0b' } },
+      region: { background: '#22c55e', border: '#16a34a', highlight: { background: '#4ade80', border: '#22c55e' } },
+    };
+
+    function getExploreNode(type, name, extra) {
+      const node = {
+        id: type + '::' + name,
+        label: name,
+        shape: type === 'region' ? 'diamond' : 'dot',
+        size: type === 'region' ? 25 : type === 'team' ? 22 : 18,
+        borderWidth: 2,
+        font: { color: '#334155', size: 11, face: 'Inter', strokeWidth: 2, strokeColor: '#ffffff' },
+        color: EXPLORE_COLORS[type] || EXPLORE_COLORS.team,
+      };
+      if (extra) node.extra = extra;
+      return node;
+    }
+
+    async function expandExploreNode(nodeId) {
+      if (exploredIds.has(nodeId)) return;
+      exploredIds.add(nodeId);
+
+      const parts = nodeId.split('::');
+      const ntype = parts[0];
+      const nname = parts.slice(1).join('::');
+
+      try {
+        const d = await fetch(`/api/explore?type=${ntype}&name=${encodeURIComponent(nname)}&limit=40`).then(r => r.json());
+        if (!d.nodes) return;
+
+        for (const n of d.nodes) {
+          if (!exploreNodes.get(n.id)) {
+            const name = n.id.split('::').slice(1).join('::');
+            const node = getExploreNode(n.type, name, n);
+            exploreNodes.add(node);
+          }
+        }
+        for (const e of d.edges) {
+          if (!exploreEdges.get(e.id)) {
+            exploreEdges.add({
+              id: e.id, from: e.from, to: e.to, label: e.label || '',
+              color: { color: '#cbd5e1', hover: '#64748b' },
+              font: { color: '#64748b', size: 9, face: 'Inter', strokeWidth: 0 },
+              width: 1.5, smooth: { type: 'curvedCW', roundness: 0.15 },
+            });
+          }
+        }
+      } catch (e) {
+        console.error('Explore expand error:', e);
+      }
+    }
+
+    async function renderExploreGraph(centerType, centerName) {
+      const container = document.getElementById('graph-container');
+      const centerId = centerType + '::' + centerName;
+
+      exploredIds = new Set();
+      exploreNodes = new vis.DataSet([]);
+      exploreEdges = new vis.DataSet([]);
+      exploreNodes.add(getExploreNode(centerType, centerName));
+      await expandExploreNode(centerId);
+
+      const options = {
+        physics: {
+          solver: 'forceAtlas2Based',
+          forceAtlas2Based: { gravitationalConstant: -40, centralGravity: 0.005, springLength: 180, springConstant: 0.02, damping: 0.4 },
+          stabilization: { iterations: 150 },
+        },
+        interaction: { hover: true, tooltipDelay: 200, zoomView: true, dragView: true, dragNodes: true },
+        edges: { smooth: { type: 'curvedCW', roundness: 0.15 } },
+        nodes: { borderWidth: 2, font: { color: '#334155', size: 11, face: 'Inter', strokeWidth: 2, strokeColor: '#ffffff' } },
+        layout: { improvedLayout: true },
+      };
+
+      exploreNetwork = new vis.Network(container, { nodes: exploreNodes, edges: exploreEdges }, options);
+
+      // Side card on click
+      function showSideCard(nodeId, edgeId) {
+        const card = document.getElementById('explore-sidecard');
+        const content = document.getElementById('sidecard-content');
+        card.classList.remove('hidden');
+        let html = '';
+
+        if (nodeId) {
+          const parts = nodeId.split('::');
+          const ntype = parts[0];
+          const nname = parts.slice(1).join('::');
+          const color = EXPLORE_COLORS[ntype]?.background || '#94a3b8';
+          const typeLabel = ntype.charAt(0).toUpperCase() + ntype.slice(1);
+
+          html += `<div class="flex items-center gap-2 mb-3">
+            <span class="w-3 h-3 rounded-full shrink-0" style="background:${color}"></span>
+            <strong class="text-sm">${nname}</strong>
+            <span class="text-[10px] text-slate-400 ml-auto">${typeLabel}</span>
+          </div>`;
+
+          // Find node enrichment from exploreNodes dataset
+          const node = exploreNodes.get(nodeId);
+          const connectedEdges = exploreEdges.get({ filter: e => e.from === nodeId || e.to === nodeId });
+
+          if (node && node.extra) {
+            const ex = node.extra;
+            if (ntype === 'player') {
+              html += `<div class="space-y-1 text-xs">
+                <div class="flex justify-between py-0.5"><span class="text-slate-500">Role</span><span>${ex.role || '-'}</span></div>
+                <div class="flex justify-between py-0.5"><span class="text-slate-500">Nationality</span><span>${ex.nationality || '-'}</span></div>
+                <div class="flex justify-between py-0.5"><span class="text-slate-500">Status</span><span>${ex.status || 'Active'}</span></div>
+              </div>`;
+            } else if (ntype === 'team') {
+              let minY = null, maxY = null;
+              for (const e of connectedEdges) {
+                if (e.label) {
+                  const years = e.label.match(/\d{4}/g);
+                  if (years) {
+                    for (const y of years) {
+                      const ny = parseInt(y);
+                      if (minY === null || ny < minY) minY = ny;
+                      if (maxY === null || ny > maxY) maxY = ny;
+                    }
+                  }
+                }
+              }
+              const yearRange = minY !== null ? (minY === maxY ? `${minY}` : `${minY}\u2013${maxY}`) : '-';
+              html += `<div class="space-y-1 text-xs">
+                <div class="flex justify-between py-0.5"><span class="text-slate-500">Region</span><span>${ex.region || 'Unknown'}</span></div>
+                <div class="flex justify-between py-0.5"><span class="text-slate-500">Year</span><span>${yearRange}</span></div>
+              </div>`;
+            }
+          }
+
+          // Connections list
+          if (connectedEdges.length > 0) {
+            const sectionLabel = ntype === 'player' ? 'Teams' : ntype === 'team' ? 'Players' : 'Connections';
+            const connColor = ntype === 'player' ? EXPLORE_COLORS.team.background : EXPLORE_COLORS.player.background;
+            html += `<div class="mt-3 pt-3 border-t border-slate-200">
+              <div class="text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-2">${sectionLabel}</div>`;
+            for (const e of connectedEdges) {
+              const otherId = e.from === nodeId ? e.to : e.from;
+              const otherName = otherId.split('::').slice(1).join('::');
+              const otherType = otherId.split('::')[0];
+              const dotColor = EXPLORE_COLORS[otherType]?.background || '#94a3b8';
+              html += `<div class="flex items-center gap-2 py-1.5 text-xs hover:bg-slate-100 rounded px-1 -mx-1 cursor-pointer" data-id="${otherId}">
+                <span class="w-2 h-2 rounded-full shrink-0" style="background:${dotColor}"></span>
+                <span>${otherName}</span>
+                ${e.label ? '<span class="text-[10px] text-slate-400 ml-auto">(' + e.label + ')</span>' : ''}
+              </div>`;
+            }
+            html += '</div>';
+          }
+        } else if (edgeId) {
+          const edge = exploreEdges.get(edgeId);
+          if (edge) {
+            const fromName = edge.from.split('::').slice(1).join('::');
+            const toName = edge.to.split('::').slice(1).join('::');
+            html += `<div class="flex items-center gap-2 mb-3">
+              <span class="text-xs font-medium text-slate-600">Connection</span>
+            </div>
+            <div class="space-y-1 text-xs">
+              <div class="flex justify-between py-0.5"><span class="text-slate-500">From</span><span>${fromName}</span></div>
+              <div class="flex justify-between py-0.5"><span class="text-slate-500">To</span><span>${toName}</span></div>
+              ${edge.label ? '<div class="flex justify-between py-0.5"><span class="text-slate-500">Label</span><span>' + edge.label + '</span></div>' : ''}
+            </div>`;
+          }
+        }
+
+        html += '</div>';
+        content.innerHTML = html;
+
+        content.querySelectorAll('[data-id]').forEach(el => {
+          el.addEventListener('click', () => showSideCard(el.dataset.id, null));
+        });
+      }
+
+      exploreNetwork.on('click', function(params) {
+        if (params.nodes.length > 0) {
+          showSideCard(params.nodes[0], null);
+        } else if (params.edges.length > 0) {
+          showSideCard(null, params.edges[0]);
+        } else {
+          document.getElementById('explore-sidecard').classList.add('hidden');
+        }
+      });
+
+      exploreNetwork.on('stabilizationIterationsDone', () => {
+        document.getElementById('graph-info').textContent = `${exploreNodes.length} nodes · ${exploreEdges.length} edges · Drag to rearrange, click for details`;
+        exploreNetwork.fit({ animation: true });
+      });
+    }
+
+    const exploreInput = document.getElementById('explore-search');
+    const exploreGo = document.getElementById('explore-go');
+
+    exploreInput.addEventListener('input', async function () {
+      const q = this.value.trim().toLowerCase();
+      const resultsEl = document.getElementById('explore-results');
+      if (!q) { exploreGo.disabled = true; resultsEl.innerHTML = ''; return; }
+
+      if (!exploreCache) {
+        const [players, teams] = await Promise.all([
+          fetch('/api/players').then(r => r.json()),
+          fetch('/api/teams').then(r => r.json()),
+        ]);
+        exploreCache = { players: players.filter(n => n.length < 50), teams };
+      }
+
+      const playerHits = exploreCache.players.filter(n => n.toLowerCase().includes(q)).slice(0, 8);
+      const teamHits = exploreCache.teams.filter(n => n.toLowerCase().includes(q)).slice(0, 8);
+
+      let html = '';
+      if (playerHits.length) {
+        html += '<div class="text-[10px] font-semibold text-slate-400 uppercase tracking-wider px-1 pt-2 pb-1">Players</div>';
+        playerHits.forEach(n => { html += `<button class="explore-sug w-full text-left px-3 py-1.5 text-sm hover:bg-blue-50 rounded transition-colors" data-type="player" data-name="${n}">${n}</button>`; });
+      }
+      if (teamHits.length) {
+        html += '<div class="text-[10px] font-semibold text-slate-400 uppercase tracking-wider px-1 pt-2 pb-1 border-t border-slate-100">Teams</div>';
+        teamHits.forEach(n => { html += `<button class="explore-sug w-full text-left px-3 py-1.5 text-sm hover:bg-blue-50 rounded transition-colors" data-type="team" data-name="${n}">${n}</button>`; });
+      }
+
+      if (html) {
+        resultsEl.innerHTML = `<div class="bg-white rounded-xl border border-slate-200 shadow-lg overflow-hidden">${html}</div>`;
+        resultsEl.querySelectorAll('.explore-sug').forEach(btn => {
+          btn.addEventListener('click', () => {
+            exploreInput.value = btn.dataset.name;
+            resultsEl.innerHTML = '';
+            exploreGo.disabled = false;
+            exploreGo.click();
+          });
+        });
+        exploreGo.disabled = false;
+      } else {
+        resultsEl.innerHTML = '<div class="text-xs text-slate-400 px-1 pt-1">No matches found.</div>';
+        exploreGo.disabled = true;
+      }
+    });
+
+    exploreGo.addEventListener('click', async () => {
+      const q = exploreInput.value.trim();
+      if (!q || !exploreCache) return;
+      document.getElementById('explore-results').innerHTML = '';
+
+      const lq = q.toLowerCase();
+      const pMatch = exploreCache.players.find(n => n.toLowerCase() === lq);
+      const tMatch = exploreCache.teams.find(n => n.toLowerCase() === lq);
+      if (pMatch) renderExploreGraph('player', pMatch);
+      else if (tMatch) renderExploreGraph('team', tMatch);
+      else document.getElementById('explore-results').innerHTML = '<div class="text-xs text-slate-400">No player or team found.</div>';
+    });
+
+    document.getElementById('explore-clear').addEventListener('click', () => {
+      exploreInput.value = '';
+      document.getElementById('explore-results').innerHTML = '';
+      exploreGo.disabled = true;
+      document.getElementById('graph-container').innerHTML = '';
+      document.getElementById('graph-info').textContent = 'Enter a name to begin exploration';
+      document.getElementById('explore-sidecard').classList.add('hidden');
+      if (exploreNetwork) { exploreNetwork.destroy(); exploreNetwork = null; }
+    });
+
+    exploreInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !exploreGo.disabled) exploreGo.click();
+    });
+
+    // ── Init ──
     populateAll();
     loadStats();
   </script>

@@ -310,29 +310,29 @@ def main():
         'team_to_root': team_to_root,
     }
 
-    with open(os.path.join(DATA_DIR, 'index.json'), 'w') as f:
+    with open(os.path.join(DATA_DIR, 'index.json'), 'w', encoding='utf-8') as f:
         json.dump(index_data, f, indent=2, ensure_ascii=False)
 
-    with open(os.path.join(DATA_DIR, 'players.json'), 'w') as f:
+    with open(os.path.join(DATA_DIR, 'players.json'), 'w', encoding='utf-8') as f:
         json.dump(players, f, indent=2, ensure_ascii=False)
 
-    with open(os.path.join(DATA_DIR, 'careers.json'), 'w') as f:
+    with open(os.path.join(DATA_DIR, 'careers.json'), 'w', encoding='utf-8') as f:
         json.dump(careers, f, indent=2, ensure_ascii=False)
 
-    with open(os.path.join(DATA_DIR, 'renames.json'), 'w') as f:
+    with open(os.path.join(DATA_DIR, 'renames.json'), 'w', encoding='utf-8') as f:
         json.dump(renames, f, indent=2, ensure_ascii=False)
 
-    with open(os.path.join(DATA_DIR, 'subteams.json'), 'w') as f:
+    with open(os.path.join(DATA_DIR, 'subteams.json'), 'w', encoding='utf-8') as f:
         json.dump(subteams, f, indent=2, ensure_ascii=False)
 
-    with open(os.path.join(DATA_DIR, 'team_meta.json'), 'w') as f:
+    with open(os.path.join(DATA_DIR, 'team_meta.json'), 'w', encoding='utf-8') as f:
         json.dump(team_meta, f, indent=2, ensure_ascii=False)
 
-    with open(os.path.join(DATA_DIR, 'rename_chains.json'), 'w') as f:
+    with open(os.path.join(DATA_DIR, 'rename_chains.json'), 'w', encoding='utf-8') as f:
         json.dump(rename_chains, f, indent=2, ensure_ascii=False)
 
     team_rosters_list = [[k, v] for k, v in team_rosters.items()]
-    with open(os.path.join(DATA_DIR, 'team_rosters.json'), 'w') as f:
+    with open(os.path.join(DATA_DIR, 'team_rosters.json'), 'w', encoding='utf-8') as f:
         json.dump(team_rosters_list, f, indent=2, ensure_ascii=False)
 
     print(f"Exported: {player_count} players, {unique_team_names} teams, {career_count} careers")

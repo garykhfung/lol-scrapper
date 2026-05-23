@@ -161,25 +161,37 @@ async def get_page_ids(session: aiohttp.ClientSession, titles: list[str]) -> dic
     return all_ids
 
 
-async def get_parsed_text(session: aiohttp.ClientSession, title: str) -> str:
+async def get_parsed_text(session: aiohttp.ClientSession, title: str, retries: int = 3) -> str:
     """Get rendered page text via action=parse API (includes Team History table).
-    Returns empty string on failure (non-200, non-JSON response)."""
-    try:
-        async with session.get(
-            "https://lol.fandom.com/api.php",
-            params={"action": "parse", "page": title, "prop": "text", "format": "json"},
-            headers=SESSION_HEADERS,
-        ) as resp:
-            if resp.status != 200:
-                return ""
-            data = await resp.json()
-        parse_data = data.get("parse", {})
-        text_data = parse_data.get("text", {})
-        if isinstance(text_data, dict):
-            return text_data.get("*", "")
-        return text_data if isinstance(text_data, str) else ""
-    except Exception:
-        return ""
+    Retries on transient failures (rate limits, server errors) with exponential backoff.
+    Returns empty string only after all retries are exhausted."""
+    for attempt in range(retries):
+        try:
+            async with session.get(
+                FANDOM_API,
+                params={"action": "parse", "page": title, "prop": "text", "format": "json"},
+                headers=SESSION_HEADERS,
+            ) as resp:
+                if resp.status == 200:
+                    data = await resp.json()
+                    parse_data = data.get("parse", {})
+                    text_data = parse_data.get("text", {})
+                    if isinstance(text_data, dict):
+                        return text_data.get("*", "")
+                    return text_data if isinstance(text_data, str) else ""
+                elif resp.status in (429, 502, 503):
+                    if attempt < retries - 1:
+                        await asyncio.sleep(2 ** attempt)
+                        continue
+                    return ""
+                else:
+                    return ""
+        except (aiohttp.ClientError, asyncio.TimeoutError):
+            if attempt < retries - 1:
+                await asyncio.sleep(2 ** attempt)
+                continue
+            return ""
+    return ""
 
 
 async def get_category_members(session: aiohttp.ClientSession, category: str) -> list[str]:

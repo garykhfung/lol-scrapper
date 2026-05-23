@@ -6,6 +6,8 @@
   <title>LoL Career DB</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vis-network@9.1.6/dist/vis-network.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-network@9.1.6/dist/vis-network.min.css" />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
     * { font-family: 'Inter', system-ui, sans-serif; }
@@ -56,6 +58,11 @@
     .spinner { width: 18px; height: 18px; border: 2px solid #e2e8f0; border-top-color: #3b82f6; border-radius: 50%; animation: spin 0.6s linear infinite; display: inline-block; }
     @keyframes spin { to { transform: rotate(360deg); } }
     .loading-overlay { display: flex; align-items: center; gap: 0.5rem; padding: 2rem; justify-content: center; color: #64748b; font-size: 0.875rem; }
+    #graph-container { width: 100%; height: 600px; border-radius: 0.75rem; background: #f8fafc; }
+    #graph-container .vis-network:focus { outline: none; }
+    #graph-container .vis-tooltip { font-family: 'Inter', sans-serif; font-size: 0.75rem; padding: 0.5rem 0.75rem; border-radius: 0.5rem; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: none; background: #1e293b; color: #e2e8f0; }
+    .graph-legend { display: flex; flex-wrap: wrap; gap: 1.25rem; }
+    .graph-legend-item { display: flex; align-items: center; gap: 0.375rem; font-size: 0.7rem; color: #64748b; }
   </style>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased">
@@ -88,6 +95,7 @@
       <button class="nav-btn px-3.5 py-2.5 text-xs font-medium text-slate-500 whitespace-nowrap" data-view="team">Team</button>
       <button class="nav-btn px-3.5 py-2.5 text-xs font-medium text-slate-500 whitespace-nowrap" data-view="rename">Rebrands</button>
       <button class="nav-btn px-3.5 py-2.5 text-xs font-medium text-slate-500 whitespace-nowrap" data-view="subteams">Sub-teams</button>
+      <button class="nav-btn px-3.5 py-2.5 text-xs font-medium text-slate-500 whitespace-nowrap" data-view="explore">Explore</button>
     </nav>
   </header>
 
@@ -212,6 +220,38 @@
         <button id="subteams-go" class="bg-gradient-to-r from-yellow-400 to-amber-500 text-white px-5 py-2 rounded-lg text-sm font-semibold hover:from-yellow-500 hover:to-amber-600 shadow-sm">Go</button>
       </div>
       <div id="subteams-results"></div>
+    </section>
+
+    <!-- Explore -->
+    <section id="view-explore" class="view-section">
+      <h2 class="text-lg font-bold text-slate-800 mb-1">Graph Explore</h2>
+      <p class="text-xs text-slate-400 mb-4">Search for a player or team and explore their connections interactively. Click nodes to expand, drag to rearrange.</p>
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-4 mb-4 flex flex-wrap gap-3 items-end">
+        <div class="flex-1 min-w-[220px]">
+          <label class="block text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Search player or team</label>
+          <input id="explore-search" type="text" class="border border-slate-200 rounded-lg px-3 py-2 text-sm w-full search-input" placeholder="Type to search..." autocomplete="off" />
+        </div>
+        <button id="explore-go" class="bg-gradient-to-r from-yellow-400 to-amber-500 text-white px-5 py-2 rounded-lg text-sm font-semibold hover:from-yellow-500 hover:to-amber-600 shadow-sm" disabled>Explore</button>
+        <button id="explore-clear" class="text-xs text-slate-400 hover:text-slate-600 bg-slate-100 hover:bg-slate-200 rounded-lg px-3 py-2 transition-colors">Clear</button>
+      </div>
+      <div id="explore-results" class="mb-4"></div>
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden card-hover">
+        <div class="px-5 py-3 border-b border-slate-100 bg-gradient-to-r from-slate-50 to-white flex items-center justify-between flex-wrap gap-2">
+          <div class="flex items-center gap-4 graph-legend">
+            <span class="graph-legend-item"><span class="w-3 h-3 rounded-full bg-blue-500"></span> Player</span>
+            <span class="graph-legend-item"><span class="w-3 h-3 rounded-full bg-amber-500"></span> Team</span>
+            <span class="graph-legend-item"><span class="w-3 h-3 rounded-full bg-emerald-500"></span> Region</span>
+            <span class="graph-legend-item"><span class="w-3 h-3 rounded-full bg-violet-500"></span> Rename</span>
+          </div>
+          <span id="graph-info" class="text-[10px] text-slate-400">Search for a player or team to explore</span>
+        </div>
+        <div class="flex gap-0 min-h-[400px]">
+          <div id="graph-container" class="flex-1" style="position:relative"></div>
+          <div id="explore-sidecard" class="w-72 shrink-0 border-l border-slate-200 bg-slate-50/80 p-4 hidden flex flex-col gap-3 overflow-y-auto" style="max-height:580px">
+            <div id="sidecard-content"></div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
@@ -500,6 +540,10 @@
           opt.textContent = t;
           subSel.appendChild(opt);
         });
+
+        // Pre-load names for explore search
+        allPlayerNames = DATA.index.player_names || [];
+        allTeamNames = DATA.index.team_names || [];
 
         // Stats
         loadStats();
@@ -970,6 +1014,438 @@
         <div class="mt-4 text-xs text-slate-400">${subs.length} sub-team(s)</div>
       </div>`;
       el.innerHTML = html;
+    });
+
+    // ── Graph Explore ──
+    let exploreNetwork = null;
+    let exploreNodes = null;
+    let exploreEdges = null;
+    let allTeamNames = [];
+    let allPlayerNames = [];
+    let exploreCareers = null;
+    let exploreRenameChains = null;
+    let exploreTeamMeta = null;
+    let exploreSubteams = null;
+    let exploredNodes = new Set();
+    let nodesQueue = [];
+
+    const EXPLORE_COLORS = {
+      player: { background: '#3b82f6', border: '#2563eb', highlight: { background: '#60a5fa', border: '#3b82f6' } },
+      team: { background: '#f59e0b', border: '#d97706', highlight: { background: '#fbbf24', border: '#f59e0b' } },
+      region: { background: '#22c55e', border: '#16a34a', highlight: { background: '#4ade80', border: '#22c55e' } },
+      rename: { background: '#8b5cf6', border: '#7c3aed', highlight: { background: '#a78bfa', border: '#8b5cf6' } },
+    };
+
+    function getExploreId(type, name) { return type + '::' + name; }
+
+    function getExploreNode(type, name) {
+      const id = getExploreId(type, name);
+      return {
+        id,
+        label: name,
+        shape: type === 'region' ? 'diamond' : 'dot',
+        size: type === 'region' ? 25 : type === 'team' ? 22 : 18,
+        borderWidth: 2,
+        font: { color: '#334155', size: 11, face: 'Inter', strokeWidth: 2, strokeColor: '#ffffff' },
+        color: EXPLORE_COLORS[type] || EXPLORE_COLORS.team,
+      };
+    }
+
+    function addExploreNode(type, name) {
+      const id = getExploreId(type, name);
+      if (!exploreNodes.get(id)) {
+        exploreNodes.add(getExploreNode(type, name));
+      }
+    }
+
+    function addExploreEdge(from, to, label, color) {
+      const id = from + '->' + to;
+      if (!exploreEdges.get(id)) {
+        exploreEdges.add({ id, from, to, label: label || '', color: { color: color || '#cbd5e1', hover: '#64748b' }, font: { color: '#64748b', size: 9, face: 'Inter', strokeWidth: 0 }, width: 1.5, smooth: { type: 'curvedCW', roundness: 0.15 } });
+      }
+    }
+
+    function expandExploreNode(nodeId) {
+      if (exploredNodes.has(nodeId)) return;
+      exploredNodes.add(nodeId);
+
+      const parts = nodeId.split('::');
+      const type = parts[0];
+      const name = parts.slice(1).join('::');
+
+      if (type === 'player') {
+        // Show teams this player played for
+        if (exploreCareers) {
+          const stints = exploreCareers.filter(c => c.player === name);
+          const teamMap = {};
+          for (const stint of stints) {
+            if (!teamMap[stint.team]) teamMap[stint.team] = { years: [], role: '' };
+            teamMap[stint.team].years.push(stint.year);
+            if (stint.role && !teamMap[stint.team].role) teamMap[stint.team].role = stint.role;
+          }
+          for (const [team, data] of Object.entries(teamMap)) {
+            addExploreNode('team', team);
+            const yrs = data.years.filter(y => y != null);
+            const minY = Math.min(...yrs);
+            const maxY = Math.max(...yrs);
+            const yearLabel = minY === maxY ? `${minY}` : `${minY}-${maxY}`;
+            const label = data.role ? `${data.role} ${yearLabel}` : yearLabel;
+            addExploreEdge(nodeId, getExploreId('team', team), label);
+            // If the team has a region, show that too
+            if (exploreTeamMeta && exploreTeamMeta[team] && exploreTeamMeta[team].region) {
+              const region = exploreTeamMeta[team].region;
+              addExploreNode('region', region);
+              addExploreEdge(getExploreId('team', team), getExploreId('region', region), '', '#22c55e');
+            }
+          }
+        }
+      } else if (type === 'team') {
+        // Show players on this team
+        if (exploreCareers) {
+          const stints = exploreCareers.filter(c => c.team === name);
+          const playerMap = {};
+          for (const stint of stints) {
+            if (!playerMap[stint.player]) playerMap[stint.player] = { years: [], role: '' };
+            playerMap[stint.player].years.push(stint.year);
+            if (stint.role && !playerMap[stint.player].role) playerMap[stint.player].role = stint.role;
+          }
+          for (const [player, data] of Object.entries(playerMap)) {
+            addExploreNode('player', player);
+            const yrs = data.years.filter(y => y != null);
+            const minY = Math.min(...yrs);
+            const maxY = Math.max(...yrs);
+            const yearLabel = minY === maxY ? `${minY}` : `${minY}-${maxY}`;
+            const label = data.role ? `${data.role} ${yearLabel}` : yearLabel;
+            addExploreEdge(getExploreId('player', player), nodeId, label);
+          }
+        }
+        // Show region
+        if (exploreTeamMeta && exploreTeamMeta[name]) {
+          const region = exploreTeamMeta[name].region;
+          if (region) {
+            addExploreNode('region', region);
+            addExploreEdge(nodeId, getExploreId('region', region), '', '#22c55e');
+          }
+        }
+        // Show rename chain
+        if (exploreRenameChains && exploreRenameChains[name]) {
+          const chain = exploreRenameChains[name];
+          for (const [chainName] of chain) {
+            if (chainName !== name) {
+              addExploreNode('rename', chainName);
+              addExploreEdge(nodeId, getExploreId('rename', chainName), '', '#8b5cf6');
+            }
+          }
+        }
+        // Show sub-teams
+        if (exploreSubteams) {
+          const subs = exploreSubteams.filter(s => s.parent === name);
+          for (const sub of subs) {
+            addExploreNode('team', sub.subteam);
+            addExploreEdge(nodeId, getExploreId('team', sub.subteam), 'subteam', '#94a3b8');
+          }
+        }
+      } else if (type === 'region') {
+        // Show all teams in this region (limit to first 50)
+        if (exploreTeamMeta) {
+          let count = 0;
+          for (const [teamName, meta] of Object.entries(exploreTeamMeta)) {
+            if (meta.region === name && count < 50) {
+              addExploreNode('team', teamName);
+              addExploreEdge(nodeId, getExploreId('team', teamName), '', '#22c55e');
+              count++;
+            }
+          }
+        }
+      } else if (type === 'rename') {
+        // Show team that rebranded to/from this name
+        if (exploreRenameChains) {
+          for (const [rootName, chain] of Object.entries(exploreRenameChains)) {
+            for (const [chainName] of chain) {
+              if (chainName === name && rootName !== name) {
+                addExploreNode('team', rootName);
+                addExploreEdge(getExploreId('rename', chainName), getExploreId('team', rootName), '', '#8b5cf6');
+              }
+            }
+          }
+        }
+      }
+    }
+
+    function renderExploreGraph(centerType, centerName) {
+      const container = document.getElementById('graph-container');
+      const centerId = getExploreId(centerType, centerName);
+
+      exploredNodes = new Set();
+      exploreNodes = new vis.DataSet([]);
+      exploreEdges = new vis.DataSet([]);
+
+      // Add center node
+      addExploreNode(centerType, centerName);
+
+      // Expand it and its immediate neighbors
+      expandExploreNode(centerId);
+
+      // For teams, also expand connected players to show their regions
+      if (centerType === 'team') {
+        const nodesArr = exploreNodes.get();
+        for (const n of nodesArr) {
+          if (n.id.startsWith('player::') && !exploredNodes.has(n.id)) {
+            const connections = exploreEdges.get({ filter: e => e.to === n.id || e.from === n.id });
+            if (connections.some(e => e.from === centerId || e.to === centerId)) {
+              expandExploreNode(n.id);
+            }
+          }
+        }
+      }
+
+      const options = {
+        physics: {
+          solver: 'forceAtlas2Based',
+          forceAtlas2Based: { gravitationalConstant: -40, centralGravity: 0.005, springLength: 180, springConstant: 0.02, damping: 0.4 },
+          stabilization: { iterations: 150 },
+        },
+        interaction: {
+          hover: true,
+          tooltipDelay: 200,
+          zoomView: true,
+          dragView: true,
+          dragNodes: true,
+        },
+        edges: {
+          smooth: { type: 'curvedCW', roundness: 0.15 },
+        },
+        nodes: {
+          borderWidth: 2,
+          font: { color: '#334155', size: 11, face: 'Inter', strokeWidth: 2, strokeColor: '#ffffff' },
+        },
+        layout: { improvedLayout: true },
+      };
+
+      exploreNetwork = new vis.Network(container, { nodes: exploreNodes, edges: exploreEdges }, options);
+
+      // Side card on click
+      function showSideCard(nodeId, edgeId) {
+        const card = document.getElementById('explore-sidecard');
+        const content = document.getElementById('sidecard-content');
+        card.classList.remove('hidden');
+        let html = '';
+
+        if (nodeId) {
+          const parts = nodeId.split('::');
+          const ntype = parts[0];
+          const nname = parts.slice(1).join('::');
+          const color = EXPLORE_COLORS[ntype]?.background || '#94a3b8';
+          const typeLabel = ntype.charAt(0).toUpperCase() + ntype.slice(1);
+
+          html += `<div class="flex items-center gap-2 mb-3">
+            <span class="w-3 h-3 rounded-full shrink-0" style="background:${color}"></span>
+            <strong class="text-sm">${nname}</strong>
+            <span class="text-[10px] text-slate-400 ml-auto">${typeLabel}</span>
+          </div>`;
+
+          // Connections (compute before use in detail blocks)
+          const connectedEdges = exploreEdges.get({ filter: e => e.from === nodeId || e.to === nodeId });
+
+          if (ntype === 'player') {
+            const p = DATA.players && DATA.players.find(x => x.name === nname);
+            if (p) {
+              html += `<div class="space-y-1 text-xs">
+                <div class="flex justify-between py-0.5"><span class="text-slate-500">Role</span><span>${p.role || '-'}</span></div>
+                <div class="flex justify-between py-0.5"><span class="text-slate-500">Nationality</span><span>${p.nationality || '-'}</span></div>
+                <div class="flex justify-between py-0.5"><span class="text-slate-500">Status</span><span>${p.status || 'Active'}</span></div>
+              </div>`;
+            }
+          } else if (ntype === 'team') {
+            const m = exploreTeamMeta && exploreTeamMeta[nname];
+            let minY = null, maxY = null;
+            console.log('Sidecard team:', nname, 'edges:', connectedEdges.length);
+            for (const e of connectedEdges) {
+              console.log('  edge:', e.id, 'label:', e.label);
+              if (e.label) {
+                const years = e.label.match(/\d{4}/g);
+                console.log('  years found:', years);
+                if (years) {
+                  for (const y of years) {
+                    const ny = parseInt(y);
+                    if (minY === null || ny < minY) minY = ny;
+                    if (maxY === null || ny > maxY) maxY = ny;
+                  }
+                }
+              }
+            }
+            console.log('  result minY:', minY, 'maxY:', maxY);
+            const yearRange = minY !== null ? (minY === maxY ? `${minY}` : `${minY}\u2013${maxY}`) : '-';
+            html += `<div class="space-y-1 text-xs">
+              <div class="flex justify-between py-0.5"><span class="text-slate-500">Region</span><span>${m?.region || 'Unknown'}</span></div>
+              <div class="flex justify-between py-0.5"><span class="text-slate-500">Year</span><span>${yearRange}</span></div>
+            </div>`;
+          }
+
+          // Connections list
+          if (connectedEdges.length > 0) {
+            const sectionLabel = ntype === 'player' ? 'Teams' : ntype === 'team' ? 'Players' : 'Connections';
+            const connColor = ntype === 'player' ? EXPLORE_COLORS.team.background : EXPLORE_COLORS.player.background;
+            html += `<div class="mt-3 pt-3 border-t border-slate-200">
+              <div class="text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-2">${sectionLabel}</div>`;
+            for (const e of connectedEdges) {
+              const otherId = e.from === nodeId ? e.to : e.from;
+              const otherName = otherId.split('::').slice(1).join('::');
+              const otherType = otherId.split('::')[0];
+              const dotColor = EXPLORE_COLORS[otherType]?.background || '#94a3b8';
+              html += `<div class="flex items-center gap-2 py-1.5 text-xs hover:bg-slate-100 rounded px-1 -mx-1 cursor-pointer" data-id="${otherId}">
+                <span class="w-2 h-2 rounded-full shrink-0" style="background:${dotColor}"></span>
+                <span>${otherName}</span>
+                ${e.label ? '<span class="text-[10px] text-slate-400 ml-auto">(' + e.label + ')</span>' : ''}
+              </div>`;
+            }
+            html += '</div>';
+          }
+        } else if (edgeId) {
+          const edge = exploreEdges.get(edgeId);
+          if (edge) {
+            const fromName = edge.from.split('::').slice(1).join('::');
+            const toName = edge.to.split('::').slice(1).join('::');
+            html += `<div class="flex items-center gap-2 mb-3">
+              <span class="text-xs font-medium text-slate-600">Connection</span>
+            </div>
+            <div class="space-y-1 text-xs">
+              <div class="flex justify-between py-0.5"><span class="text-slate-500">From</span><span>${fromName}</span></div>
+              <div class="flex justify-between py-0.5"><span class="text-slate-500">To</span><span>${toName}</span></div>
+              ${edge.label ? '<div class="flex justify-between py-0.5"><span class="text-slate-500">Label</span><span>' + edge.label + '</span></div>' : ''}
+            </div>`;
+          }
+        }
+
+        html += '</div>';
+        content.innerHTML = html;
+
+        // Click on connection items navigates to that node
+        content.querySelectorAll('[data-id]').forEach(el => {
+          el.addEventListener('click', () => showSideCard(el.dataset.id, null));
+        });
+      }
+
+      exploreNetwork.on('click', function(params) {
+        if (params.nodes.length > 0) {
+          showSideCard(params.nodes[0], null);
+        } else if (params.edges.length > 0) {
+          showSideCard(null, params.edges[0]);
+        } else {
+          document.getElementById('explore-sidecard').classList.add('hidden');
+        }
+      });
+
+      exploreNetwork.on('stabilizationIterationsDone', () => {
+        document.getElementById('graph-info').textContent = `${exploreNodes.length} nodes · ${exploreEdges.length} edges · Drag to rearrange, click for details`;
+        exploreNetwork.fit({ animation: true });
+      });
+    }
+
+    // Explore search autocomplete
+    const exploreInput = document.getElementById('explore-search');
+    const exploreGo = document.getElementById('explore-go');
+
+    let exploreAutocomplete = null;
+
+    exploreInput.addEventListener('input', function () {
+      const q = this.value.trim().toLowerCase();
+      if (!q) {
+        exploreGo.disabled = true;
+        document.getElementById('explore-results').innerHTML = '';
+        return;
+      }
+
+      const playerHits = allPlayerNames.filter(n => n.toLowerCase().includes(q)).slice(0, 8);
+      const teamHits = allTeamNames.filter(n => n.toLowerCase().includes(q)).slice(0, 8);
+
+      let html = '';
+      if (playerHits.length) {
+        html += '<div class="text-[10px] font-semibold text-slate-400 uppercase tracking-wider px-1 pt-2 pb-1">Players</div>';
+        playerHits.forEach(n => {
+          html += `<button class="explore-suggestion w-full text-left px-3 py-1.5 text-sm hover:bg-blue-50 rounded transition-colors" data-type="player" data-name="${n}">${n}</button>`;
+        });
+      }
+      if (teamHits.length) {
+        html += '<div class="text-[10px] font-semibold text-slate-400 uppercase tracking-wider px-1 pt-2 pb-1">Teams</div>';
+        teamHits.forEach(n => {
+          const region = exploreTeamMeta?.[n]?.region || '';
+          html += `<button class="explore-suggestion w-full text-left px-3 py-1.5 text-sm hover:bg-blue-50 rounded transition-colors" data-type="team" data-name="${n}">${n}${region ? ' <span class="text-xs text-slate-400">(' + region + ')</span>' : ''}</button>`;
+        });
+      }
+
+      const container = document.getElementById('explore-results');
+      if (html) {
+        container.innerHTML = `<div class="bg-white rounded-xl border border-slate-200 shadow-lg overflow-hidden">${html}</div>`;
+        container.querySelectorAll('.explore-suggestion').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const type = btn.dataset.type;
+            const name = btn.dataset.name;
+            exploreInput.value = name;
+            container.innerHTML = '';
+            exploreGo.disabled = false;
+            exploreGo.click();
+          });
+        });
+        exploreGo.disabled = false;
+      } else {
+        container.innerHTML = '<div class="text-xs text-slate-400 px-1 pt-1">No matches found.</div>';
+        exploreGo.disabled = true;
+      }
+    });
+
+    exploreGo.addEventListener('click', async () => {
+      const q = exploreInput.value.trim();
+      if (!q) return;
+
+      document.getElementById('explore-results').innerHTML = '';
+
+      // Determine type
+      const isPlayer = allPlayerNames.some(n => n.toLowerCase() === q.toLowerCase());
+      const isTeam = allTeamNames.some(n => n.toLowerCase() === q.toLowerCase());
+
+      let type = null;
+      let name = null;
+
+      if (isPlayer) {
+        type = 'player';
+        name = allPlayerNames.find(n => n.toLowerCase() === q.toLowerCase());
+      } else if (isTeam) {
+        type = 'team';
+        name = allTeamNames.find(n => n.toLowerCase() === q.toLowerCase());
+      } else {
+        document.getElementById('explore-results').innerHTML = '<div class="text-xs text-slate-400">No player or team found with that name.</div>';
+        return;
+      }
+
+      // Load data if needed
+      if (!exploreCareers) exploreCareers = await loadJSON('data/careers.json');
+      if (!exploreRenameChains) exploreRenameChains = await loadJSON('data/rename_chains.json');
+      if (!exploreTeamMeta) exploreTeamMeta = await loadJSON('data/team_meta.json');
+      if (!exploreSubteams) exploreSubteams = await loadJSON('data/subteams.json');
+      if (!DATA.players) DATA.players = await loadJSON('data/players.json');
+
+      renderExploreGraph(type, name);
+    });
+
+    document.getElementById('explore-clear').addEventListener('click', () => {
+      exploreInput.value = '';
+      document.getElementById('explore-results').innerHTML = '';
+      exploreGo.disabled = true;
+      document.getElementById('graph-container').innerHTML = '';
+      document.getElementById('graph-info').textContent = 'Search for a player or team to explore';
+      document.getElementById('explore-sidecard').classList.add('hidden');
+      if (exploreNetwork) {
+        exploreNetwork.destroy();
+        exploreNetwork = null;
+      }
+    });
+
+    // Allow Enter to trigger explore
+    exploreInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !exploreGo.disabled) {
+        exploreGo.click();
+      }
     });
 
     // ── Start ──
