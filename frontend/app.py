@@ -751,17 +751,15 @@ async def get_explore(type: str = Query(), name: str = Query(''), limit: int = Q
 
         rows = await query(
             'MATCH (p:Player {name: $name})-[r:PLAYED_FOR]->(t:Team) '
-            'RETURN t.name AS team, t.region AS region, t.year AS year, '
+            'RETURN t.name AS team, t.region AS region, '
             '       head(collect(DISTINCT r.role)) AS role, '
-            '       min(r.start_year) AS stint_start, max(coalesce(r.end_year, r.start_year)) AS stint_end '
+            '       min(t.year) AS stint_start, max(t.year) AS stint_end '
             'ORDER BY stint_start',
             name=name,
         )
         for r in rows:
             tn = r['team']
             tenrich = {'region': r['region']} if r.get('region') and r['region'] not in ('Unknown', 'Unknown CL') else {}
-            if r.get('year'):
-                tenrich['year'] = r['year']
             add_node(f'team::{tn}', tn, 'team', **tenrich)
             role = r.get('role') or ''
             start = r.get('stint_start')
@@ -800,7 +798,7 @@ async def get_explore(type: str = Query(), name: str = Query(''), limit: int = Q
             'MATCH (p:Player)-[r:PLAYED_FOR]->(t:Team {name: $name}) '
             'RETURN p.name AS player, p.role AS prole, p.nationality AS nationality, p.status AS status, '
             '       head(collect(DISTINCT r.role)) AS srole, '
-            '       min(r.start_year) AS stint_start, max(coalesce(r.end_year, r.start_year)) AS stint_end '
+            '       min(t.year) AS stint_start, max(t.year) AS stint_end '
             'ORDER BY player',
             name=name,
         )
