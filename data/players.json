@@ -15,15 +15,15 @@
   },
   {
     "name": "13day",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "1Jiang",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -57,8 +57,8 @@
   },
   {
     "name": "2274",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -71,8 +71,8 @@
   },
   {
     "name": "3XA",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -141,8 +141,8 @@
   },
   {
     "name": "AJOSU",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -155,8 +155,8 @@
   },
   {
     "name": "ANDARIEL",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -197,29 +197,29 @@
   },
   {
     "name": "Ace",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Acee",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Achael",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Ackerman",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -239,85 +239,85 @@
   },
   {
     "name": "Adyyy",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Aeru",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Aether",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Aetinoth",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Afroboi",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Agurin",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Ahn",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Aiming",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "AisyL",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Aitze",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Akashi",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "US",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Akrantor",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -337,15 +337,15 @@
   },
   {
     "name": "Alex",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "TW",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Alitan",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -365,8 +365,8 @@
   },
   {
     "name": "AlluK",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -421,14 +421,14 @@
   },
   {
     "name": "Anonymouss",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Anto",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -442,22 +442,22 @@
   },
   {
     "name": "Aojune",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Aomine",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Aos Si",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -470,14 +470,14 @@
   },
   {
     "name": "Apoka",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Apollonia",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -512,29 +512,29 @@
   },
   {
     "name": "Aress",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Aria",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Ariana",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "PL",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Ark",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -561,8 +561,8 @@
   },
   {
     "name": "Artemis",
-    "role": null,
-    "nationality": null,
+    "role": "sub/sup",
+    "nationality": "US",
     "birth_date": null,
     "status": "Active"
   },
@@ -575,15 +575,15 @@
   },
   {
     "name": "ArutnevJr",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Arya",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "US",
     "birth_date": null,
     "status": "Active"
   },
@@ -617,15 +617,15 @@
   },
   {
     "name": "Assum",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Atomic",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -638,42 +638,42 @@
   },
   {
     "name": "Avarice",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Avra",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Aymen",
-    "role": null,
-    "nationality": null,
+    "role": "sub/sup",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Ayu",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "B Butcher",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "BAO",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -694,8 +694,8 @@
   },
   {
     "name": "Badlulu",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -715,8 +715,8 @@
   },
   {
     "name": "Bambi",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -736,15 +736,15 @@
   },
   {
     "name": "Batuuu",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Baumeef",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -757,7 +757,7 @@
   },
   {
     "name": "Bazz",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -778,22 +778,22 @@
   },
   {
     "name": "Bean",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Beep",
-    "role": null,
+    "role": "sub/sup",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Beluga",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -820,35 +820,35 @@
   },
   {
     "name": "Beshop",
-    "role": null,
-    "nationality": null,
+    "role": "sub/sup",
+    "nationality": "TH",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "BetoEZ",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Bie",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Bin",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Bio",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -869,21 +869,21 @@
   },
   {
     "name": "BipolarXD",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Birkyy",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "PL",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Bizyze",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -911,8 +911,8 @@
   },
   {
     "name": "Blacky",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "BR",
     "birth_date": null,
     "status": "Active"
   },
@@ -925,112 +925,112 @@
   },
   {
     "name": "BliZarD",
-    "role": null,
-    "nationality": null,
+    "role": "general manager",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Blight",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Blind Walker",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "US",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Blink",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Blondie",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "TH",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Blueboar",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Bluffing",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Boal",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "BR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Bobsik",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Boda",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Bolt",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Bolyy1",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Booki",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Booshi",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Boukada",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Bounty",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -1044,15 +1044,15 @@
   },
   {
     "name": "Bradley",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Brance",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -1065,15 +1065,15 @@
   },
   {
     "name": "Brayaron",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Breathe",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -1086,43 +1086,43 @@
   },
   {
     "name": "Bruce",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "BuLLDoG",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Buddy",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Bull",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Burdol",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Busio",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -1142,29 +1142,29 @@
   },
   {
     "name": "CHECKFIDER",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "CHIMP",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "CPM",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "CRoNiiK",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -1177,15 +1177,15 @@
   },
   {
     "name": "Caliste",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Calix",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -1198,36 +1198,36 @@
   },
   {
     "name": "Caltys",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Camana",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "TR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Camilo",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Candy",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Canna",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -1247,8 +1247,8 @@
   },
   {
     "name": "Care",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -1275,36 +1275,36 @@
   },
   {
     "name": "Carlsen",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Carzzy",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Casting",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Castle",
-    "role": null,
-    "nationality": null,
+    "role": "sub/jun",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Castle",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -1331,15 +1331,15 @@
   },
   {
     "name": "Cendi",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Centu",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "PL",
     "birth_date": null,
     "status": "Active"
   },
@@ -1352,8 +1352,8 @@
   },
   {
     "name": "Ceos",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -1366,8 +1366,8 @@
   },
   {
     "name": "Chakroun",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -1380,15 +1380,15 @@
   },
   {
     "name": "Chambel",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Chan",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -1422,14 +1422,14 @@
   },
   {
     "name": "Chika",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Chimey",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -1443,8 +1443,8 @@
   },
   {
     "name": "Chordy",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -1457,8 +1457,8 @@
   },
   {
     "name": "Cid",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -1485,15 +1485,15 @@
   },
   {
     "name": "Citrus",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Clear",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -1506,8 +1506,8 @@
   },
   {
     "name": "Click",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "RU",
     "birth_date": null,
     "status": "Active"
   },
@@ -1520,8 +1520,8 @@
   },
   {
     "name": "Climber",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -1597,15 +1597,15 @@
   },
   {
     "name": "Clozer",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "CoBiT",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -1618,15 +1618,15 @@
   },
   {
     "name": "Cody Sun",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Coli",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -1639,8 +1639,8 @@
   },
   {
     "name": "Color",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -1667,8 +1667,8 @@
   },
   {
     "name": "Coow",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -1681,15 +1681,15 @@
   },
   {
     "name": "Corriragazzo",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Coscu",
-    "role": null,
-    "nationality": null,
+    "role": "sub/sup",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -1702,8 +1702,8 @@
   },
   {
     "name": "Courage",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -1723,29 +1723,29 @@
   },
   {
     "name": "Cracker",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Crecre",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Creme",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Crimson",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CA",
     "birth_date": null,
     "status": "Active"
   },
@@ -1758,8 +1758,8 @@
   },
   {
     "name": "Cristal",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -1772,15 +1772,15 @@
   },
   {
     "name": "Croco",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Crow",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -1800,15 +1800,15 @@
   },
   {
     "name": "Cryogen",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Cube",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -1842,63 +1842,63 @@
   },
   {
     "name": "Czajek",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Czekolad",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "D0kai",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "D4nKa",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "DANKI",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "DARKWINGS",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "DDoiV",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "DICE",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "DIGA",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -1926,15 +1926,15 @@
   },
   {
     "name": "DaeHan",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Dafnis",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -1947,8 +1947,8 @@
   },
   {
     "name": "Dajor",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -1961,21 +1961,21 @@
   },
   {
     "name": "Damage",
-    "role": null,
+    "role": "sub/sup",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Damocles",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Daption",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -2003,36 +2003,36 @@
   },
   {
     "name": "Davyyy",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Dawciu",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Day Beats",
-    "role": null,
-    "nationality": null,
+    "role": "sub/jun",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Daystar",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Deadly",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -2045,29 +2045,29 @@
   },
   {
     "name": "Dean",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Death",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "US",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Dec0y",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "TH",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Decay",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -2094,22 +2094,22 @@
   },
   {
     "name": "DejaVu",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Dekap",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Delight",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -2129,22 +2129,22 @@
   },
   {
     "name": "DenVoksne",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "DK",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Denathor",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Densi",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -2171,15 +2171,15 @@
   },
   {
     "name": "Devoured",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Dezo",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -2192,36 +2192,36 @@
   },
   {
     "name": "DiDi",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Diable",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Dionelux",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Dionrray",
-    "role": null,
+    "role": "substitute",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Dire",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
@@ -2234,8 +2234,8 @@
   },
   {
     "name": "Dizin",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -2248,8 +2248,8 @@
   },
   {
     "name": "Doggo",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -2269,8 +2269,8 @@
   },
   {
     "name": "Doppler",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "US",
     "birth_date": null,
     "status": "Active"
   },
@@ -2283,14 +2283,14 @@
   },
   {
     "name": "Dotmm",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Downed",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -2304,15 +2304,15 @@
   },
   {
     "name": "Drakehero",
-    "role": null,
-    "nationality": null,
+    "role": "sub/jun",
+    "nationality": "BR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Draktharr",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "US",
     "birth_date": null,
     "status": "Active"
   },
@@ -2325,14 +2325,14 @@
   },
   {
     "name": "Draxo5",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Draxyr",
-    "role": null,
+    "role": "substitute",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -2353,7 +2353,7 @@
   },
   {
     "name": "DuDu",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -2367,14 +2367,14 @@
   },
   {
     "name": "Duduhh",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Dunzi",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -2416,50 +2416,50 @@
   },
   {
     "name": "EL",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "ESCIK",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "EUNE",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "EXILED",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Easylove",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Eclipse",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Eddie",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
@@ -2493,22 +2493,22 @@
   },
   {
     "name": "Elative",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Elio",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Elk",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -2521,15 +2521,15 @@
   },
   {
     "name": "Elyoya",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Emilia",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -2549,29 +2549,29 @@
   },
   {
     "name": "Enga",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Enoch",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Enosh",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Envy",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -2584,15 +2584,15 @@
   },
   {
     "name": "Eradan",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Erdote",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -2605,28 +2605,28 @@
   },
   {
     "name": "Erk",
-    "role": null,
+    "role": "sub/sup",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Erolle",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "DK",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Ersin",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "TR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Eryc",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -2654,22 +2654,22 @@
   },
   {
     "name": "Evi",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Exan",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Excellentless",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "TH",
     "birth_date": null,
     "status": "Active"
   },
@@ -2682,8 +2682,8 @@
   },
   {
     "name": "Exile1",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -2710,8 +2710,8 @@
   },
   {
     "name": "Eyliph",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -2738,22 +2738,22 @@
   },
   {
     "name": "FIESTA",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "FLOW",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Faded",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -2773,8 +2773,8 @@
   },
   {
     "name": "Fallen",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "MX",
     "birth_date": null,
     "status": "Active"
   },
@@ -2801,15 +2801,15 @@
   },
   {
     "name": "Feisty",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Felkros",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "US",
     "birth_date": null,
     "status": "Active"
   },
@@ -2822,22 +2822,22 @@
   },
   {
     "name": "FenRir",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Feng",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Feng",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -2850,28 +2850,28 @@
   },
   {
     "name": "Feng55",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Ferret",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Feww",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "TH",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Fiji",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -2892,15 +2892,15 @@
   },
   {
     "name": "Fix",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Flakked",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -2920,29 +2920,29 @@
   },
   {
     "name": "Flauren",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Fleshy",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Flint",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Flip",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -2990,8 +2990,8 @@
   },
   {
     "name": "Fooneses",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -3004,8 +3004,8 @@
   },
   {
     "name": "Fornoreason",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -3018,21 +3018,21 @@
   },
   {
     "name": "Forslund",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Fortu",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Fr0m 0 2 Her0",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -3046,8 +3046,8 @@
   },
   {
     "name": "Frieren",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -3074,15 +3074,15 @@
   },
   {
     "name": "Frozen",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Fubuki",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
@@ -3095,28 +3095,28 @@
   },
   {
     "name": "FullClear",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "PL",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Funky",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Furuy",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Fuuu",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -3172,8 +3172,8 @@
   },
   {
     "name": "GIDEON",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -3186,29 +3186,29 @@
   },
   {
     "name": "GLFS",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "GWolfieG",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Gakgos",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Galileo",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -3235,42 +3235,42 @@
   },
   {
     "name": "Garden",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Gastruks",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Gato",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Gatovisck",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "BR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Gavotto",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Geiger",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -3305,15 +3305,15 @@
   },
   {
     "name": "GertrudeThePony",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Ggomji",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -3333,8 +3333,8 @@
   },
   {
     "name": "GianKios",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -3347,28 +3347,28 @@
   },
   {
     "name": "Giomatic",
-    "role": null,
-    "nationality": null,
+    "role": "sub/jun",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Giyuu",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Glimpse",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Globby",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -3382,7 +3382,7 @@
   },
   {
     "name": "GoDirr",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -3403,29 +3403,29 @@
   },
   {
     "name": "Goldtiger",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Good Boi",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Goot",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "BR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Gordinho",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -3438,8 +3438,8 @@
   },
   {
     "name": "Grevthar",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "BR",
     "birth_date": null,
     "status": "Active"
   },
@@ -3452,85 +3452,85 @@
   },
   {
     "name": "Grit",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Gryffinn",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Guardian",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Guggu",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Guidoxi",
-    "role": null,
+    "role": "sub/jun",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Guigo",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Guigs",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Guizzy",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Gumayusi",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Guppy",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Gury",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Gus",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -3543,15 +3543,15 @@
   },
   {
     "name": "Guts",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Guvez",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "SE",
     "birth_date": null,
     "status": "Active"
   },
@@ -3585,15 +3585,15 @@
   },
   {
     "name": "HOYA",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Habubu",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -3613,15 +3613,15 @@
   },
   {
     "name": "Hailstone",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "HamBak",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -3634,22 +3634,22 @@
   },
   {
     "name": "Hang",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Hankat",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "DK",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Hannah",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
@@ -3662,8 +3662,8 @@
   },
   {
     "name": "Harky",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
@@ -3683,8 +3683,8 @@
   },
   {
     "name": "Hatsu",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -3697,14 +3697,14 @@
   },
   {
     "name": "Hauz",
-    "role": null,
-    "nationality": null,
+    "role": "ia/mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Haxorr",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -3725,15 +3725,15 @@
   },
   {
     "name": "Hena",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Heng",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -3753,36 +3753,36 @@
   },
   {
     "name": "Henry",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "BR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Henry Snow",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Heru",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Hery",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Hetel",
-    "role": null,
-    "nationality": null,
+    "role": "sub/sup",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
@@ -3795,36 +3795,36 @@
   },
   {
     "name": "Hiro02",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Hirotto",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "BR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Hizto",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Hoben",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Holo",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
@@ -3844,8 +3844,8 @@
   },
   {
     "name": "Honest",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -3858,14 +3858,14 @@
   },
   {
     "name": "HongSuo",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Hongz",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -3886,7 +3886,7 @@
   },
   {
     "name": "Horder",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -3900,7 +3900,7 @@
   },
   {
     "name": "Houndin",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -3914,7 +3914,7 @@
   },
   {
     "name": "HugMe",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -3942,7 +3942,7 @@
   },
   {
     "name": "Humi",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -3956,8 +3956,8 @@
   },
   {
     "name": "HungryPanda",
-    "role": null,
-    "nationality": null,
+    "role": "sub/sup",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -3970,22 +3970,22 @@
   },
   {
     "name": "Husha",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Hwichan",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Hype",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -3998,28 +3998,28 @@
   },
   {
     "name": "Hyres",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "IHEBIC",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "ISMA",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "IamaNewby",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -4040,8 +4040,8 @@
   },
   {
     "name": "IceBreaker",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -4054,8 +4054,8 @@
   },
   {
     "name": "Icy",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "SE",
     "birth_date": null,
     "status": "Active"
   },
@@ -4082,8 +4082,8 @@
   },
   {
     "name": "Insane",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "PL",
     "birth_date": null,
     "status": "Active"
   },
@@ -4103,15 +4103,15 @@
   },
   {
     "name": "Interor",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Intio",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -4124,15 +4124,15 @@
   },
   {
     "name": "IsDEAD",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Iska",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -4145,57 +4145,57 @@
   },
   {
     "name": "Itae",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "TH",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Itoshi",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Ivama",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Ivan",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "US",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Ivory",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Izo",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "PL",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Izzeeri",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "J3rkie",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -4229,8 +4229,8 @@
   },
   {
     "name": "JNX",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -4250,15 +4250,15 @@
   },
   {
     "name": "Jackal",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "JackeyLove",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -4271,21 +4271,21 @@
   },
   {
     "name": "Jaehyuk",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Jakorhs",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Jalleba",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -4299,8 +4299,8 @@
   },
   {
     "name": "Janus",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -4341,8 +4341,8 @@
   },
   {
     "name": "Jericho",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
@@ -4355,22 +4355,22 @@
   },
   {
     "name": "Jeskla",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Jeyrus",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "TR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "JiT",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -4397,21 +4397,21 @@
   },
   {
     "name": "JimieN",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Jinbeom",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Jiux",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -4425,15 +4425,15 @@
   },
   {
     "name": "JoJo",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "JoKozz",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -4446,8 +4446,8 @@
   },
   {
     "name": "Joexy",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "TR",
     "birth_date": null,
     "status": "Active"
   },
@@ -4467,36 +4467,36 @@
   },
   {
     "name": "Jool",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Jopa",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Josedeodo",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Juggernaut",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Juhan",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -4530,22 +4530,22 @@
   },
   {
     "name": "Jungoat",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Junhao",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Jwei",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -4558,8 +4558,8 @@
   },
   {
     "name": "KKT",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -4572,8 +4572,8 @@
   },
   {
     "name": "KSAEZ",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "TR",
     "birth_date": null,
     "status": "Active"
   },
@@ -4586,22 +4586,22 @@
   },
   {
     "name": "Kaboom",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Kael",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Kaine",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "TR",
     "birth_date": null,
     "status": "Active"
   },
@@ -4614,36 +4614,36 @@
   },
   {
     "name": "Kaiser",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Kaiwing",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Kakarot",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Kakkun",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Kamiloo",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -4656,36 +4656,36 @@
   },
   {
     "name": "Kangin",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Kantoshi",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "US",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Kaplica",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "PL",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Karaage",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Karis",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -4698,8 +4698,8 @@
   },
   {
     "name": "Kaylem",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -4712,36 +4712,36 @@
   },
   {
     "name": "Keduii",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Keel",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Keii",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Keine",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Keis",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -4768,8 +4768,8 @@
   },
   {
     "name": "Keptt",
-    "role": null,
-    "nationality": null,
+    "role": "sub/jun",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -4789,8 +4789,8 @@
   },
   {
     "name": "Keshi",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -4803,7 +4803,7 @@
   },
   {
     "name": "Kiari",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -4817,7 +4817,7 @@
   },
   {
     "name": "KidBeatz",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -4838,15 +4838,15 @@
   },
   {
     "name": "Kiki",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Killer2",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -4873,29 +4873,29 @@
   },
   {
     "name": "Kingen",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Kingsblade",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Kino",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Kireas",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "DK",
     "birth_date": null,
     "status": "Active"
   },
@@ -4908,28 +4908,28 @@
   },
   {
     "name": "Kisee",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Kisno",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Kita",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Kiwii",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -4957,29 +4957,29 @@
   },
   {
     "name": "Kobs",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Kofte",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "TR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Kojima",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "BR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Koldo",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -4992,7 +4992,7 @@
   },
   {
     "name": "Korick",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -5006,15 +5006,15 @@
   },
   {
     "name": "Koussay",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Kozi",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -5034,21 +5034,21 @@
   },
   {
     "name": "KryRa",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Kryze",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Kurahuto",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -5069,8 +5069,8 @@
   },
   {
     "name": "Kurckoo",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -5097,8 +5097,8 @@
   },
   {
     "name": "Kylin",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -5160,21 +5160,21 @@
   },
   {
     "name": "Lac",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Lagas",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Lagolinas",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -5188,36 +5188,36 @@
   },
   {
     "name": "Lancer",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Lari",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Larssen",
-    "role": null,
-    "nationality": null,
+    "role": "ia/mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Later",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Law",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -5279,42 +5279,42 @@
   },
   {
     "name": "Leba",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Legenden Lalle",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Legolas",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Lehends",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Leleko",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Leleo",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -5335,14 +5335,14 @@
   },
   {
     "name": "Leny",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Leowei",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -5363,15 +5363,15 @@
   },
   {
     "name": "Levitate",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Levizin",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "BR",
     "birth_date": null,
     "status": "Active"
   },
@@ -5384,8 +5384,8 @@
   },
   {
     "name": "Liangchen",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -5419,8 +5419,8 @@
   },
   {
     "name": "Lilipp",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -5482,43 +5482,43 @@
   },
   {
     "name": "Loeloal",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Loid",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Lojaz",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Loki",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Lokmays",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Loopy",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -5531,7 +5531,7 @@
   },
   {
     "name": "Lostboy",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -5545,8 +5545,8 @@
   },
   {
     "name": "Lotuss",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -5580,64 +5580,64 @@
   },
   {
     "name": "Lucid",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Lucifer",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Lucker",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Lucky",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Lucy",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Luke",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "DK",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Lulas",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Lumi",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Lumity",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -5650,22 +5650,22 @@
   },
   {
     "name": "Luon",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Lure",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Lurox",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -5713,8 +5713,8 @@
   },
   {
     "name": "Lyonz",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -5734,8 +5734,8 @@
   },
   {
     "name": "M6msu",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -5748,7 +5748,7 @@
   },
   {
     "name": "MCFLURRY",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -5783,22 +5783,22 @@
   },
   {
     "name": "Macaquinho",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Madblade",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Mafro",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -5832,29 +5832,29 @@
   },
   {
     "name": "Makes",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "ManoloGap",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Marbirius",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Marble",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
@@ -5867,28 +5867,28 @@
   },
   {
     "name": "Marth",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "MX",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Martote",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Marvin",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "BR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Massu",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -5902,21 +5902,21 @@
   },
   {
     "name": "Mataz",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Matty",
-    "role": null,
-    "nationality": null,
+    "role": "sub/jun",
+    "nationality": "CA",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Maufest",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -5930,15 +5930,15 @@
   },
   {
     "name": "MayR",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Maynter",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -5958,7 +5958,7 @@
   },
   {
     "name": "Medininha",
-    "role": null,
+    "role": "ia/bot",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -5972,8 +5972,8 @@
   },
   {
     "name": "MegaJ",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -5993,15 +5993,15 @@
   },
   {
     "name": "Mercy9",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Mersa",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -6021,8 +6021,8 @@
   },
   {
     "name": "Michel",
-    "role": null,
-    "nationality": null,
+    "role": "co-founder",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -6035,21 +6035,21 @@
   },
   {
     "name": "Midir",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Mietek",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Mihawk",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -6070,8 +6070,8 @@
   },
   {
     "name": "Milkshake",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -6119,15 +6119,15 @@
   },
   {
     "name": "Minui",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Mireu",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -6140,29 +6140,29 @@
   },
   {
     "name": "Mishi",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "SE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Mita",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Mixtsure",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Miyi",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -6175,8 +6175,8 @@
   },
   {
     "name": "MnM",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "GB",
     "birth_date": null,
     "status": "Active"
   },
@@ -6189,21 +6189,21 @@
   },
   {
     "name": "Moham",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Momo",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Momochi",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -6224,14 +6224,14 @@
   },
   {
     "name": "Morttheus",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Movaak",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -6245,7 +6245,7 @@
   },
   {
     "name": "Munchy",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -6259,7 +6259,7 @@
   },
   {
     "name": "Munet",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -6273,22 +6273,22 @@
   },
   {
     "name": "Mxe",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Myk1nG",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Myrwn",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -6301,8 +6301,8 @@
   },
   {
     "name": "Mystiques",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -6322,22 +6322,22 @@
   },
   {
     "name": "Naak Nako",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Nade",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Nafkelah",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -6350,22 +6350,22 @@
   },
   {
     "name": "Namiru",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Namsi",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Nan0",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -6385,29 +6385,29 @@
   },
   {
     "name": "NattyNatt",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Neadz",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Nenris",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Neo",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -6420,35 +6420,35 @@
   },
   {
     "name": "Neramin",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "PL",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Nerion",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Nern",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Netuno",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Nevid",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -6497,8 +6497,8 @@
   },
   {
     "name": "Nia",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -6511,8 +6511,8 @@
   },
   {
     "name": "Nice Guy Ben",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -6546,29 +6546,29 @@
   },
   {
     "name": "Nikolex",
-    "role": null,
-    "nationality": null,
+    "role": "ia/jun",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Nio",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Niqkl",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Nivi",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -6588,14 +6588,14 @@
   },
   {
     "name": "Noodle",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "SE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Nord",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -6616,22 +6616,22 @@
   },
   {
     "name": "Notiko",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Noxus",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Noz2k",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -6651,22 +6651,22 @@
   },
   {
     "name": "Nukenin",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Nxi",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "RU",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "OMON",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -6686,14 +6686,14 @@
   },
   {
     "name": "Obstinatus",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Oceann",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -6749,36 +6749,36 @@
   },
   {
     "name": "Only35",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "TR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Orca",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "TW",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Oscure",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Outlaw",
-    "role": null,
+    "role": "sub/sup",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Ouzi",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
@@ -6812,8 +6812,8 @@
   },
   {
     "name": "POUT",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -6826,7 +6826,7 @@
   },
   {
     "name": "Padawii",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -6847,42 +6847,42 @@
   },
   {
     "name": "Palafox",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "US",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Pallet",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "NL",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Pancake",
-    "role": null,
+    "role": "sub/jun",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Panther",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Papiteero",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Paresz",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -6896,36 +6896,36 @@
   },
   {
     "name": "Parus",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Pasameelcelo",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Pasu",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Patch",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "PatkicaA",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -6938,15 +6938,15 @@
   },
   {
     "name": "PatxiPirata",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Pauporter",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -6959,15 +6959,15 @@
   },
   {
     "name": "Peaker",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Peco",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -6980,7 +6980,7 @@
   },
   {
     "name": "Peppe",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -7001,22 +7001,22 @@
   },
   {
     "name": "Pesho",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Pet",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Peter",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -7029,14 +7029,14 @@
   },
   {
     "name": "Petersen",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Petoska",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -7057,22 +7057,22 @@
   },
   {
     "name": "Phantasm",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Photic",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Photon",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -7085,8 +7085,8 @@
   },
   {
     "name": "Piero",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -7106,15 +7106,15 @@
   },
   {
     "name": "Pinguino",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Piqueos",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -7148,29 +7148,29 @@
   },
   {
     "name": "PmK",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "PL",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Poby",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Pockus",
-    "role": null,
+    "role": "sub/sup",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Pollu",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -7183,36 +7183,36 @@
   },
   {
     "name": "Pop9",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Poro",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Poro",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Potent",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Potential",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
@@ -7246,8 +7246,8 @@
   },
   {
     "name": "Prank",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "GB",
     "birth_date": null,
     "status": "Active"
   },
@@ -7260,8 +7260,8 @@
   },
   {
     "name": "Pretender",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -7274,22 +7274,22 @@
   },
   {
     "name": "Prime",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Prince",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "ProDelta",
-    "role": null,
-    "nationality": null,
+    "role": "ia/sup",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -7309,15 +7309,15 @@
   },
   {
     "name": "Protos",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Pun",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
@@ -7337,15 +7337,15 @@
   },
   {
     "name": "Pyeonsik",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Pyl",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -7365,8 +7365,8 @@
   },
   {
     "name": "Pyrka",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -7428,21 +7428,21 @@
   },
   {
     "name": "R4GN4X",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "REAVER",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Rabelo",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -7456,36 +7456,36 @@
   },
   {
     "name": "Ragnarr",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Ragner",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Rahel",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Raider",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Rain",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -7505,8 +7505,8 @@
   },
   {
     "name": "Randal",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "BR",
     "birth_date": null,
     "status": "Active"
   },
@@ -7526,14 +7526,14 @@
   },
   {
     "name": "Rapid",
-    "role": null,
-    "nationality": null,
+    "role": "sub/jun",
+    "nationality": "US",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Raptor",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -7547,8 +7547,8 @@
   },
   {
     "name": "Raticait",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "PL",
     "birth_date": null,
     "status": "Active"
   },
@@ -7561,8 +7561,8 @@
   },
   {
     "name": "Ravvy",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
@@ -7575,8 +7575,8 @@
   },
   {
     "name": "RayFarky",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
@@ -7589,8 +7589,8 @@
   },
   {
     "name": "Raysito",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -7603,14 +7603,14 @@
   },
   {
     "name": "Rbow",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "RealR",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -7624,22 +7624,22 @@
   },
   {
     "name": "Redemption",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Reedfoo",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Reeker",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -7666,22 +7666,22 @@
   },
   {
     "name": "Relative",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Relax",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Remix",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -7694,22 +7694,22 @@
   },
   {
     "name": "Renyu",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Reppy",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Reptile",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -7729,22 +7729,22 @@
   },
   {
     "name": "Retrozing",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Rewound",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Rharesh",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -7764,8 +7764,8 @@
   },
   {
     "name": "Richu",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -7785,8 +7785,8 @@
   },
   {
     "name": "Rising",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -7799,8 +7799,8 @@
   },
   {
     "name": "Roamer",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -7813,8 +7813,8 @@
   },
   {
     "name": "Robertoos",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -7827,8 +7827,8 @@
   },
   {
     "name": "Robocop",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -7841,8 +7841,8 @@
   },
   {
     "name": "Ronaldo",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -7862,22 +7862,22 @@
   },
   {
     "name": "Rooster",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "RoseThorn",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Rovex",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -7890,22 +7890,22 @@
   },
   {
     "name": "RoyalKanin",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "SE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Ruby",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Ruep",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "TR",
     "birth_date": null,
     "status": "Active"
   },
@@ -7932,15 +7932,15 @@
   },
   {
     "name": "Ryan3",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Ryo",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
@@ -7953,7 +7953,7 @@
   },
   {
     "name": "RyujinKt",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -7967,15 +7967,15 @@
   },
   {
     "name": "SAJATOR",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "SAKEN",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -8051,7 +8051,7 @@
   },
   {
     "name": "SM",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -8065,57 +8065,57 @@
   },
   {
     "name": "SPOILER",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "SPOOKY",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "SYWJJ",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Saber",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Sahira",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Sai",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Saifer",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Saint",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -8128,8 +8128,8 @@
   },
   {
     "name": "SamD",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -8142,14 +8142,14 @@
   },
   {
     "name": "Samkz",
-    "role": null,
-    "nationality": null,
+    "role": "sub/jun",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Sammey",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -8163,15 +8163,15 @@
   },
   {
     "name": "Sangrod",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Sanling",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -8184,8 +8184,8 @@
   },
   {
     "name": "Satto",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -8205,28 +8205,28 @@
   },
   {
     "name": "Sayn",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "ScaryJerry",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "GB",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Scenario",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Schow",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -8240,8 +8240,8 @@
   },
   {
     "name": "Scorth",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "PL",
     "birth_date": null,
     "status": "Active"
   },
@@ -8254,22 +8254,22 @@
   },
   {
     "name": "Scuffed",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "SeTab",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Seany",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
@@ -8282,7 +8282,7 @@
   },
   {
     "name": "Season",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -8296,15 +8296,15 @@
   },
   {
     "name": "Seeker",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Seem",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "NL",
     "birth_date": null,
     "status": "Active"
   },
@@ -8317,64 +8317,64 @@
   },
   {
     "name": "Semide",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Sencux",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "DK",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Send0o",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Septico1",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Serin",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Sero",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Shack",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Shad0w",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Shadow",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -8387,35 +8387,35 @@
   },
   {
     "name": "Shakur",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Shanks",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Shanks",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Shaoye",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Sharvel",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -8429,8 +8429,8 @@
   },
   {
     "name": "Sheo",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -8443,29 +8443,29 @@
   },
   {
     "name": "ShiauC",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Shift",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Shiina",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Shiku",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -8492,29 +8492,29 @@
   },
   {
     "name": "Shogo",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Shourdy",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "ShowMaker",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Shredder",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -8527,15 +8527,15 @@
   },
   {
     "name": "Shu Hari",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Shunn",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -8555,8 +8555,8 @@
   },
   {
     "name": "Shy Carry",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -8569,29 +8569,29 @@
   },
   {
     "name": "Siiger",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Sinatra",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Siroinai",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "SiuLoong",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
@@ -8611,7 +8611,7 @@
   },
   {
     "name": "SkaR",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -8625,15 +8625,15 @@
   },
   {
     "name": "Skeanz",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "SkewMond",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -8653,15 +8653,15 @@
   },
   {
     "name": "Skodix",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Skream",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -8674,71 +8674,71 @@
   },
   {
     "name": "SkyMind",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Skyp",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Skypper",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Skyy",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Slayder",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Slayer",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Smarty",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Smash",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Smurfe",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Snaker",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -8765,15 +8765,15 @@
   },
   {
     "name": "Sobakk",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Soboro",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -8786,7 +8786,7 @@
   },
   {
     "name": "Solbon",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -8814,8 +8814,8 @@
   },
   {
     "name": "Sotsy",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -8828,29 +8828,29 @@
   },
   {
     "name": "Souldier",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Space",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Spartan1",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Spawn",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -8863,7 +8863,7 @@
   },
   {
     "name": "Speedy1",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -8877,14 +8877,14 @@
   },
   {
     "name": "Spinto",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Spirax",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -8905,15 +8905,15 @@
   },
   {
     "name": "Squiddly",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Srtty",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "US",
     "birth_date": null,
     "status": "Active"
   },
@@ -8926,8 +8926,8 @@
   },
   {
     "name": "Starry",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -8940,21 +8940,21 @@
   },
   {
     "name": "Steellar",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Steller",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "StineR",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -8968,22 +8968,22 @@
   },
   {
     "name": "StratosFan",
-    "role": null,
-    "nationality": null,
+    "role": "sub/sup",
+    "nationality": "NL",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Stray",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Strensh",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -8996,15 +8996,15 @@
   },
   {
     "name": "Sty1e",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Sukru",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -9017,29 +9017,29 @@
   },
   {
     "name": "Sundax",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Sunfry",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Supa",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "SuperCleber",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -9059,22 +9059,22 @@
   },
   {
     "name": "Sushee",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "US",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Sveglia",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Sweeho",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -9087,22 +9087,22 @@
   },
   {
     "name": "Sword",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Sylvie",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Szygenda",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "DK",
     "birth_date": null,
     "status": "Active"
   },
@@ -9143,8 +9143,8 @@
   },
   {
     "name": "TNS",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -9157,8 +9157,8 @@
   },
   {
     "name": "TQ",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
@@ -9241,8 +9241,8 @@
   },
   {
     "name": "Taeyoon",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -9262,50 +9262,50 @@
   },
   {
     "name": "Tangyuan",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Tao",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Targamas",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Tarzan",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Tasteless",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Tatu",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Tayron",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -9339,8 +9339,8 @@
   },
   {
     "name": "Tear",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -9353,21 +9353,21 @@
   },
   {
     "name": "Telas",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Tempest",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Terim",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -9395,15 +9395,15 @@
   },
   {
     "name": "Thayger",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "The Mountain",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "NL",
     "birth_date": null,
     "status": "Active"
   },
@@ -9416,22 +9416,22 @@
   },
   {
     "name": "TheGreatGary",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "TheHang",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "TheHank",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -9451,8 +9451,8 @@
   },
   {
     "name": "Theocacs",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -9465,8 +9465,8 @@
   },
   {
     "name": "Thor",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -9479,14 +9479,14 @@
   },
   {
     "name": "Tian",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Tigrot",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -9556,8 +9556,8 @@
   },
   {
     "name": "ToniOP",
-    "role": null,
-    "nationality": null,
+    "role": "sub/jun",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -9584,8 +9584,8 @@
   },
   {
     "name": "TopLop",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -9605,29 +9605,29 @@
   },
   {
     "name": "Tozue",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "TpoN",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Tracy",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "TW",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Tracyn",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -9640,7 +9640,7 @@
   },
   {
     "name": "Trashy",
-    "role": null,
+    "role": "sub/jun",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -9654,7 +9654,7 @@
   },
   {
     "name": "Trila",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -9668,64 +9668,64 @@
   },
   {
     "name": "Trymbi",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Tsiperakos",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Tuercas",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Tutsz",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Twiizt",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "TwoN",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Tyrion",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Tyrone",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "MX",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "UNF0RGIVEN",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -9738,43 +9738,43 @@
   },
   {
     "name": "Ucal",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "UdonBdon",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Unchained",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "UnderNexus",
-    "role": null,
-    "nationality": null,
+    "role": "sub/sup",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "UniqueCORN",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Unkn0wn5",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -9794,8 +9794,8 @@
   },
   {
     "name": "Uxie",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -9836,8 +9836,8 @@
   },
   {
     "name": "Valiant",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -9850,8 +9850,8 @@
   },
   {
     "name": "Van1",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
@@ -9864,21 +9864,21 @@
   },
   {
     "name": "Vares",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Vaynedeta",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "VeRu",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -9892,7 +9892,7 @@
   },
   {
     "name": "Velthan",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -9906,8 +9906,8 @@
   },
   {
     "name": "Vertigo",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -9920,29 +9920,29 @@
   },
   {
     "name": "VicLa",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Vigil",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Vincenzo",
-    "role": null,
-    "nationality": null,
+    "role": "sub/jun",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Vinite",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "BR",
     "birth_date": null,
     "status": "Active"
   },
@@ -9962,14 +9962,14 @@
   },
   {
     "name": "Virgo",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Virtuosa",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -9983,8 +9983,8 @@
   },
   {
     "name": "VirusFx",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -9997,15 +9997,15 @@
   },
   {
     "name": "Vizicsacsi",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Vladi",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -10018,8 +10018,8 @@
   },
   {
     "name": "Vsta",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -10039,15 +10039,15 @@
   },
   {
     "name": "Vzz",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "WNTR",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -10060,21 +10060,21 @@
   },
   {
     "name": "WalliR",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Wamu",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Wantage",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -10088,14 +10088,14 @@
   },
   {
     "name": "Warner",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Warrior",
-    "role": null,
+    "role": "sub/jun",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -10116,22 +10116,22 @@
   },
   {
     "name": "Way",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Wayne",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Weather",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -10144,15 +10144,15 @@
   },
   {
     "name": "Wenbo",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "White",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -10172,8 +10172,8 @@
   },
   {
     "name": "Wicked",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "US",
     "birth_date": null,
     "status": "Active"
   },
@@ -10186,8 +10186,8 @@
   },
   {
     "name": "Wildenbruch",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -10200,8 +10200,8 @@
   },
   {
     "name": "Wilson",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CA",
     "birth_date": null,
     "status": "Active"
   },
@@ -10214,8 +10214,8 @@
   },
   {
     "name": "Wiosna",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -10228,22 +10228,22 @@
   },
   {
     "name": "Wixxi",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Wizer",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Woldjo",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -10284,8 +10284,8 @@
   },
   {
     "name": "Wunai3",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -10298,8 +10298,8 @@
   },
   {
     "name": "XBY",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -10326,22 +10326,22 @@
   },
   {
     "name": "Xagog",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Xavis",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Xeonerr",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -10354,7 +10354,7 @@
   },
   {
     "name": "XiaoShen",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -10368,8 +10368,8 @@
   },
   {
     "name": "Xiaohao",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -10382,8 +10382,8 @@
   },
   {
     "name": "Xiaoxia",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -10396,8 +10396,8 @@
   },
   {
     "name": "Xiaoxu",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -10410,15 +10410,15 @@
   },
   {
     "name": "Xixauxas",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "XnS",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -10438,15 +10438,15 @@
   },
   {
     "name": "Xusty",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "YSKM",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -10466,22 +10466,22 @@
   },
   {
     "name": "Yakkey",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Yakko",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Yanxiang",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -10494,8 +10494,8 @@
   },
   {
     "name": "Ycx",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -10508,8 +10508,8 @@
   },
   {
     "name": "YellowYoshi",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
@@ -10522,22 +10522,22 @@
   },
   {
     "name": "Yesu",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "YiNova",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Yike",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -10550,8 +10550,8 @@
   },
   {
     "name": "YoungJae",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
@@ -10564,8 +10564,8 @@
   },
   {
     "name": "Yuhe",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -10578,22 +10578,22 @@
   },
   {
     "name": "Yukino",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Yupps",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Yushia",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -10613,70 +10613,70 @@
   },
   {
     "name": "YuyuuUsaki",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "TH",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "ZUIAN",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Zach",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Zamudo",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Zarcon",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Zdz",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Zealot",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "US",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Zeka",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Zelt",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Zemnas",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -10690,71 +10690,71 @@
   },
   {
     "name": "Zero0o",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Zest",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Zeus",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Zezin",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Zhayend",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Zhuo",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "ZiYe",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Zicssi",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Zika",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Zilax",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -10767,15 +10767,15 @@
   },
   {
     "name": "Zkai",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "Zoelys",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -10788,8 +10788,8 @@
   },
   {
     "name": "Zoey",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -10809,8 +10809,8 @@
   },
   {
     "name": "Zothve",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -10830,8 +10830,8 @@
   },
   {
     "name": "Zyko",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
@@ -10844,15 +10844,15 @@
   },
   {
     "name": "aadam",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "adi1",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
@@ -10879,8 +10879,8 @@
   },
   {
     "name": "ankochan",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
@@ -10893,92 +10893,92 @@
   },
   {
     "name": "april",
-    "role": null,
+    "role": "sub/sup",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "aquanick",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "arbrio",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "aspire",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "bakisa",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "betmiau",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "bicas",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "TR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "bluerzor",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "bobista",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "PL",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "c0st0m",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "DK",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "cRa",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "carrostunados",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "chesterbb",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "HK",
     "birth_date": null,
     "status": "Active"
   },
@@ -10991,50 +10991,50 @@
   },
   {
     "name": "crackadon",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "curty",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "deokdam",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "departures",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "eXyu",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "escoX",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "ezman",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
@@ -11047,28 +11047,28 @@
   },
   {
     "name": "fengyue",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "ffernandes",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "fishone",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "flini",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -11082,71 +11082,71 @@
   },
   {
     "name": "foj",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "haichao",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "hanghang",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "hanii",
-    "role": null,
+    "role": "sub/sup",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "heiYue",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "hidududu",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "TR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "iBo",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "iClicker",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "iLEVI",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "ianshaka",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -11166,21 +11166,21 @@
   },
   {
     "name": "iso",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "iwanan",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "ixx",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -11194,7 +11194,7 @@
   },
   {
     "name": "jamican banana",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -11208,56 +11208,56 @@
   },
   {
     "name": "kingpo54",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "kkero",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "TR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "kkkkkkkkk",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "JP",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "kky",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "kobe67",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "konseki",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "BR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "kubagoat",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "PL",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "kurulean",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -11278,252 +11278,252 @@
   },
   {
     "name": "louisz",
-    "role": null,
+    "role": "sub/sup",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "luoyiyu",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "meefic",
-    "role": null,
+    "role": "sub/sup",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "miflond",
-    "role": null,
-    "nationality": null,
+    "role": "sub/jun",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "minaemi",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "mumu",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "niN",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "BR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "nuc",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "nvillada",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "pjo",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "pool",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "qianshi",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "qiuyu",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "qlibali",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "qualzy",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "quest",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "KR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "raku",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "rayq",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "VN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "re0",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "refugo",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "reje",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "DK",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "rym",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "safo",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "saibotobias",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "sajed",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "salgueir0",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "sarolu",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "BR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "sasi",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "scuro",
-    "role": null,
-    "nationality": null,
+    "role": "adc",
+    "nationality": "US",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "seaz",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "selenex",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "sheer",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "shidolovell",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "shochi",
-    "role": null,
+    "role": "mid",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "sinian",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "sugeniccius",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -11537,15 +11537,15 @@
   },
   {
     "name": "uZent",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "BR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "uden",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
@@ -11558,15 +11558,15 @@
   },
   {
     "name": "vladichich",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "welcom",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "ES",
     "birth_date": null,
     "status": "Active"
   },
@@ -11579,22 +11579,22 @@
   },
   {
     "name": "whiteinn",
-    "role": null,
-    "nationality": null,
+    "role": "support",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "xKenzuke",
-    "role": null,
-    "nationality": null,
+    "role": "mid",
+    "nationality": "FR",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "xin",
-    "role": null,
-    "nationality": null,
+    "role": "jungle",
+    "nationality": "CN",
     "birth_date": null,
     "status": "Active"
   },
@@ -11607,14 +11607,14 @@
   },
   {
     "name": "xyno",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "xyu",
-    "role": null,
+    "role": "adc",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -11628,7 +11628,7 @@
   },
   {
     "name": "yones",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
@@ -11642,28 +11642,28 @@
   },
   {
     "name": "yuu13",
-    "role": null,
+    "role": "jungle",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "zay",
-    "role": null,
+    "role": "support",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "zorenous",
-    "role": null,
-    "nationality": null,
+    "role": "top",
+    "nationality": "DE",
     "birth_date": null,
     "status": "Active"
   },
   {
     "name": "zynts",
-    "role": null,
+    "role": "top",
     "nationality": null,
     "birth_date": null,
     "status": "Active"
