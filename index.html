@@ -645,11 +645,14 @@
         return;
       }
 
-      // Tenure map: min/max year per (player, team)
+      // Tenure map: min/max year per (player, root team)
+      const teamToRoot = DATA.index.team_to_root || {};
+      const chainDisplay = DATA.index.chain_display || {};
       const tenure = {};
       for (const c of careers) {
         if (region && c.region !== region) continue;
-        const key = c.player + '|' + c.team;
+        const tRoot = teamToRoot[c.team] || c.team;
+        const key = c.player + '|' + tRoot;
         if (!tenure[key]) tenure[key] = { joined: c.year, left: c.year };
         else {
           if (c.year < tenure[key].joined) tenure[key].joined = c.year;
@@ -657,27 +660,32 @@
         }
       }
 
-      // Group teams by chain root
-      const teamToRoot = DATA.index.team_to_root || {};
-      const chainDisplay = DATA.index.chain_display || {};
+      // Group players by chain root, dedup by player
       const groups = {};
       for (const c of rows) {
         const root = teamToRoot[c.team] || c.team;
-        const key = root + '|' + c.team;
-        if (!groups[key]) {
-          groups[key] = { display: chainDisplay[root] || c.team, players: [] };
+        if (!groups[root]) {
+          groups[root] = { display: chainDisplay[root] || root, players: new Map() };
         }
-        const t = tenure[c.player + '|' + c.team] || { joined: year, left: year };
-        groups[key].players.push({
-          player: c.player,
-          role: c.role || '-',
-          status: null,
-          joined_year: t.joined,
-          joined_month: t.joined === year ? c.start_month : null,
-          left_year: t.left,
-          left_month: t.left === year ? c.end_month : null,
-          duration: t.left >= CURRENT_YEAR ? 'Present' : (t.left - t.joined + 1) + ' yr(s)',
-        });
+        const t = tenure[c.player + '|' + root] || { joined: year, left: year };
+        const pkey = c.player;
+        if (!groups[root].players.has(pkey)) {
+          groups[root].players.set(pkey, {
+            player: c.player,
+            role: c.role || '-',
+            status: null,
+            joined_year: t.joined,
+            joined_month: t.joined === year ? c.start_month : null,
+            left_year: t.left,
+            left_month: t.left === year ? c.end_month : null,
+            duration: t.left >= CURRENT_YEAR ? 'Present' : (t.left - t.joined + 1) + ' yr(s)',
+          });
+        }
+      }
+
+      // Convert player Maps to arrays
+      for (const g of Object.values(groups)) {
+        g.players = [...g.players.values()];
       }
 
       for (const g of Object.values(groups)) {
@@ -767,13 +775,16 @@
         return;
       }
 
-      // Group by team
+      // Group by root team name (consolidate renames)
+      const teamToRoot = DATA.index.team_to_root || {};
+      const chainDisplay = DATA.index.chain_display || {};
       const teams = {};
       for (const c of rows) {
-        if (!teams[c.team]) {
-          teams[c.team] = { team: c.team, region: c.region, role: c.role || '-', joined_year: c.year, left_year: c.year, joined_month: c.start_month, left_month: null };
+        const tRoot = teamToRoot[c.team] || c.team;
+        if (!teams[tRoot]) {
+          teams[tRoot] = { team: chainDisplay[tRoot] || tRoot, region: c.region, role: c.role || '-', joined_year: c.year, left_year: c.year, joined_month: c.start_month, left_month: null };
         }
-        const t = teams[c.team];
+        const t = teams[tRoot];
         if (c.year < t.joined_year) { t.joined_year = c.year; t.joined_month = c.start_month; }
         if (c.year > t.left_year) { t.left_year = c.year; t.left_month = c.end_month; }
       }
@@ -1074,14 +1085,16 @@
       const name = parts.slice(1).join('::');
 
       if (type === 'player') {
-        // Show teams this player played for
+        // Show teams this player played for (consolidate by root name)
+        const teamToRoot = DATA.index?.team_to_root || {};
         if (exploreCareers) {
           const stints = exploreCareers.filter(c => c.player === name);
           const teamMap = {};
           for (const stint of stints) {
-            if (!teamMap[stint.team]) teamMap[stint.team] = { years: [], role: '' };
-            teamMap[stint.team].years.push(stint.year);
-            if (stint.role && !teamMap[stint.team].role) teamMap[stint.team].role = stint.role;
+            const root = teamToRoot[stint.team] || stint.team;
+            if (!teamMap[root]) teamMap[root] = { years: [], role: '' };
+            teamMap[root].years.push(stint.year);
+            if (stint.role && !teamMap[root].role) teamMap[root].role = stint.role;
           }
           for (const [team, data] of Object.entries(teamMap)) {
             addExploreNode('team', team);
