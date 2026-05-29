@@ -1,5 +1,5 @@
 # AGENTS.md
-- do not read any .env files
+- read .env only when asked
 - reply 'Aye Captain' on every start of reply
 - do not commit and push to github before asking
 
